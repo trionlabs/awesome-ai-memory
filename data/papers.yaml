@@ -1,6 +1,13 @@
 # Research papers. Schema: see CONTRIBUTING.md.
 # Descriptions: one line, ASCII, no trailing period.
 
+- title: Cognitive Architectures for Language Agents
+  arxiv: '2309.02427'
+  code: https://github.com/ysymyth/awesome-language-agents
+  date: 2023-09
+  venue: TMLR 2024
+  category: surveys
+  desc: CoALA framework organizing language agents by memory (working, episodic, semantic, procedural), action space and decision making
 - title: 'Human-inspired Perspectives: A Survey on AI Long-term Memory'
   arxiv: '2411.00489'
   date: 2025-01
@@ -75,16 +82,10 @@
   venue: null
   category: surveys
   desc: Cost-performance comparison of long-context LLMs vs fact-based memory; memory wins cost efficiency after about 10 turns at 100k context
-- title: Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models
-  arxiv: '2603.01822'
-  date: 2026-03
-  venue: null
-  category: surveys
-  desc: Mechanistic interpretability study finding human-like strategic semantic memory search behavior across LLM layers
-- title: Modular Memory is the Key to Continual Learning Agents
+- title: 'Position: Modular Memory is the Key to Continual Learning Agents'
   arxiv: '2603.01761'
   date: 2026-03
-  venue: null
+  venue: ICML 2026
   category: surveys
   desc: Roadmap for modular memory combining in-context learning for fast adaptation with weight updates for consolidation in lifelong agents
 - title: 'Agentic Frameworks for Reasoning Tasks: An Empirical Study'
@@ -105,30 +106,12 @@
   venue: null
   category: surveys
   desc: Unified cognitive survey of world models covering memory, perception, reasoning, and metacognition; introduces Epistemic World Models
-- title: An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration
-  arxiv: '2605.03989'
-  date: 2026-05
-  venue: null
-  category: surveys
-  desc: Pluggable Experience-RAG agent skill with six modules for retrieval strategy routing; rule-based routing beats learned routing
-- title: 'MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory'
-  arxiv: '2605.15128'
-  date: 2026-05
-  venue: null
-  category: surveys
-  desc: Visual-centric benchmark for multimodal agent memory with granularity-by-reasoning-depth matrix and gates against text shortcuts
 - title: 'Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads'
   arxiv: '2606.06448'
   date: 2026-06
   venue: null
   category: surveys
   desc: Characterizes agent memory as a stateful systems workload with a phase-aware profiler and taxonomy across ten representative systems
-- title: 'EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning'
-  arxiv: '2601.02163'
-  date: 2026-06
-  venue: null
-  category: surveys
-  desc: Self-organizing memory OS with episodic trace formation, semantic consolidation, and reconstructive recollection over MemCell units
 - title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
   arxiv: '2303.11366'
   code: https://github.com/noahshinn/reflexion
@@ -218,6 +201,12 @@
   venue: null
   category: foundations
   desc: Stores post-thinking thoughts instead of raw history and recalls them via locality-sensitive hashing in long-term dialogue
+- title: 'MemGPT: Towards LLMs as Operating Systems'
+  arxiv: '2310.08560'
+  code: https://github.com/letta-ai/letta
+  date: 2023-10
+  category: memory-systems
+  desc: Virtual context management that pages information between an in-context working set and external storage, OS-style
 - title: 'MemLLM: Finetuning LLMs to Use An Explicit Read-Write Memory'
   arxiv: '2404.11672'
   date: 2024-04
@@ -244,6 +233,12 @@
   venue: null
   category: memory-systems
   desc: Empirical study of memory structures and retrieval methods; mixed structures prove most robust across tasks and noise
+- title: 'A-MEM: Agentic Memory for LLM Agents'
+  arxiv: '2502.12110'
+  date: 2025-02
+  venue: null
+  category: memory-systems
+  desc: Zettelkasten-inspired agentic memory with self-linking and self-evolving notes for dynamic long-term memory organization
 - title: 'MemInsight: Autonomous Memory Augmentation for LLM Agents'
   arxiv: '2503.21760'
   date: 2025-03
@@ -256,12 +251,6 @@
   venue: null
   category: memory-systems
   desc: Production memory layer extracting and consolidating conversation facts; Mem0g variant adds graph-structured relational memory
-- title: 'MemOS: A Memory OS for AI System'
-  arxiv: '2507.03724'
-  date: 2025-05
-  venue: null
-  category: memory-systems
-  desc: Memory operating system treating memory as a schedulable resource, unifying explicit, activation, and parameter-level memory
 - title: Memory OS of AI Agent
   arxiv: null
   url: https://aclanthology.org/2025.emnlp-main.1318.pdf
@@ -281,6 +270,12 @@
   venue: null
   category: memory-systems
   desc: Multi-agent memory with six specialized components, active retrieval, and a meta memory manager; +35% over RAG on ScreenshotVQA
+- title: 'MemOS: A Memory OS for AI System'
+  arxiv: '2507.03724'
+  date: 2025-07
+  venue: null
+  category: memory-systems
+  desc: Memory operating system treating memory as a schedulable resource, unifying explicit, activation, and parameter-level memory
 - title: 'MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations'
   arxiv: '2507.21428'
   date: 2025-07
@@ -299,12 +294,6 @@
   venue: null
   category: memory-systems
   desc: Self-organizing memory with autonomous episode segmentation and predict-calibrate knowledge distillation; 88% fewer tokens used
-- title: 'A-MEM: Agentic Memory for LLM Agents'
-  arxiv: '2502.12110'
-  date: 2025-10
-  venue: null
-  category: memory-systems
-  desc: Zettelkasten-inspired agentic memory with self-linking and self-evolving notes for dynamic long-term memory organization
 - title: 'CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension'
   arxiv: '2510.05520'
   date: 2025-10
@@ -359,6 +348,12 @@
   venue: null
   category: memory-systems
   desc: Continuum memory architecture coordinating working, episodic, and semantic stores for long-horizon agent stability and recall
+- title: 'EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning'
+  arxiv: '2601.02163'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Self-organizing memory OS with episodic trace formation, semantic consolidation, and reconstructive recollection over MemCell units
 - title: 'LLM-as-RNN: A Recurrent Language Model for Memory Updates and Sequence Prediction'
   arxiv: '2601.13352'
   date: 2026-01
@@ -597,6 +592,20 @@
   venue: null
   category: graph-temporal
   desc: Hybrid spatio-temporal graph memory for embodied agents searchable by meaning, space, and time; adds eMEM-Bench evaluation
+- title: Locating and Editing Factual Associations in GPT
+  arxiv: '2202.05262'
+  code: https://github.com/kmeng01/rome
+  date: 2022-02
+  venue: NeurIPS 2022
+  category: parametric
+  desc: 'ROME: locates factual associations in MLP layers and edits them directly in weights via rank-one updates'
+- title: Mass-Editing Memory in a Transformer
+  arxiv: '2210.07229'
+  code: https://github.com/kmeng01/memit
+  date: 2022-10
+  venue: ICLR 2023
+  category: parametric
+  desc: 'MEMIT: edits thousands of factual associations at once by spreading updates across critical MLP layers'
 - title: Large Language Model Unlearning
   arxiv: '2310.10683'
   date: 2023-10
@@ -674,6 +683,12 @@
   venue: null
   category: parametric
   desc: Scales trainable key-value memory layers as sparse lookup capacity without extra FLOPs, improving factual tasks vs dense and MoE
+- title: 'Titans: Learning to Memorize at Test Time'
+  arxiv: '2501.00663'
+  date: 2024-12
+  venue: null
+  category: parametric
+  desc: Neural long-term memory module that learns to memorize at test time, combined with attention for very large effective contexts
 - title: Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models
   arxiv: null
   url: https://aclanthology.org/2025.coling-main.252.pdf
@@ -681,12 +696,6 @@
   venue: COLING 2025
   category: parametric
   desc: AltPO pairs negative feedback on the forget set with plausible alternative responses, improving forget quality and utility
-- title: 'Titans: Learning to Memorize at Test Time'
-  arxiv: '2501.00663'
-  date: 2025-01
-  venue: null
-  category: parametric
-  desc: Neural long-term memory module that learns to memorize at test time, combined with attention for very large effective contexts
 - title: 'Echo: A Large Language Model with Temporal Episodic Memory'
   arxiv: '2502.16090'
   date: 2025-02
@@ -742,10 +751,10 @@
   venue: null
   category: parametric
   desc: Small anchor model fetches context-dependent parameter blocks from a memory bank; 160M model matches a 2x larger standard model
-- title: 'Nested Learning: The Illusion of Deep Learning Architecture'
+- title: 'Nested Learning: The Illusion of Deep Learning Architectures'
   arxiv: '2512.24695'
   date: 2025-12
-  venue: null
+  venue: NeurIPS 2025
   category: parametric
   desc: Unifies optimizers and test-time-training layers as nested memory; HOPE combines Titans attention with self-modifying FFNs
 - title: 'Memory Retrieval in Transformers: Insights from The Encoding Specificity Principle'
@@ -829,12 +838,24 @@
   venue: null
   category: retrieval
   desc: Cross-ablation of write/retrieve/utilize stages shows retrieval dominates performance and raw chunk storage remains strong
+- title: Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models
+  arxiv: '2603.01822'
+  date: 2026-03
+  venue: null
+  category: retrieval
+  desc: Mechanistic interpretability study finding human-like strategic semantic memory search behavior across LLM layers
 - title: 'SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval'
   arxiv: '2604.02431'
   date: 2026-04
   venue: null
   category: retrieval
   desc: Routes queries to specialized retrieval pipelines; SOTA on LongMemEval_M with CPU-only inference and no LLM at query time
+- title: An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration
+  arxiv: '2605.03989'
+  date: 2026-05
+  venue: null
+  category: retrieval
+  desc: Pluggable Experience-RAG agent skill with six modules for retrieval strategy routing; rule-based routing beats learned routing
 - title: 'MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval'
   arxiv: '2605.06132'
   date: 2026-05
@@ -1086,6 +1107,12 @@
   venue: null
   category: multi-agent
   desc: Constructor, retriever, judge and refresher agents manage multi-granularity memory; beats baselines on LoCoMo, 80% fewer tokens
+- title: Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models
+  arxiv: '2601.07978'
+  date: 2026-01
+  venue: null
+  category: multi-agent
+  desc: Independent evaluation of long-term memory backends in multi-agent systems measuring accuracy, latency, resource use, and total cost
 - title: 'E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory'
   arxiv: '2601.21714'
   date: 2026-01
@@ -1110,12 +1137,6 @@
   venue: null
   category: multi-agent
   desc: Cloud-edge collaborative memory with decentralized execution and centralized reflection to circulate reusable insights across agents
-- title: Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models
-  arxiv: '2601.07978'
-  date: 2026-05
-  venue: null
-  category: multi-agent
-  desc: Independent evaluation of long-term memory backends in multi-agent systems measuring accuracy, latency, resource use, and total cost
 - title: 'Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding'
   arxiv: '2501.00358'
   date: 2025-01
@@ -1148,7 +1169,7 @@
   desc: Perceptual-cognitive memory bank inspired by dual-memory systems raises success on long-horizon robot manipulation
 - title: 'Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory'
   arxiv: '2508.09736'
-  date: 2025-10
+  date: 2025-08
   venue: null
   category: multimodal
   desc: M3-Agent builds entity-centric episodic and semantic memory from continuous video and audio, RL-trained; introduces M3-Bench
@@ -1200,6 +1221,12 @@
   venue: null
   category: multimodal
   desc: Dual-embodiment AR framework turning personal objects into AI companions with reciprocal memory to sustain emotional bonds
+- title: 'MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory'
+  arxiv: '2605.15128'
+  date: 2026-05
+  venue: null
+  category: multimodal
+  desc: Visual-centric benchmark for multimodal agent memory with granularity-by-reasoning-depth matrix and gates against text shortcuts
 - title: On Memory Construction and Retrieval for Personalized Conversational Agents
   arxiv: '2502.05589'
   date: 2025-02
@@ -1215,7 +1242,7 @@
   desc: Strategy-principle memory mined from offline self-play guides proactive dialogue; better success in support and persuasion
 - title: 'O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents'
   arxiv: '2511.13593'
-  date: 2025-12
+  date: 2025-11
   venue: null
   category: personalization
   desc: Active user-profiling memory with hierarchical retrieval of persona attributes and topics; SOTA on LoCoMo and PERSONAMEM
