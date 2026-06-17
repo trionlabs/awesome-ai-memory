@@ -41,8 +41,7 @@ everyone. Borderline entries should make the case in the PR description.
 ## Removal
 
 Entries are removed when archived, dead-linked, or inactive for over a year
-with a better-maintained alternative listed. The weekly refresh marks archived
-repos automatically.
+with a better-maintained alternative listed.
 
 ## Schemas
 
@@ -70,6 +69,7 @@ Categories: `surveys`, `foundations`, `memory-systems`, `graph-temporal`,
   site: "https://mem0.ai"    # optional
   category: engine
   oss: true
+  license: "Apache-2.0"      # SPDX id for OSS repos; omit for closed source
   backend: [vector, graph]   # vector, graph, kv, sql, files, parametric
   mcp: true                  # maintained MCP server or integration
   hosted: true               # managed offering exists
@@ -78,8 +78,9 @@ Categories: `surveys`, `foundations`, `memory-systems`, `graph-temporal`,
 ```
 
 Categories: `engine`, `mcp-server`, `coding-agent`, `framework-module`,
-`platform`, `research-code`, `storage`. Stars, last-commit and license columns
-are filled by the generator - do not add them.
+`platform`, `research-code`, `storage`. For OSS repos, set `license` to the
+SPDX id (e.g. `Apache-2.0`, `MIT`); use `other` for non-standard licenses and
+omit it for closed-source entries (they render as `closed`).
 
 ### benchmarks.yaml
 
