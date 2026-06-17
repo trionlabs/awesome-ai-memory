@@ -521,6 +521,7 @@
   mcp: false
   hosted: true
   desc: Stateful agent platform with built-in sessions and long-term document and user memory
+  license: Apache-2.0
 - name: LangChain
   repo: langchain-ai/langchain
   site: https://www.langchain.com

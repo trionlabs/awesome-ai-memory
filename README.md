@@ -171,7 +171,7 @@ listed because they define what users expect memory to do.
 | [CrewAI memory](https://github.com/crewAIInc/crewAI) | MIT | vector, sql | no | yes | Built-in short-term, long-term and entity memory for crews of agents |
 | [Google ADK memory](https://github.com/google/adk-python) | Apache-2.0 | vector | no | yes | MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank |
 | [HybridAGI](https://github.com/SynaLinks/HybridAGI) | Apache-2.0 | graph, vector | no | no | Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory |
-| [Julep](https://github.com/julep-ai/julep) | - | vector, sql | no | yes | Stateful agent platform with built-in sessions and long-term document and user memory ([site](https://julep.ai)) |
+| [Julep](https://github.com/julep-ai/julep) | Apache-2.0 | vector, sql | no | yes | Stateful agent platform with built-in sessions and long-term document and user memory ([site](https://julep.ai)) |
 | [LangChain](https://github.com/langchain-ai/langchain) | MIT | vector | no | no | General LLM framework whose chat history and memory abstractions are widely used for conversational recall ([site](https://www.langchain.com)) |
 | [LangGraph persistence](https://github.com/langchain-ai/langgraph) | MIT | kv, sql | no | yes | Checkpointers and cross-thread memory store underlying LangChain agent persistence |
 | [LangMem](https://github.com/langchain-ai/langmem) | MIT | vector | no | no | LangChain SDK for semantic, episodic and procedural memory with a background memory manager |
