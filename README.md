@@ -4,7 +4,6 @@
 ![Papers](https://img.shields.io/badge/papers-217-blue)
 ![Projects](https://img.shields.io/badge/projects-82-blue)
 ![Benchmarks](https://img.shields.io/badge/benchmarks-69-blue)
-![Updated](https://img.shields.io/badge/metadata-2026--06--17-green)
 
 Memory for LLMs and AI agents: the systems that let models remember across turns,
 sessions and lifetimes. This list covers the full stack - research papers, memory
@@ -12,9 +11,8 @@ engines, MCP servers, framework modules, benchmarks and engineering guides.
 
 Why this list:
 
-- **Data-driven.** Every entry lives in a YAML file under `data/`. The README,
-  star counts, last-commit dates and license columns are generated and refreshed
-  weekly by CI. No stale tables.
+- **Data-driven.** Every entry lives in a YAML file under `data/`. The README is
+  generated from that data, and CI rejects any PR whose README is out of sync.
 - **Neutral.** No vendor owns this list. Inclusion criteria are written down in
   [CONTRIBUTING.md](CONTRIBUTING.md) and apply to everyone equally.
 - **Curated.** Papers are selected, not scraped. Every entry has a one-line
@@ -86,136 +84,136 @@ parameters and latents.
 
 ## Memory Engines and Layers
 
-Dedicated memory layers you add to an agent or app. The table is sorted by stars
-and refreshed weekly; "Backend" is the primary storage model, "MCP" means a
-maintained MCP server or integration exists, "Hosted" means a managed offering.
+Dedicated memory layers you add to an agent or app. "Backend" is the primary
+storage model, "MCP" means a maintained MCP server or integration exists,
+"Hosted" means a managed offering exists.
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [Mem0](https://github.com/mem0ai/mem0) | 58.7k | 2026-06-17 | Apache-2.0 | vector, graph | yes | yes | Memory layer that extracts, consolidates and retrieves user/session/agent memories; ships OpenMemory MCP ([site](https://mem0.ai)) ([paper](https://arxiv.org/abs/2504.19413)) |
-| [LightRAG](https://github.com/HKUDS/LightRAG) | 36.7k | 2026-06-17 | MIT | graph, vector | yes | no | Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative ([paper](https://arxiv.org/abs/2410.05779)) |
-| [Khoj](https://github.com/khoj-ai/khoj) | 35.2k | 2026-03-26 | AGPL-3.0 | vector, files | no | yes | Personal AI brain over your notes and documents with semantic search and recall |
-| [Graphiti](https://github.com/getzep/graphiti) | 27.5k | 2026-06-17 | Apache-2.0 | graph, vector | yes | yes | Temporal knowledge graph engine behind Zep: bi-temporal edges, episodes and hybrid retrieval ([paper](https://arxiv.org/abs/2501.13956)) |
-| [Supermemory](https://github.com/supermemoryai/supermemory) | 27.1k | 2026-06-17 | MIT | vector | yes | yes | Universal memory API for ingesting documents, chats and web content with sub-second retrieval ([site](https://supermemory.ai)) |
-| [Letta](https://github.com/letta-ai/letta) | 23.4k | 2026-05-14 | Apache-2.0 | sql, vector | yes | yes | Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory ([site](https://www.letta.com)) ([paper](https://arxiv.org/abs/2310.08560)) |
-| [cognee](https://github.com/topoteretes/cognee) | 17.9k | 2026-06-16 | Apache-2.0 | graph, vector | yes | yes | Memory engine that builds knowledge graphs plus embeddings from documents via ECL (extract, cognify, load) pipelines ([site](https://www.cognee.ai)) |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | 16.5k | 2026-06-17 | MIT | vector | no | yes | Open-source agent memory by Vectorize with retain/recall/reflect operations over typed memory banks ([site](https://hindsight.vectorize.io)) |
-| [Second Me](https://github.com/mindverse/Second-Me) | 15.6k | 2025-09-30 | Apache-2.0 | parametric, vector | no | no | Trains a personal model as AI-native memory of you, served locally ([paper](https://arxiv.org/abs/2503.08102)) |
-| [Memori](https://github.com/MemoriLabs/Memori) | 15.3k | 2026-06-15 | NOASSERTION | sql | no | no | SQL-first open-source memory engine storing agent memories in standard relational databases ([site](https://memorilabs.ai)) |
-| [MemU](https://github.com/NevaMind-AI/memU) | 13.9k | 2026-06-14 | NOASSERTION | files, vector | yes | yes | Agent memory framework that organizes memories as an interlinked folder/file system curated by a memory agent ([site](https://memu.pro)) |
-| [MemOS](https://github.com/MemTensor/MemOS) | 9.9k | 2026-06-17 | Apache-2.0 | vector, graph, kv | no | yes | Memory operating system organizing plaintext, activation (KV-cache) and parametric memory as MemCubes ([site](https://memos.openmem.net)) ([paper](https://arxiv.org/abs/2507.03724)) |
-| [EverMemOS](https://github.com/EverMind-AI/EverMemOS) | 7.6k | 2026-06-17 | Apache-2.0 | vector | no | yes | Memory operating system by EverMind with engram-style consolidation, targeting long-horizon conversational recall ([site](https://evermind.ai)) |
-| [MineContext](https://github.com/volcengine/MineContext) | 5.4k | 2026-05-07 | Apache-2.0 | vector, files | no | no | Proactive context engine from ByteDance Volcengine that captures screen activity into retrievable context |
-| [Honcho](https://github.com/plastic-labs/honcho) | 5.2k | 2026-06-15 | AGPL-3.0 | vector, sql | yes | yes | User-modeling memory layer with theory-of-mind representations for personalized agents |
-| [Zep](https://github.com/getzep/zep) | 4.7k | 2026-06-17 | Apache-2.0 | graph, vector | yes | yes | Agent memory service built on the Graphiti temporal knowledge graph; tracks facts with validity intervals ([site](https://www.getzep.com)) ([paper](https://arxiv.org/abs/2501.13956)) |
-| [MIRIX](https://github.com/Mirix-AI/MIRIX) | 3.6k | 2026-06-06 | Apache-2.0 | sql, vector | no | no | Multi-agent memory system with six memory types (core, episodic, semantic, procedural, resource, vault) ([site](https://mirix.io)) ([paper](https://arxiv.org/abs/2507.07957)) |
-| [MemMachine](https://github.com/MemMachine/MemMachine) | 3.1k | 2026-06-17 | Apache-2.0 | vector, sql | yes | no | Universal memory layer with episodic and profile memory for agents |
-| [ReMe](https://github.com/agentscope-ai/ReMe) | 3.1k | 2026-06-10 | Apache-2.0 | vector | no | no | Memory and experience reuse framework for agents from the AgentScope team |
-| [Memobase](https://github.com/memodb-io/memobase) | 2.8k | 2026-01-11 | Apache-2.0 | sql | no | yes | Profile-based long-term user memory: maintains structured user profiles and event timelines over Postgres ([site](https://www.memobase.io)) |
-| [Memary](https://github.com/kingjulio8238/Memary) | 2.6k | 2024-10-22 | MIT | graph | no | no | Knowledge-graph long-term memory for agents using Neo4j or FalkorDB with entity and timeline modules |
-| [Nemori](https://github.com/nemori-ai/nemori) | 203 | 2026-04-16 | MIT | vector | no | no | Self-organizing episodic memory that segments conversations into human-scale episodes for retrieval |
-| [Mengram](https://github.com/alibaizhanov/mengram) | 178 | 2026-06-15 | Apache-2.0 | graph, vector | no | yes | Open-source memory layer combining knowledge graph and vector retrieval for LLM applications ([site](https://mengram.io)) |
-| [MemClaw (Caura)](https://github.com/caura-ai/caura-memclaw) | 122 | 2026-06-16 | Apache-2.0 | graph, vector | no | yes | Graph and vector memory tool by Caura AI for persistent agent memory ([site](https://memclaw.net)) |
-| [memonto](https://github.com/shihanwan/memonto) | 98 | 2024-10-16 | Apache-2.0 | graph | no | no | Ontology-driven graph memory library that stores agent knowledge as RDF triples |
-| [MemClaw (Felo)](https://github.com/Felo-Inc/memclaw) | 32 | 2026-04-23 | MIT | vector | no | no | Vector-based agent memory tool by Felo for persisting and recalling agent context ([site](https://memclaw.me)) |
-| [Hyperspell](https://hyperspell.com) | - | - | closed | vector | no | yes | Managed memory and context API that connects user data sources for AI apps |
-| [llongterm](https://www.llongterm.com) | - | - | closed | graph | no | yes | Closed-source API offering persistent per-user minds as a long-term memory layer for LLM apps |
-| [WhyHow](https://www.whyhow.ai) | - | - | closed | graph | no | yes | Commercial knowledge-graph platform for building schema-controlled graphs as structured memory for RAG |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [cognee](https://github.com/topoteretes/cognee) | Apache-2.0 | graph, vector | yes | yes | Memory engine that builds knowledge graphs plus embeddings from documents via ECL (extract, cognify, load) pipelines ([site](https://www.cognee.ai)) |
+| [EverMemOS](https://github.com/EverMind-AI/EverMemOS) | Apache-2.0 | vector | no | yes | Memory operating system by EverMind with engram-style consolidation, targeting long-horizon conversational recall ([site](https://evermind.ai)) |
+| [Graphiti](https://github.com/getzep/graphiti) | Apache-2.0 | graph, vector | yes | yes | Temporal knowledge graph engine behind Zep: bi-temporal edges, episodes and hybrid retrieval ([paper](https://arxiv.org/abs/2501.13956)) |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | MIT | vector | no | yes | Open-source agent memory by Vectorize with retain/recall/reflect operations over typed memory banks ([site](https://hindsight.vectorize.io)) |
+| [Honcho](https://github.com/plastic-labs/honcho) | AGPL-3.0 | vector, sql | yes | yes | User-modeling memory layer with theory-of-mind representations for personalized agents |
+| [Hyperspell](https://hyperspell.com) | closed | vector | no | yes | Managed memory and context API that connects user data sources for AI apps |
+| [Khoj](https://github.com/khoj-ai/khoj) | AGPL-3.0 | vector, files | no | yes | Personal AI brain over your notes and documents with semantic search and recall |
+| [Letta](https://github.com/letta-ai/letta) | Apache-2.0 | sql, vector | yes | yes | Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory ([site](https://www.letta.com)) ([paper](https://arxiv.org/abs/2310.08560)) |
+| [LightRAG](https://github.com/HKUDS/LightRAG) | MIT | graph, vector | yes | no | Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative ([paper](https://arxiv.org/abs/2410.05779)) |
+| [llongterm](https://www.llongterm.com) | closed | graph | no | yes | Closed-source API offering persistent per-user minds as a long-term memory layer for LLM apps |
+| [Mem0](https://github.com/mem0ai/mem0) | Apache-2.0 | vector, graph | yes | yes | Memory layer that extracts, consolidates and retrieves user/session/agent memories; ships OpenMemory MCP ([site](https://mem0.ai)) ([paper](https://arxiv.org/abs/2504.19413)) |
+| [Memary](https://github.com/kingjulio8238/Memary) | MIT | graph | no | no | Knowledge-graph long-term memory for agents using Neo4j or FalkorDB with entity and timeline modules |
+| [MemClaw (Caura)](https://github.com/caura-ai/caura-memclaw) | Apache-2.0 | graph, vector | no | yes | Graph and vector memory tool by Caura AI for persistent agent memory ([site](https://memclaw.net)) |
+| [MemClaw (Felo)](https://github.com/Felo-Inc/memclaw) | MIT | vector | no | no | Vector-based agent memory tool by Felo for persisting and recalling agent context ([site](https://memclaw.me)) |
+| [MemMachine](https://github.com/MemMachine/MemMachine) | Apache-2.0 | vector, sql | yes | no | Universal memory layer with episodic and profile memory for agents |
+| [Memobase](https://github.com/memodb-io/memobase) | Apache-2.0 | sql | no | yes | Profile-based long-term user memory: maintains structured user profiles and event timelines over Postgres ([site](https://www.memobase.io)) |
+| [memonto](https://github.com/shihanwan/memonto) | Apache-2.0 | graph | no | no | Ontology-driven graph memory library that stores agent knowledge as RDF triples |
+| [Memori](https://github.com/MemoriLabs/Memori) | other | sql | no | no | SQL-first open-source memory engine storing agent memories in standard relational databases ([site](https://memorilabs.ai)) |
+| [MemOS](https://github.com/MemTensor/MemOS) | Apache-2.0 | vector, graph, kv | no | yes | Memory operating system organizing plaintext, activation (KV-cache) and parametric memory as MemCubes ([site](https://memos.openmem.net)) ([paper](https://arxiv.org/abs/2507.03724)) |
+| [MemU](https://github.com/NevaMind-AI/memU) | other | files, vector | yes | yes | Agent memory framework that organizes memories as an interlinked folder/file system curated by a memory agent ([site](https://memu.pro)) |
+| [Mengram](https://github.com/alibaizhanov/mengram) | Apache-2.0 | graph, vector | no | yes | Open-source memory layer combining knowledge graph and vector retrieval for LLM applications ([site](https://mengram.io)) |
+| [MineContext](https://github.com/volcengine/MineContext) | Apache-2.0 | vector, files | no | no | Proactive context engine from ByteDance Volcengine that captures screen activity into retrievable context |
+| [MIRIX](https://github.com/Mirix-AI/MIRIX) | Apache-2.0 | sql, vector | no | no | Multi-agent memory system with six memory types (core, episodic, semantic, procedural, resource, vault) ([site](https://mirix.io)) ([paper](https://arxiv.org/abs/2507.07957)) |
+| [Nemori](https://github.com/nemori-ai/nemori) | MIT | vector | no | no | Self-organizing episodic memory that segments conversations into human-scale episodes for retrieval |
+| [ReMe](https://github.com/agentscope-ai/ReMe) | Apache-2.0 | vector | no | no | Memory and experience reuse framework for agents from the AgentScope team |
+| [Second Me](https://github.com/mindverse/Second-Me) | Apache-2.0 | parametric, vector | no | no | Trains a personal model as AI-native memory of you, served locally ([paper](https://arxiv.org/abs/2503.08102)) |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | MIT | vector | yes | yes | Universal memory API for ingesting documents, chats and web content with sub-second retrieval ([site](https://supermemory.ai)) |
+| [WhyHow](https://www.whyhow.ai) | closed | graph | no | yes | Commercial knowledge-graph platform for building schema-controlled graphs as structured memory for RAG |
+| [Zep](https://github.com/getzep/zep) | Apache-2.0 | graph, vector | yes | yes | Agent memory service built on the Graphiti temporal knowledge graph; tracks facts with validity intervals ([site](https://www.getzep.com)) ([paper](https://arxiv.org/abs/2501.13956)) |
 
 ## MCP Memory Servers
 
 Memory exposed over the Model Context Protocol, usable from Claude, Cursor and
 any MCP client.
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [MCP Memory Server (official)](https://github.com/modelcontextprotocol/servers) | 87.3k | 2026-06-17 | NOASSERTION | graph, files | yes | no | Reference knowledge-graph memory server from the MCP project: entities, relations, observations |
-| [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 3.2k | 2026-06-14 | AGPL-3.0 | files | yes | no | Local-first Markdown knowledge base over MCP, Obsidian-compatible notes as agent memory |
-| [Redis Agent Memory Server](https://github.com/redis/agent-memory-server) | 280 | 2026-06-16 | NOASSERTION | vector, kv | yes | no | Redis-backed working and long-term memory service with MCP and REST interfaces |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [Basic Memory](https://github.com/basicmachines-co/basic-memory) | AGPL-3.0 | files | yes | no | Local-first Markdown knowledge base over MCP, Obsidian-compatible notes as agent memory |
+| [MCP Memory Server (official)](https://github.com/modelcontextprotocol/servers) | other | graph, files | yes | no | Reference knowledge-graph memory server from the MCP project: entities, relations, observations |
+| [Redis Agent Memory Server](https://github.com/redis/agent-memory-server) | other | vector, kv | yes | no | Redis-backed working and long-term memory service with MCP and REST interfaces |
 
 ## Memory for Coding Agents
 
 Persistent memory for coding assistants: project conventions, decisions and
 session context that survive the context window.
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [claude-mem](https://github.com/thedotmack/claude-mem) | 82.8k | 2026-06-16 | Apache-2.0 | vector, sql | yes | no | Claude Code plugin that compresses session transcripts into searchable persistent memory |
-| [Agentmemory](https://github.com/rohitg00/agentmemory) | 23.2k | 2026-06-15 | Apache-2.0 | vector, sql | yes | no | Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks |
-| [ByteRover (formerly Cipher)](https://github.com/campfirein/byterover-cli) | 4.9k | 2026-06-17 | NOASSERTION | vector | yes | no | Shared memory layer for coding agents via MCP; works with Claude Code, Cursor, Windsurf and Copilot |
-| [MCP Memory Keeper](https://github.com/mkreyman/mcp-memory-keeper) | 127 | 2026-06-06 | MIT | sql | yes | no | SQLite-backed MCP server preserving coding session context, decisions and progress across compactions |
-| [Claude Code memory](https://docs.claude.com/en/docs/claude-code/memory) | - | - | closed | files | no | yes | CLAUDE.md project instructions plus auto-memory directories persisting context across sessions |
-| [Cursor Memories](https://docs.cursor.com/context/memories) | - | - | closed | files | no | yes | Auto-generated rules from past conversations, scoped per project |
-| [Windsurf Memories](https://docs.windsurf.com/windsurf/cascade/memories) | - | - | closed | files | no | yes | Cascade auto-memories and user rules persisting context between sessions |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [Agentmemory](https://github.com/rohitg00/agentmemory) | Apache-2.0 | vector, sql | yes | no | Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks |
+| [ByteRover (formerly Cipher)](https://github.com/campfirein/byterover-cli) | other | vector | yes | no | Shared memory layer for coding agents via MCP; works with Claude Code, Cursor, Windsurf and Copilot |
+| [Claude Code memory](https://docs.claude.com/en/docs/claude-code/memory) | closed | files | no | yes | CLAUDE.md project instructions plus auto-memory directories persisting context across sessions |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Apache-2.0 | vector, sql | yes | no | Claude Code plugin that compresses session transcripts into searchable persistent memory |
+| [Cursor Memories](https://docs.cursor.com/context/memories) | closed | files | no | yes | Auto-generated rules from past conversations, scoped per project |
+| [MCP Memory Keeper](https://github.com/mkreyman/mcp-memory-keeper) | MIT | sql | yes | no | SQLite-backed MCP server preserving coding session context, decisions and progress across compactions |
+| [Windsurf Memories](https://docs.windsurf.com/windsurf/cascade/memories) | closed | files | no | yes | Cascade auto-memories and user rules persisting context between sessions |
 
 ## Platform and Consumer Memory
 
 Memory built into the major assistants and platforms. Mostly closed source;
 listed because they define what users expect memory to do.
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [ChatGPT memory](https://help.openai.com/en/articles/8590148-memory-faq) | - | - | closed | kv | no | yes | Saved memories plus reference-chat-history personalization in ChatGPT |
-| [Claude memory](https://www.anthropic.com/news/memory) | - | - | closed | files | no | yes | Project-scoped memory in Claude apps plus a developer memory tool with context editing in the API |
-| [Gemini personalization](https://support.google.com/gemini/answer/15637730) | - | - | closed | kv | no | yes | Past-chat recall and personal context settings in Gemini |
-| [Glean](https://www.glean.com) | - | - | closed | vector, graph | no | yes | Enterprise work assistant with a knowledge graph and personal memory over company data |
-| [Graphlit](https://graphlit.com) | - | - | closed | graph, vector | yes | yes | Managed API platform that ingests unstructured content into a knowledge graph plus vector index for agents |
-| [SID](https://www.sid.ai) | - | - | closed | vector | no | yes | Closed-source retrieval API connecting user accounts (email, drive, chat) as personal context for LLM apps |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [ChatGPT memory](https://help.openai.com/en/articles/8590148-memory-faq) | closed | kv | no | yes | Saved memories plus reference-chat-history personalization in ChatGPT |
+| [Claude memory](https://www.anthropic.com/news/memory) | closed | files | no | yes | Project-scoped memory in Claude apps plus a developer memory tool with context editing in the API |
+| [Gemini personalization](https://support.google.com/gemini/answer/15637730) | closed | kv | no | yes | Past-chat recall and personal context settings in Gemini |
+| [Glean](https://www.glean.com) | closed | vector, graph | no | yes | Enterprise work assistant with a knowledge graph and personal memory over company data |
+| [Graphlit](https://graphlit.com) | closed | graph, vector | yes | yes | Managed API platform that ingests unstructured content into a knowledge graph plus vector index for agents |
+| [SID](https://www.sid.ai) | closed | vector | no | yes | Closed-source retrieval API connecting user accounts (email, drive, chat) as personal context for LLM apps |
 
 ## Framework Memory Modules
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [LangChain](https://github.com/langchain-ai/langchain) | 139.5k | 2026-06-17 | MIT | vector | no | no | General LLM framework whose chat history and memory abstractions are widely used for conversational recall ([site](https://www.langchain.com)) |
-| [AutoGen Teachability](https://github.com/microsoft/autogen) | 59.0k | 2026-04-15 | CC-BY-4.0 | vector | no | no | Teachable agents that persist user teachings to a vector store across conversations |
-| [CrewAI memory](https://github.com/crewAIInc/crewAI) | 53.7k | 2026-06-17 | MIT | vector, sql | no | yes | Built-in short-term, long-term and entity memory for crews of agents |
-| [LlamaIndex memory](https://github.com/run-llama/llama_index) | 50.2k | 2026-06-17 | MIT | vector | no | no | Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents |
-| [Agno memory](https://github.com/agno-agi/agno) | 40.7k | 2026-06-17 | Apache-2.0 | vector, sql | no | no | Session storage plus user memories built into the Agno agent framework |
-| [LangGraph persistence](https://github.com/langchain-ai/langgraph) | 35.0k | 2026-06-17 | MIT | kv, sql | no | yes | Checkpointers and cross-thread memory store underlying LangChain agent persistence |
-| [Semantic Kernel memory](https://github.com/microsoft/semantic-kernel) | 28.1k | 2026-06-17 | MIT | vector | no | no | Memory connectors and vector stores for .NET, Python and Java agents |
-| [Mastra](https://github.com/mastra-ai/mastra) | 25.2k | 2026-06-17 | NOASSERTION | vector, sql | yes | yes | TypeScript agent framework whose observational memory reports state-of-the-art LongMemEval scores ([site](https://mastra.ai)) |
-| [Google ADK memory](https://github.com/google/adk-python) | 20.1k | 2026-06-17 | Apache-2.0 | vector | no | yes | MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank |
-| [Julep](https://github.com/julep-ai/julep) | 6.6k | 2026-03-13 | - | vector, sql | no | yes | Stateful agent platform with built-in sessions and long-term document and user memory ([site](https://julep.ai)) |
-| [LangMem](https://github.com/langchain-ai/langmem) | 1.5k | 2026-06-12 | MIT | vector | no | no | LangChain SDK for semantic, episodic and procedural memory with a background memory manager |
-| [BaseAI (Langbase Memory)](https://github.com/LangbaseInc/baseai) | 1.3k | 2026-05-16 | NOASSERTION | vector | no | yes | Langbase web AI framework with serverless RAG memory primitives attached to pipes/agents ([site](https://langbase.com/docs/memory)) |
-| [HybridAGI](https://github.com/SynaLinks/HybridAGI) | 900 | 2026-05-08 | Apache-2.0 | graph, vector | no | no | Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory |
-| [BondAI](https://github.com/krohling/bondai) | 221 | 2024-01-14 | MIT | vector | no | no | Python agent framework with a MemGPT-inspired core/archival memory system ([site](https://bondai.dev)) |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [Agno memory](https://github.com/agno-agi/agno) | Apache-2.0 | vector, sql | no | no | Session storage plus user memories built into the Agno agent framework |
+| [AutoGen Teachability](https://github.com/microsoft/autogen) | CC-BY-4.0 | vector | no | no | Teachable agents that persist user teachings to a vector store across conversations |
+| [BaseAI (Langbase Memory)](https://github.com/LangbaseInc/baseai) | other | vector | no | yes | Langbase web AI framework with serverless RAG memory primitives attached to pipes/agents ([site](https://langbase.com/docs/memory)) |
+| [BondAI](https://github.com/krohling/bondai) | MIT | vector | no | no | Python agent framework with a MemGPT-inspired core/archival memory system ([site](https://bondai.dev)) |
+| [CrewAI memory](https://github.com/crewAIInc/crewAI) | MIT | vector, sql | no | yes | Built-in short-term, long-term and entity memory for crews of agents |
+| [Google ADK memory](https://github.com/google/adk-python) | Apache-2.0 | vector | no | yes | MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank |
+| [HybridAGI](https://github.com/SynaLinks/HybridAGI) | Apache-2.0 | graph, vector | no | no | Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory |
+| [Julep](https://github.com/julep-ai/julep) | - | vector, sql | no | yes | Stateful agent platform with built-in sessions and long-term document and user memory ([site](https://julep.ai)) |
+| [LangChain](https://github.com/langchain-ai/langchain) | MIT | vector | no | no | General LLM framework whose chat history and memory abstractions are widely used for conversational recall ([site](https://www.langchain.com)) |
+| [LangGraph persistence](https://github.com/langchain-ai/langgraph) | MIT | kv, sql | no | yes | Checkpointers and cross-thread memory store underlying LangChain agent persistence |
+| [LangMem](https://github.com/langchain-ai/langmem) | MIT | vector | no | no | LangChain SDK for semantic, episodic and procedural memory with a background memory manager |
+| [LlamaIndex memory](https://github.com/run-llama/llama_index) | MIT | vector | no | no | Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents |
+| [Mastra](https://github.com/mastra-ai/mastra) | other | vector, sql | yes | yes | TypeScript agent framework whose observational memory reports state-of-the-art LongMemEval scores ([site](https://mastra.ai)) |
+| [Semantic Kernel memory](https://github.com/microsoft/semantic-kernel) | MIT | vector | no | no | Memory connectors and vector stores for .NET, Python and Java agents |
 
 ## Research Systems with Code
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [GraphRAG](https://github.com/microsoft/graphrag) | 33.8k | 2026-06-17 | MIT | graph, vector | no | no | Microsoft pipeline that builds entity knowledge graphs and community summaries for global query answering ([site](https://microsoft.github.io/graphrag/)) ([paper](https://arxiv.org/abs/2404.16130)) |
-| [SimpleMem](https://github.com/aiming-lab/SimpleMem) | 3.5k | 2026-05-21 | MIT | vector | no | no | Lifelong memory via semantically lossless compression; text and multimodal |
-| [MemoRAG](https://github.com/qhjqhj00/MemoRAG) | 2.2k | 2025-09-11 | Apache-2.0 | vector, parametric | no | no | Memory-inspired retrieval with a global-memory model that drafts clues to guide evidence retrieval ([paper](https://arxiv.org/abs/2409.05591)) |
-| [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | 1.9k | 2026-06-02 | MIT | files | no | no | Procedural skill memory from AMAP-ML that extracts and reuses skills across agent trajectories ([paper](https://arxiv.org/abs/2604.08377)) |
-| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | 1.5k | 2026-04-28 | Apache-2.0 | files, vector | yes | no | OS-inspired hierarchical memory with short/mid/long-term stores, heat-based promotion and an MCP server ([paper](https://arxiv.org/abs/2506.06326)) |
-| [A-Mem](https://github.com/agiresearch/A-mem) | 1.1k | 2025-12-12 | MIT | vector | no | no | Agentic memory with Zettelkasten-style note construction, dynamic linking and memory evolution ([paper](https://arxiv.org/abs/2502.12110)) |
-| [MemEngine](https://github.com/nuster1128/MemEngine) | 111 | 2025-05-13 | - | vector | no | no | Unified modular library implementing many research memory models for LLM agents under one API ([paper](https://arxiv.org/abs/2505.02099)) |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [A-Mem](https://github.com/agiresearch/A-mem) | MIT | vector | no | no | Agentic memory with Zettelkasten-style note construction, dynamic linking and memory evolution ([paper](https://arxiv.org/abs/2502.12110)) |
+| [GraphRAG](https://github.com/microsoft/graphrag) | MIT | graph, vector | no | no | Microsoft pipeline that builds entity knowledge graphs and community summaries for global query answering ([site](https://microsoft.github.io/graphrag/)) ([paper](https://arxiv.org/abs/2404.16130)) |
+| [MemEngine](https://github.com/nuster1128/MemEngine) | - | vector | no | no | Unified modular library implementing many research memory models for LLM agents under one API ([paper](https://arxiv.org/abs/2505.02099)) |
+| [MemoRAG](https://github.com/qhjqhj00/MemoRAG) | Apache-2.0 | vector, parametric | no | no | Memory-inspired retrieval with a global-memory model that drafts clues to guide evidence retrieval ([paper](https://arxiv.org/abs/2409.05591)) |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | Apache-2.0 | files, vector | yes | no | OS-inspired hierarchical memory with short/mid/long-term stores, heat-based promotion and an MCP server ([paper](https://arxiv.org/abs/2506.06326)) |
+| [SimpleMem](https://github.com/aiming-lab/SimpleMem) | MIT | vector | no | no | Lifelong memory via semantically lossless compression; text and multimodal |
+| [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | MIT | files | no | no | Procedural skill memory from AMAP-ML that extracts and reuses skills across agent trajectories ([paper](https://arxiv.org/abs/2604.08377)) |
 
 ## Storage Substrates
 
 Databases memory systems are built on. Pointer-level coverage only - exhaustive
 vector-DB and graph-DB lists exist elsewhere.
 
-| Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
-|---|---|---|---|---|---|---|---|
-| [Milvus](https://github.com/milvus-io/milvus) | 44.8k | 2026-06-17 | Apache-2.0 | vector | yes | yes | Distributed open-source vector database built for billion-scale similarity search ([site](https://milvus.io)) |
-| [Faiss](https://github.com/facebookresearch/faiss) | 40.3k | 2026-06-17 | MIT | vector | no | no | Meta library for efficient similarity search and clustering of dense vectors; embedded index, not a server ([site](https://faiss.ai)) |
-| [Qdrant](https://github.com/qdrant/qdrant) | 32.4k | 2026-06-17 | Apache-2.0 | vector | yes | yes | Rust vector database with filtering and payload indexing; common backend for agent memory engines ([site](https://qdrant.tech)) |
-| [Chroma](https://github.com/chroma-core/chroma) | 28.5k | 2026-06-16 | Apache-2.0 | vector | yes | yes | Open-source embedding database for AI applications; frequent default vector store for memory layers ([site](https://www.trychroma.com)) |
-| [Neo4j](https://github.com/neo4j/neo4j) | 16.7k | 2026-06-08 | GPL-3.0 | graph | yes | yes | Property graph database commonly used as the graph backend for agent memory and GraphRAG systems ([site](https://neo4j.com)) |
-| [Weaviate](https://github.com/weaviate/weaviate) | 16.3k | 2026-06-17 | BSD-3-Clause | vector | no | yes | Open-source vector database with hybrid search and modular vectorizers ([site](https://weaviate.io)) |
-| [txtai](https://github.com/neuml/txtai) | 12.7k | 2026-06-16 | Apache-2.0 | vector | no | no | All-in-one open-source embeddings database combining vector indexes, SQL and graph for semantic search ([site](https://neuml.github.io/txtai/)) |
-| [NebulaGraph](https://github.com/vesoft-inc/nebula) | 12.2k | 2026-05-18 | Apache-2.0 | graph | no | yes | Distributed open-source graph database for large-scale knowledge graph storage ([site](https://www.nebula-graph.io)) |
-| [FalkorDB](https://github.com/FalkorDB/falkordb) | 4.6k | 2026-06-16 | NOASSERTION | graph | yes | yes | Low-latency graph database (RedisGraph successor) with sparse-matrix engine, used for GraphRAG memory ([site](https://www.falkordb.com)) |
-| [AllegroGraph](https://allegrograph.com) | - | - | closed | graph | no | yes | Commercial RDF graph database with vector and neuro-symbolic extensions from Franz Inc |
-| [Ontotext GraphDB](https://www.ontotext.com) | - | - | closed | graph | no | yes | Commercial RDF triplestore (GraphDB) for knowledge graphs and semantic retrieval |
-| [Pinecone](https://www.pinecone.io) | - | - | closed | vector | yes | yes | Managed vector database widely used as the retrieval substrate for RAG and agent memory |
-| [Prometheux](https://www.prometheux.co.uk) | - | - | closed | graph | no | yes | Commercial knowledge graph and reasoning platform based on Vadalog logic programming |
-| [RDFox (Oxford Semantic)](https://www.oxfordsemantic.tech) | - | - | closed | graph | no | yes | In-memory RDF triplestore with high-performance rule reasoning from Oxford Semantic Technologies |
-| [Stardog](https://www.stardog.com) | - | - | closed | graph | no | yes | Enterprise knowledge graph platform with reasoning, used as structured memory for enterprise agents |
-| [Vectara](https://www.vectara.com) | - | - | closed | vector | no | yes | Managed RAG platform with hosted ingestion, embedding and retrieval |
+| Project | License | Backend | MCP | Hosted | What it is |
+|---|---|---|---|---|---|
+| [AllegroGraph](https://allegrograph.com) | closed | graph | no | yes | Commercial RDF graph database with vector and neuro-symbolic extensions from Franz Inc |
+| [Chroma](https://github.com/chroma-core/chroma) | Apache-2.0 | vector | yes | yes | Open-source embedding database for AI applications; frequent default vector store for memory layers ([site](https://www.trychroma.com)) |
+| [Faiss](https://github.com/facebookresearch/faiss) | MIT | vector | no | no | Meta library for efficient similarity search and clustering of dense vectors; embedded index, not a server ([site](https://faiss.ai)) |
+| [FalkorDB](https://github.com/FalkorDB/falkordb) | other | graph | yes | yes | Low-latency graph database (RedisGraph successor) with sparse-matrix engine, used for GraphRAG memory ([site](https://www.falkordb.com)) |
+| [Milvus](https://github.com/milvus-io/milvus) | Apache-2.0 | vector | yes | yes | Distributed open-source vector database built for billion-scale similarity search ([site](https://milvus.io)) |
+| [NebulaGraph](https://github.com/vesoft-inc/nebula) | Apache-2.0 | graph | no | yes | Distributed open-source graph database for large-scale knowledge graph storage ([site](https://www.nebula-graph.io)) |
+| [Neo4j](https://github.com/neo4j/neo4j) | GPL-3.0 | graph | yes | yes | Property graph database commonly used as the graph backend for agent memory and GraphRAG systems ([site](https://neo4j.com)) |
+| [Ontotext GraphDB](https://www.ontotext.com) | closed | graph | no | yes | Commercial RDF triplestore (GraphDB) for knowledge graphs and semantic retrieval |
+| [Pinecone](https://www.pinecone.io) | closed | vector | yes | yes | Managed vector database widely used as the retrieval substrate for RAG and agent memory |
+| [Prometheux](https://www.prometheux.co.uk) | closed | graph | no | yes | Commercial knowledge graph and reasoning platform based on Vadalog logic programming |
+| [Qdrant](https://github.com/qdrant/qdrant) | Apache-2.0 | vector | yes | yes | Rust vector database with filtering and payload indexing; common backend for agent memory engines ([site](https://qdrant.tech)) |
+| [RDFox (Oxford Semantic)](https://www.oxfordsemantic.tech) | closed | graph | no | yes | In-memory RDF triplestore with high-performance rule reasoning from Oxford Semantic Technologies |
+| [Stardog](https://www.stardog.com) | closed | graph | no | yes | Enterprise knowledge graph platform with reasoning, used as structured memory for enterprise agents |
+| [txtai](https://github.com/neuml/txtai) | Apache-2.0 | vector | no | no | All-in-one open-source embeddings database combining vector indexes, SQL and graph for semantic search ([site](https://neuml.github.io/txtai/)) |
+| [Vectara](https://www.vectara.com) | closed | vector | no | yes | Managed RAG platform with hosted ingestion, embedding and retrieval |
+| [Weaviate](https://github.com/weaviate/weaviate) | BSD-3-Clause | vector | no | yes | Open-source vector database with hybrid search and modular vectorizers ([site](https://weaviate.io)) |
 
 ## Research Papers
 
