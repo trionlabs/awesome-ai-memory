@@ -1,0 +1,814 @@
+# Tools, engines, MCP servers, framework modules, platforms, storage.
+# Schema: see CONTRIBUTING.md. Stars/license filled by generator.
+
+- name: Agentmemory
+  repo: elizaOS/agentmemory
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: false
+  hosted: false
+  desc: Simple Python memory library for agents with ChromaDB or Postgres backends from the elizaOS ecosystem
+- name: cognee
+  repo: topoteretes/cognee
+  site: https://www.cognee.ai
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: true
+  hosted: true
+  desc: Memory engine that builds knowledge graphs plus embeddings from documents via ECL (extract, cognify, load) pipelines
+- name: EverMemOS
+  repo: EverMind-AI/EverMemOS
+  site: https://evermind.ai
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Memory operating system by EverMind with engram-style consolidation, targeting long-horizon conversational recall
+- name: Graphiti
+  repo: getzep/graphiti
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: true
+  hosted: true
+  paper: '2501.13956'
+  desc: 'Temporal knowledge graph engine behind Zep: bi-temporal edges, episodes and hybrid retrieval'
+- name: Hindsight
+  repo: vectorize-io/hindsight
+  site: https://hindsight.vectorize.io
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Open-source agent memory by Vectorize with retain/recall/reflect operations over typed memory banks
+- name: Honcho
+  repo: plastic-labs/honcho
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: true
+  hosted: true
+  desc: User-modeling memory layer with theory-of-mind representations for personalized agents
+- name: Khoj
+  repo: khoj-ai/khoj
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - files
+  mcp: false
+  hosted: true
+  desc: Personal AI brain over your notes and documents with semantic search and recall
+- name: Letta
+  repo: letta-ai/letta
+  site: https://www.letta.com
+  category: engine
+  oss: true
+  backend:
+  - sql
+  - vector
+  mcp: true
+  hosted: true
+  paper: '2310.08560'
+  desc: Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory
+- name: llongterm
+  repo: null
+  site: https://www.llongterm.com
+  category: engine
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Closed-source API offering persistent per-user minds as a long-term memory layer for LLM apps
+- name: Mem0
+  repo: mem0ai/mem0
+  site: https://mem0.ai
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - graph
+  mcp: true
+  hosted: true
+  paper: '2504.19413'
+  desc: Memory layer that extracts, consolidates and retrieves user/session/agent memories; ships OpenMemory MCP
+- name: Memary
+  repo: kingjulio8238/Memary
+  category: engine
+  oss: true
+  backend:
+  - graph
+  mcp: false
+  hosted: false
+  desc: Knowledge-graph long-term memory for agents using Neo4j or FalkorDB with entity and timeline modules
+- name: MemClaw (Caura)
+  repo: caura-ai/caura-memclaw
+  site: https://memclaw.net
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: false
+  hosted: true
+  desc: Graph and vector memory tool by Caura AI for persistent agent memory
+- name: MemClaw (Felo)
+  repo: Felo-Inc/memclaw
+  site: https://memclaw.me
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Vector-based agent memory tool by Felo for persisting and recalling agent context
+- name: MemMachine
+  repo: MemMachine/MemMachine
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: true
+  hosted: false
+  desc: Universal memory layer with episodic and profile memory for agents
+- name: Memobase
+  repo: memodb-io/memobase
+  site: https://www.memobase.io
+  category: engine
+  oss: true
+  backend:
+  - sql
+  mcp: false
+  hosted: true
+  desc: 'Profile-based long-term user memory: maintains structured user profiles and event timelines over Postgres'
+- name: memonto
+  repo: shihanwan/memonto
+  category: engine
+  oss: true
+  backend:
+  - graph
+  mcp: false
+  hosted: false
+  desc: Ontology-driven graph memory library that stores agent knowledge as RDF triples
+- name: Memori
+  repo: MemoriLabs/Memori
+  site: https://memorilabs.ai
+  category: engine
+  oss: true
+  backend:
+  - sql
+  mcp: false
+  hosted: false
+  desc: SQL-first open-source memory engine storing agent memories in standard relational databases
+- name: MemOS
+  repo: MemTensor/MemOS
+  site: https://memos.openmem.net
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - graph
+  - kv
+  mcp: false
+  hosted: true
+  paper: '2507.03724'
+  desc: Memory operating system organizing plaintext, activation (KV-cache) and parametric memory as MemCubes
+- name: MemU
+  repo: NevaMind-AI/memU
+  site: https://memu.pro
+  category: engine
+  oss: true
+  backend:
+  - files
+  - vector
+  mcp: true
+  hosted: true
+  desc: Agent memory framework that organizes memories as an interlinked folder/file system curated by a memory agent
+- name: Mengram
+  repo: alibaizhanov/mengram
+  site: https://mengram.io
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: false
+  hosted: true
+  desc: Open-source memory layer combining knowledge graph and vector retrieval for LLM applications
+- name: MineContext
+  repo: volcengine/MineContext
+  category: engine
+  oss: true
+  backend:
+  - vector
+  - files
+  mcp: false
+  hosted: false
+  desc: Proactive context engine from ByteDance Volcengine that captures screen activity into retrievable context
+- name: MIRIX
+  repo: Mirix-AI/MIRIX
+  site: https://mirix.io
+  category: engine
+  oss: true
+  backend:
+  - sql
+  - vector
+  mcp: false
+  hosted: false
+  paper: '2507.07957'
+  desc: Multi-agent memory system with six memory types (core, episodic, semantic, procedural, resource, vault)
+- name: Nemori
+  repo: nemori-ai/nemori
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Self-organizing episodic memory that segments conversations into human-scale episodes for retrieval
+- name: ReMe
+  repo: agentscope-ai/ReMe
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Memory and experience reuse framework for agents from the AgentScope team
+- name: Second Me
+  repo: mindverse/Second-Me
+  category: engine
+  oss: true
+  backend:
+  - parametric
+  - vector
+  mcp: false
+  hosted: false
+  paper: '2503.08102'
+  desc: Trains a personal model as AI-native memory of you, served locally
+- name: Supermemory
+  repo: supermemoryai/supermemory
+  site: https://supermemory.ai
+  category: engine
+  oss: true
+  backend:
+  - vector
+  mcp: true
+  hosted: true
+  desc: Universal memory API for ingesting documents, chats and web content with sub-second retrieval
+- name: WhyHow
+  repo: null
+  site: https://www.whyhow.ai
+  category: engine
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Commercial knowledge-graph platform for building schema-controlled graphs as structured memory for RAG
+- name: Zep
+  repo: getzep/zep
+  site: https://www.getzep.com
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: true
+  hosted: true
+  paper: '2501.13956'
+  desc: Agent memory service built on the Graphiti temporal knowledge graph; tracks facts with validity intervals
+- name: Basic Memory
+  repo: basicmachines-co/basic-memory
+  category: mcp-server
+  oss: true
+  backend:
+  - files
+  mcp: true
+  hosted: false
+  desc: Local-first Markdown knowledge base over MCP, Obsidian-compatible notes as agent memory
+- name: MCP Memory Server (official)
+  repo: modelcontextprotocol/servers
+  category: mcp-server
+  oss: true
+  backend:
+  - graph
+  - files
+  mcp: true
+  hosted: false
+  desc: 'Reference knowledge-graph memory server from the MCP project: entities, relations, observations'
+- name: Redis Agent Memory Server
+  repo: redis/agent-memory-server
+  category: mcp-server
+  oss: true
+  backend:
+  - vector
+  - kv
+  mcp: true
+  hosted: false
+  desc: Redis-backed working and long-term memory service with MCP and REST interfaces
+- name: ByteRover (formerly Cipher)
+  repo: campfirein/byterover-cli
+  category: coding-agent
+  oss: true
+  backend:
+  - vector
+  mcp: true
+  hosted: false
+  desc: Shared memory layer for coding agents via MCP; works with Claude Code, Cursor, Windsurf and Copilot
+- name: Claude Code memory
+  repo: null
+  site: https://docs.claude.com/en/docs/claude-code/memory
+  category: coding-agent
+  oss: false
+  backend:
+  - files
+  mcp: false
+  hosted: true
+  desc: CLAUDE.md project instructions plus auto-memory directories persisting context across sessions
+- name: claude-mem
+  repo: thedotmack/claude-mem
+  category: coding-agent
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: true
+  hosted: false
+  desc: Claude Code plugin that compresses session transcripts into searchable persistent memory
+- name: Cursor Memories
+  repo: null
+  site: https://docs.cursor.com/context/memories
+  category: coding-agent
+  oss: false
+  backend:
+  - files
+  mcp: false
+  hosted: true
+  desc: Auto-generated rules from past conversations, scoped per project
+- name: MCP Memory Keeper
+  repo: mkreyman/mcp-memory-keeper
+  category: coding-agent
+  oss: true
+  backend:
+  - sql
+  mcp: true
+  hosted: false
+  desc: SQLite-backed MCP server preserving coding session context, decisions and progress across compactions
+- name: Windsurf Memories
+  repo: null
+  site: https://docs.windsurf.com/windsurf/cascade/memories
+  category: coding-agent
+  oss: false
+  backend:
+  - files
+  mcp: false
+  hosted: true
+  desc: Cascade auto-memories and user rules persisting context between sessions
+- name: Agno memory
+  repo: agno-agi/agno
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: false
+  hosted: true
+  desc: Session storage plus user memories built into the Agno agent framework
+- name: AutoGen Teachability
+  repo: microsoft/autogen
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Teachable agents that persist user teachings to a vector store across conversations
+- name: BaseAI (Langbase Memory)
+  repo: LangbaseInc/baseai
+  site: https://langbase.com/docs/memory
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Langbase web AI framework with serverless RAG memory primitives attached to pipes/agents
+- name: BondAI
+  repo: krohling/bondai
+  site: https://bondai.dev
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Python agent framework with a MemGPT-inspired core/archival memory system
+- name: CrewAI memory
+  repo: crewAIInc/crewAI
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: false
+  hosted: true
+  desc: Built-in short-term, long-term and entity memory for crews of agents
+- name: Google ADK memory
+  repo: google/adk-python
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank
+- name: HybridAGI
+  repo: SynaLinks/HybridAGI
+  category: framework-module
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: false
+  hosted: false
+  desc: Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory
+- name: LangChain
+  repo: langchain-ai/langchain
+  site: https://www.langchain.com
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: General LLM framework whose chat history and memory abstractions are widely used for conversational recall
+- name: LangGraph persistence
+  repo: langchain-ai/langgraph
+  category: framework-module
+  oss: true
+  backend:
+  - kv
+  - sql
+  mcp: false
+  hosted: true
+  desc: Checkpointers and cross-thread memory store underlying LangChain agent persistence
+- name: LangMem
+  repo: langchain-ai/langmem
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: LangChain SDK for semantic, episodic and procedural memory with a background memory manager
+- name: LlamaIndex memory
+  repo: run-llama/llama_index
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: 'Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents'
+- name: Semantic Kernel memory
+  repo: microsoft/semantic-kernel
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Memory connectors and vector stores for .NET, Python and Java agents
+- name: ChatGPT memory
+  repo: null
+  site: https://help.openai.com/en/articles/8590148-memory-faq
+  category: platform
+  oss: false
+  backend:
+  - kv
+  mcp: false
+  hosted: true
+  desc: Saved memories plus reference-chat-history personalization in ChatGPT
+- name: Claude memory
+  repo: null
+  site: https://www.anthropic.com/news/memory
+  category: platform
+  oss: false
+  backend:
+  - files
+  mcp: false
+  hosted: true
+  desc: Project-scoped memory in Claude apps plus a developer memory tool with context editing in the API
+- name: Gemini personalization
+  repo: null
+  site: https://support.google.com/gemini/answer/15637730
+  category: platform
+  oss: false
+  backend:
+  - kv
+  mcp: false
+  hosted: true
+  desc: Past-chat recall and personal context settings in Gemini
+- name: Graphlit
+  repo: null
+  site: https://graphlit.com
+  category: platform
+  oss: false
+  backend:
+  - graph
+  - vector
+  mcp: true
+  hosted: true
+  desc: Managed API platform that ingests unstructured content into a knowledge graph plus vector index for agents
+- name: SID
+  repo: null
+  site: https://www.sid.ai
+  category: platform
+  oss: false
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Closed-source retrieval API connecting user accounts (email, drive, chat) as personal context for LLM apps
+- name: A-Mem
+  repo: agiresearch/A-mem
+  category: research-code
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  paper: '2502.12110'
+  desc: Agentic memory with Zettelkasten-style note construction, dynamic linking and memory evolution
+- name: GraphRAG
+  repo: microsoft/graphrag
+  site: https://microsoft.github.io/graphrag/
+  category: research-code
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: false
+  hosted: false
+  paper: '2404.16130'
+  desc: Microsoft pipeline that builds entity knowledge graphs and community summaries for global query answering
+- name: MemEngine
+  repo: nuster1128/MemEngine
+  category: research-code
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  paper: '2505.02099'
+  desc: Unified modular library implementing many research memory models for LLM agents under one API
+- name: MemoRAG
+  repo: qhjqhj00/MemoRAG
+  category: research-code
+  oss: true
+  backend:
+  - vector
+  - parametric
+  mcp: false
+  hosted: false
+  paper: '2409.05591'
+  desc: Memory-inspired retrieval with a global-memory model that drafts clues to guide evidence retrieval
+- name: MemoryOS
+  repo: BAI-LAB/MemoryOS
+  category: research-code
+  oss: true
+  backend:
+  - files
+  - vector
+  mcp: true
+  hosted: false
+  paper: '2506.06326'
+  desc: OS-inspired hierarchical memory with short/mid/long-term stores, heat-based promotion and an MCP server
+- name: SimpleMem
+  repo: aiming-lab/SimpleMem
+  category: research-code
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Lifelong memory via semantically lossless compression; text and multimodal
+- name: SkillClaw
+  repo: AMAP-ML/SkillClaw
+  category: research-code
+  oss: true
+  backend:
+  - files
+  mcp: false
+  hosted: false
+  paper: '2604.08377'
+  desc: Procedural skill memory from AMAP-ML that extracts and reuses skills across agent trajectories
+- name: AllegroGraph
+  repo: null
+  site: https://allegrograph.com
+  category: storage
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Commercial RDF graph database with vector and neuro-symbolic extensions from Franz Inc
+- name: Chroma
+  repo: chroma-core/chroma
+  site: https://www.trychroma.com
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: true
+  hosted: true
+  desc: Open-source embedding database for AI applications; frequent default vector store for memory layers
+- name: Faiss
+  repo: facebookresearch/faiss
+  site: https://faiss.ai
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: Meta library for efficient similarity search and clustering of dense vectors; embedded index, not a server
+- name: FalkorDB
+  repo: FalkorDB/falkordb
+  site: https://www.falkordb.com
+  category: storage
+  oss: true
+  backend:
+  - graph
+  mcp: true
+  hosted: true
+  desc: Low-latency graph database (RedisGraph successor) with sparse-matrix engine, used for GraphRAG memory
+- name: Milvus
+  repo: milvus-io/milvus
+  site: https://milvus.io
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: true
+  hosted: true
+  desc: Distributed open-source vector database built for billion-scale similarity search
+- name: NebulaGraph
+  repo: vesoft-inc/nebula
+  site: https://www.nebula-graph.io
+  category: storage
+  oss: true
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Distributed open-source graph database for large-scale knowledge graph storage
+- name: Neo4j
+  repo: neo4j/neo4j
+  site: https://neo4j.com
+  category: storage
+  oss: true
+  backend:
+  - graph
+  mcp: true
+  hosted: true
+  desc: Property graph database commonly used as the graph backend for agent memory and GraphRAG systems
+- name: Ontotext GraphDB
+  repo: null
+  site: https://www.ontotext.com
+  category: storage
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Commercial RDF triplestore (GraphDB) for knowledge graphs and semantic retrieval
+- name: Pinecone
+  repo: null
+  site: https://www.pinecone.io
+  category: storage
+  oss: false
+  backend:
+  - vector
+  mcp: true
+  hosted: true
+  desc: Managed vector database widely used as the retrieval substrate for RAG and agent memory
+- name: Prometheux
+  repo: null
+  site: https://www.prometheux.co.uk
+  category: storage
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Commercial knowledge graph and reasoning platform based on Vadalog logic programming
+- name: Qdrant
+  repo: qdrant/qdrant
+  site: https://qdrant.tech
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: true
+  hosted: true
+  desc: Rust vector database with filtering and payload indexing; common backend for agent memory engines
+- name: RDFox (Oxford Semantic)
+  repo: null
+  site: https://www.oxfordsemantic.tech
+  category: storage
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: In-memory RDF triplestore with high-performance rule reasoning from Oxford Semantic Technologies
+- name: Stardog
+  repo: null
+  site: https://www.stardog.com
+  category: storage
+  oss: false
+  backend:
+  - graph
+  mcp: false
+  hosted: true
+  desc: Enterprise knowledge graph platform with reasoning, used as structured memory for enterprise agents
+- name: txtai
+  repo: neuml/txtai
+  site: https://neuml.github.io/txtai/
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: false
+  desc: All-in-one open-source embeddings database combining vector indexes, SQL and graph for semantic search
+- name: Vectara
+  repo: null
+  site: https://www.vectara.com
+  category: storage
+  oss: false
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Managed RAG platform with hosted ingestion, embedding and retrieval
+- name: Weaviate
+  repo: weaviate/weaviate
+  site: https://weaviate.io
+  category: storage
+  oss: true
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Open-source vector database with hybrid search and modular vectorizers
+- name: Julep
+  repo: julep-ai/julep
+  site: https://julep.ai
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: false
+  hosted: true
+  desc: Stateful agent platform with built-in sessions and long-term document and user memory
+- name: Hyperspell
+  repo: null
+  site: https://hyperspell.com
+  category: engine
+  oss: false
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Managed memory and context API that connects user data sources for AI apps
+- name: Glean
+  repo: null
+  site: https://www.glean.com
+  category: platform
+  oss: false
+  backend:
+  - vector
+  - graph
+  mcp: false
+  hosted: true
+  desc: Enterprise work assistant with a knowledge graph and personal memory over company data
