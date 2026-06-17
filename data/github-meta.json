@@ -17,7 +17,7 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-17",
-      "stars": 7594
+      "stars": 7595
     },
     "FalkorDB/falkordb": {
       "archived": false,
@@ -30,6 +30,12 @@
       "license": "MIT",
       "pushed_at": "2026-04-23",
       "stars": 32
+    },
+    "HKUDS/LightRAG": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 36672
     },
     "LangbaseInc/baseai": {
       "archived": false,
@@ -47,13 +53,13 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-17",
-      "stars": 9901
+      "stars": 9902
     },
     "MemoriLabs/Memori": {
       "archived": false,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-15",
-      "stars": 15303
+      "stars": 15304
     },
     "Mirix-AI/MIRIX": {
       "archived": false,
@@ -131,7 +137,7 @@
       "archived": false,
       "license": "MIT",
       "pushed_at": "2026-06-17",
-      "stars": 53737
+      "stars": 53738
     },
     "facebookresearch/faiss": {
       "archived": false,
@@ -155,7 +161,7 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-17",
-      "stars": 20145
+      "stars": 20146
     },
     "julep-ai/julep": {
       "archived": false,
@@ -191,7 +197,7 @@
       "archived": false,
       "license": "MIT",
       "pushed_at": "2026-06-17",
-      "stars": 34971
+      "stars": 34972
     },
     "langchain-ai/langmem": {
       "archived": false,
@@ -204,6 +210,12 @@
       "license": "Apache-2.0",
       "pushed_at": "2026-05-14",
       "stars": 23370
+    },
+    "mastra-ai/mastra": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-17",
+      "stars": 25154
     },
     "mem0ai/mem0": {
       "archived": false,
@@ -257,7 +269,7 @@
       "archived": false,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-17",
-      "stars": 87338
+      "stars": 87339
     },
     "nemori-ai/nemori": {
       "archived": false,
@@ -311,7 +323,7 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-15",
-      "stars": 23175
+      "stars": 23176
     },
     "run-llama/llama_index": {
       "archived": false,
@@ -335,7 +347,7 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-16",
-      "stars": 82811
+      "stars": 82812
     },
     "topoteretes/cognee": {
       "archived": false,

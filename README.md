@@ -1,9 +1,9 @@
 # Awesome AI Memory
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-213-blue)
-![Projects](https://img.shields.io/badge/projects-80-blue)
-![Benchmarks](https://img.shields.io/badge/benchmarks-65-blue)
+![Papers](https://img.shields.io/badge/papers-217-blue)
+![Projects](https://img.shields.io/badge/projects-82-blue)
+![Benchmarks](https://img.shields.io/badge/benchmarks-69-blue)
 ![Updated](https://img.shields.io/badge/metadata-2026-06-17-green)
 
 Memory for LLMs and AI agents: the systems that let models remember across turns,
@@ -93,6 +93,7 @@ maintained MCP server or integration exists, "Hosted" means a managed offering.
 | Project | Stars | Updated | License | Backend | MCP | Hosted | What it is |
 |---|---|---|---|---|---|---|---|
 | [Mem0](https://github.com/mem0ai/mem0) | 58.7k | 2026-06-17 | Apache-2.0 | vector, graph | yes | yes | Memory layer that extracts, consolidates and retrieves user/session/agent memories; ships OpenMemory MCP ([site](https://mem0.ai)) ([paper](https://arxiv.org/abs/2504.19413)) |
+| [LightRAG](https://github.com/HKUDS/LightRAG) | 36.7k | 2026-06-17 | MIT | graph, vector | yes | no | Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative ([paper](https://arxiv.org/abs/2410.05779)) |
 | [Khoj](https://github.com/khoj-ai/khoj) | 35.2k | 2026-03-26 | AGPL-3.0 | vector, files | no | yes | Personal AI brain over your notes and documents with semantic search and recall |
 | [Graphiti](https://github.com/getzep/graphiti) | 27.5k | 2026-06-17 | Apache-2.0 | graph, vector | yes | yes | Temporal knowledge graph engine behind Zep: bi-temporal edges, episodes and hybrid retrieval ([paper](https://arxiv.org/abs/2501.13956)) |
 | [Supermemory](https://github.com/supermemoryai/supermemory) | 27.1k | 2026-06-17 | MIT | vector | yes | yes | Universal memory API for ingesting documents, chats and web content with sub-second retrieval ([site](https://supermemory.ai)) |
@@ -117,9 +118,9 @@ maintained MCP server or integration exists, "Hosted" means a managed offering.
 | [MemClaw (Caura)](https://github.com/caura-ai/caura-memclaw) | 122 | 2026-06-16 | Apache-2.0 | graph, vector | no | yes | Graph and vector memory tool by Caura AI for persistent agent memory ([site](https://memclaw.net)) |
 | [memonto](https://github.com/shihanwan/memonto) | 98 | 2024-10-16 | Apache-2.0 | graph | no | no | Ontology-driven graph memory library that stores agent knowledge as RDF triples |
 | [MemClaw (Felo)](https://github.com/Felo-Inc/memclaw) | 32 | 2026-04-23 | MIT | vector | no | no | Vector-based agent memory tool by Felo for persisting and recalling agent context ([site](https://memclaw.me)) |
+| [Hyperspell](https://hyperspell.com) | - | - | closed | vector | no | yes | Managed memory and context API that connects user data sources for AI apps |
 | [llongterm](https://www.llongterm.com) | - | - | closed | graph | no | yes | Closed-source API offering persistent per-user minds as a long-term memory layer for LLM apps |
 | [WhyHow](https://www.whyhow.ai) | - | - | closed | graph | no | yes | Commercial knowledge-graph platform for building schema-controlled graphs as structured memory for RAG |
-| [Hyperspell](https://hyperspell.com) | - | - | closed | vector | no | yes | Managed memory and context API that connects user data sources for AI apps |
 
 ## MCP Memory Servers
 
@@ -157,9 +158,9 @@ listed because they define what users expect memory to do.
 | [ChatGPT memory](https://help.openai.com/en/articles/8590148-memory-faq) | - | - | closed | kv | no | yes | Saved memories plus reference-chat-history personalization in ChatGPT |
 | [Claude memory](https://www.anthropic.com/news/memory) | - | - | closed | files | no | yes | Project-scoped memory in Claude apps plus a developer memory tool with context editing in the API |
 | [Gemini personalization](https://support.google.com/gemini/answer/15637730) | - | - | closed | kv | no | yes | Past-chat recall and personal context settings in Gemini |
+| [Glean](https://www.glean.com) | - | - | closed | vector, graph | no | yes | Enterprise work assistant with a knowledge graph and personal memory over company data |
 | [Graphlit](https://graphlit.com) | - | - | closed | graph, vector | yes | yes | Managed API platform that ingests unstructured content into a knowledge graph plus vector index for agents |
 | [SID](https://www.sid.ai) | - | - | closed | vector | no | yes | Closed-source retrieval API connecting user accounts (email, drive, chat) as personal context for LLM apps |
-| [Glean](https://www.glean.com) | - | - | closed | vector, graph | no | yes | Enterprise work assistant with a knowledge graph and personal memory over company data |
 
 ## Framework Memory Modules
 
@@ -169,9 +170,10 @@ listed because they define what users expect memory to do.
 | [AutoGen Teachability](https://github.com/microsoft/autogen) | 59.0k | 2026-04-15 | CC-BY-4.0 | vector | no | no | Teachable agents that persist user teachings to a vector store across conversations |
 | [CrewAI memory](https://github.com/crewAIInc/crewAI) | 53.7k | 2026-06-17 | MIT | vector, sql | no | yes | Built-in short-term, long-term and entity memory for crews of agents |
 | [LlamaIndex memory](https://github.com/run-llama/llama_index) | 50.2k | 2026-06-17 | MIT | vector | no | no | Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents |
-| [Agno memory](https://github.com/agno-agi/agno) | 40.7k | 2026-06-17 | Apache-2.0 | vector, sql | no | yes | Session storage plus user memories built into the Agno agent framework |
+| [Agno memory](https://github.com/agno-agi/agno) | 40.7k | 2026-06-17 | Apache-2.0 | vector, sql | no | no | Session storage plus user memories built into the Agno agent framework |
 | [LangGraph persistence](https://github.com/langchain-ai/langgraph) | 35.0k | 2026-06-17 | MIT | kv, sql | no | yes | Checkpointers and cross-thread memory store underlying LangChain agent persistence |
 | [Semantic Kernel memory](https://github.com/microsoft/semantic-kernel) | 28.1k | 2026-06-17 | MIT | vector | no | no | Memory connectors and vector stores for .NET, Python and Java agents |
+| [Mastra](https://github.com/mastra-ai/mastra) | 25.2k | 2026-06-17 | NOASSERTION | vector, sql | yes | yes | TypeScript agent framework whose observational memory reports state-of-the-art LongMemEval scores ([site](https://mastra.ai)) |
 | [Google ADK memory](https://github.com/google/adk-python) | 20.1k | 2026-06-17 | Apache-2.0 | vector | no | yes | MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank |
 | [Julep](https://github.com/julep-ai/julep) | 6.6k | 2026-03-13 | - | vector, sql | no | yes | Stateful agent platform with built-in sessions and long-term document and user memory ([site](https://julep.ai)) |
 | [LangMem](https://github.com/langchain-ai/langmem) | 1.5k | 2026-06-12 | MIT | vector | no | no | LangChain SDK for semantic, episodic and procedural memory with a background memory manager |
@@ -222,15 +224,11 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 ### Surveys and Taxonomies
 
 - **[Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448)** (2026-06) - Characterizes agent memory as a stateful systems workload with a phase-aware profiler and taxonomy across ten representative systems.
-- **[EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning](https://arxiv.org/abs/2601.02163)** (2026-06) - Self-organizing memory OS with episodic trace formation, semantic consolidation, and reconstructive recollection over MemCell units.
-- **[An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration](https://arxiv.org/abs/2605.03989)** (2026-05) - Pluggable Experience-RAG agent skill with six modules for retrieval strategy routing; rule-based routing beats learned routing.
-- **[MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory](https://arxiv.org/abs/2605.15128)** (2026-05) - Visual-centric benchmark for multimodal agent memory with granularity-by-reasoning-depth matrix and gates against text shortcuts.
 - **[Agentic Frameworks for Reasoning Tasks: An Empirical Study](https://arxiv.org/abs/2604.16646)** (2026-04) - Empirical study of 22 agentic frameworks finding orchestration quality, memory control, and context growth drive performance gaps.
 - **[Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224)** (2026-04) - Reviews LLM agent externalization across memory, skills, protocols, and harness engineering, mapping trade-offs and open challenges.
 - **[Human Cognition in Machines: A Unified Perspective of World Models](https://arxiv.org/abs/2604.16592)** (2026-04) - Unified cognitive survey of world models covering memory, perception, reasoning, and metacognition; introduces Epistemic World Models.
 - **[Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents](https://arxiv.org/abs/2603.04814)** (2026-03) - Cost-performance comparison of long-context LLMs vs fact-based memory; memory wins cost efficiency after about 10 turns at 100k context.
-- **[Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models](https://arxiv.org/abs/2603.01822)** (2026-03) - Mechanistic interpretability study finding human-like strategic semantic memory search behavior across LLM layers.
-- **[Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761)** (2026-03) - Roadmap for modular memory combining in-context learning for fast adaptation with weight updates for consolidation in lifelong agents.
+- **[Position: Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761)** (2026-03, ICML 2026) - Roadmap for modular memory combining in-context learning for fast adaptation with weight updates for consolidation in lifelong agents.
 - **[Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions](https://arxiv.org/abs/2602.22680)** (2026-02) - Capability-oriented review of personalized LLM agents with taxonomy over user profiling, memory, planning, and action execution.
 - **[Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey](https://arxiv.org/abs/2602.06052)** (2026-01) - Unified taxonomy of foundation agent memory by substrate, cognitive mechanism, and subject; reviews learning policies and benchmarks.
 - **[Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2512.13564)** (2025-12) - Surveys agent memory through forms, functions, and dynamics lenses, distinguishing it from LLM memory, RAG, and context engineering.
@@ -242,6 +240,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[Digital Forgetting in Large Language Models: A Survey of Unlearning Methods](https://arxiv.org/abs/2404.02062)** (2025-04) - Surveys digital forgetting and unlearning in LLMs, covering retraining, machine unlearning, prompting, and forgetting guarantees.
 - **[From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs](https://arxiv.org/abs/2504.15965)** (2025-04) - Links human memory to LLM memory and proposes a 3D taxonomy by object, form, and time with open issues in personal and system memory.
 - **[Human-inspired Perspectives: A Survey on AI Long-term Memory](https://arxiv.org/abs/2411.00489)** (2025-01) - Maps human long-term memory mechanisms to parametric and non-parametric AI memory and proposes the SALM cognitive architecture.
+- **[Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427)** (2023-09, TMLR 2024) - CoALA framework organizing language agents by memory (working, episodic, semantic, procedural), action space and decision making. [[code](https://github.com/ysymyth/awesome-language-agents)]
 
 ### Foundations
 
@@ -281,13 +280,13 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection](https://arxiv.org/abs/2602.21394)** (2026-02) - Multimodal phishing-URL detection agent using episodic memory of past reasoning trajectories; +13.6% recall over baselines.
 - **[Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents](https://arxiv.org/abs/2601.14287)** (2026-01) - Lightweight construction with dynamic memory-chain evolution; 7.5-10.4 point gains on LoCoMo/LongMemEval at ~2.7% token cost.
 - **[Continuum Memory Architectures for Long-Horizon LLM Agents](https://arxiv.org/abs/2601.09913)** (2026-01) - Continuum memory architecture coordinating working, episodic, and semantic stores for long-horizon agent stability and recall.
+- **[EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning](https://arxiv.org/abs/2601.02163)** (2026-01) - Self-organizing memory OS with episodic trace formation, semantic consolidation, and reconstructive recollection over MemCell units.
 - **[LLM-as-RNN: A Recurrent Language Model for Memory Updates and Sequence Prediction](https://arxiv.org/abs/2601.13352)** (2026-01) - Inference-only framework turning frozen LLMs into recurrent predictors with a natural-language memory state rewritten each step.
 - **[MemoBrain: Executive Memory as an Agentic Brain for Reasoning](https://arxiv.org/abs/2601.08079)** (2026-01) - Executive memory co-pilot with trajectory folding and selective flush; outperforms baselines on GAIA and BrowseComp-Plus.
 - **[SimpleMem: Efficient Lifelong Memory for LLM Agents](https://arxiv.org/abs/2601.02553)** (2026-01) - Semantic compression, recursive consolidation and adaptive retrieval; +26.4% F1 on LoCoMo with up to 30x fewer tokens.
 - **[Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](https://arxiv.org/abs/2512.12818)** (2025-12) - Four memory networks (facts, experiences, entity summaries, beliefs) with temporal priming retrieval; beats full-context models.
 - **[Memory Bear AI: A Breakthrough from Memory to Cognition](https://arxiv.org/abs/2512.20651)** (2025-12) - Cognitive-science memory architecture (ACT-R, Ebbinghaus) with semantic pruning and self-reflection; ~90% token cuts, beats Mem0.
 - **[Episodic Memory in Agentic Frameworks: Suggesting Next Steps in Workflow Creation](https://arxiv.org/abs/2511.17775)** (2025-11) - Episodic store of workflow traces used to retrieve similar histories and suggest next steps during agentic workflow creation.
-- **[A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110)** (2025-10) - Zettelkasten-inspired agentic memory with self-linking and self-evolving notes for dynamic long-term memory organization.
 - **[CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension](https://arxiv.org/abs/2510.05520)** (2025-10, NeurIPS 2025) - Piaget-inspired memory with incremental overlapping clustering and prune-and-grow retrieval for long-document comprehension.
 - **[Improving Code Localization with Repository Memory](https://arxiv.org/abs/2510.01003)** (2025-10) - Repository memory from commit history and linked issues improving code localization for software engineering agents on SWE-bench.
 - **[LightMem: Lightweight and Efficient Memory-Augmented Generation](https://arxiv.org/abs/2510.18866)** (2025-10) - Atkinson-Shiffrin-inspired pipeline with sensory filtering, topic-aware short-term memory, and sleep-time updates; 100x fewer tokens.
@@ -296,15 +295,17 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science](https://arxiv.org/abs/2508.03341)** (2025-08) - Self-organizing memory with autonomous episode segmentation and predict-calibrate knowledge distillation; 88% fewer tokens used.
 - **[H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents](https://arxiv.org/abs/2507.22925)** (2025-07) - Four-level hierarchical memory with positional index encoding for layer-by-layer retrieval and feedback-driven weight updates.
 - **[MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957)** (2025-07) - Multi-agent memory with six specialized components, active retrieval, and a meta memory manager; +35% over RAG on ScreenshotVQA.
+- **[MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724)** (2025-07) - Memory operating system treating memory as a schedulable resource, unifying explicit, activation, and parameter-level memory.
 - **[MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations](https://arxiv.org/abs/2507.21428)** (2025-07) - Short-term memory for dynamic MCP tool sets across turns; autonomous mode reaches 90-94% tool-removal efficiency over 13 LLMs.
-- **[MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724)** (2025-05) - Memory operating system treating memory as a schedulable resource, unifying explicit, activation, and parameter-level memory.
 - **[Memory OS of AI Agent](https://aclanthology.org/2025.emnlp-main.1318.pdf)** (2025-05, EMNLP 2025) - MemoryOS: OS-inspired segment-page hierarchical memory with storage, updating, retrieval, and generation modules; +49% F1 on LoCoMo.
 - **[Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413)** (2025-04) - Production memory layer extracting and consolidating conversation facts; Mem0g variant adds graph-structured relational memory.
 - **[MemInsight: Autonomous Memory Augmentation for LLM Agents](https://arxiv.org/abs/2503.21760)** (2025-03) - Autonomous attribute mining structures and filters salient interaction history for QA, recommendation and summarization.
+- **[A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110)** (2025-02) - Zettelkasten-inspired agentic memory with self-linking and self-evolving notes for dynamic long-term memory organization.
 - **[On the Structural Memory of LLM Agents](https://arxiv.org/abs/2412.15266)** (2024-12) - Empirical study of memory structures and retrieval methods; mixed structures prove most robust across tasks and noise.
 - **[Human-inspired Episodic Memory for Infinite Context LLMs](https://arxiv.org/abs/2407.09450)** (2024-07, ICLR 2025) - EM-LLM segments token streams into episodic events via surprise and graph refinement; two-stage recall handles 10M-token contexts. [[code](https://github.com/em-llm/EM-LLM-model)]
 - **[Memoro: Using Large Language Models to Realize a Concise Interface for Real-Time Memory Augmentation](https://dl.acm.org/doi/10.1145/3613904.3642450)** (2024-05, CHI 2024) - Wearable audio memory assistant with queryless proactive retrieval that boosts recall confidence with minimal device interaction.
 - **[MemLLM: Finetuning LLMs to Use An Explicit Read-Write Memory](https://arxiv.org/abs/2404.11672)** (2024-04) - Finetunes LLMs to call read/write API functions over an explicit structured triple memory, improving factuality and interpretability.
+- **[MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)** (2023-10) - Virtual context management that pages information between an in-context working set and external storage, OS-style. [[code](https://github.com/letta-ai/letta)]
 
 ### Graph and Temporal Memory
 
@@ -333,7 +334,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction](https://arxiv.org/abs/2602.12204)** (2026-02) - Consolidation-aware router distills frequent episodic attention retrievals into parametric memory; 37.8x attention compute cut.
 - **[Memory Retrieval in Transformers: Insights from The Encoding Specificity Principle](https://arxiv.org/abs/2601.20282)** (2026-01) - Maps transformer attention to encoding specificity: Q as retrieval context, K as memory index, V as content; finds retrieval neurons.
 - **[S3-Attention: Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference](https://arxiv.org/abs/2601.17702)** (2026-01) - O(1)-GPU-memory long-context inference using SAE features and a CPU inverted index instead of KV cache, near full-context quality.
-- **[Nested Learning: The Illusion of Deep Learning Architecture](https://arxiv.org/abs/2512.24695)** (2025-12) - Unifies optimizers and test-time-training layers as nested memory; HOPE combines Titans attention with self-modifying FFNs.
+- **[Nested Learning: The Illusion of Deep Learning Architectures](https://arxiv.org/abs/2512.24695)** (2025-12, NeurIPS 2025) - Unifies optimizers and test-time-training layers as nested memory; HOPE combines Titans attention with self-modifying FFNs.
 - **[Pretraining with Hierarchical Memories: Separating Long-Tail and Common Knowledge](https://arxiv.org/abs/2510.02375)** (2025-10) - Small anchor model fetches context-dependent parameter blocks from a memory bank; 160M model matches a 2x larger standard model.
 - **[MLP Memory: A Retriever-Pretrained Memory for Large Language Models](https://arxiv.org/abs/2508.01832)** (2025-08) - MLP pretrained to imitate a kNN retriever compresses the datastore into differentiable memory; +12.3% QA, 2.5x faster than RAG.
 - **[OpenUnlearning: Accelerating LLM Unlearning via Unified Benchmarking of Methods and Metrics](https://arxiv.org/abs/2506.12618)** (2025-06) - Unified framework integrating LLM unlearning algorithms and evaluation metrics for comparable, robust forgetting research.
@@ -344,8 +345,8 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[MeMo: Towards Language Models with Associative Memory Mechanisms](https://arxiv.org/abs/2502.12851)** (2025-02) - Layered correlation-matrix architecture that explicitly memorizes token sequences, enabling one-shot learning and exact forgetting.
 - **[Towards Effective Evaluation and Comparisons for LLM Unlearning Methods](https://openreview.net/forum?id=aLLuYpn83y)** (2025-02, ICLR 2025) - Unlearning-with-calibration evaluation framework; recommends extraction strength as the primary unlearning metric.
 - **[Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models](https://aclanthology.org/2025.coling-main.252.pdf)** (2025-01, COLING 2025) - AltPO pairs negative feedback on the forget set with plausible alternative responses, improving forget quality and utility.
-- **[Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663)** (2025-01) - Neural long-term memory module that learns to memorize at test time, combined with attention for very large effective contexts.
 - **[Memory Layers at Scale](https://arxiv.org/abs/2412.09764)** (2024-12) - Scales trainable key-value memory layers as sparse lookup capacity without extra FLOPs, improving factual tasks vs dense and MoE.
+- **[Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663)** (2024-12) - Neural long-term memory module that learns to memorize at test time, combined with attention for very large effective contexts.
 - **[Self-Updatable Large Language Models by Integrating Context into Model Parameters](https://arxiv.org/abs/2410.00487)** (2024-10, ICLR 2025) - SELF-PARAM distills context into parameters by minimizing KL to a context-conditioned teacher; zero extra storage.
 - **[Memory3: Language Modeling with Explicit Memory](https://doi.org/10.4208/jml.240708)** (2024-09, Journal of Machine Learning) - LLM with explicit memory and a memory circuit theory, cutting training and inference cost via compressed external knowledge.
 - **[ELDER: Enhancing Lifelong Model Editing with Mixture-of-LoRA](https://arxiv.org/abs/2408.11869)** (2024-08, AAAI 2025) - Lifelong model editing with mixture-of-LoRA routing and a deferral mechanism that preserves general capabilities.
@@ -357,13 +358,17 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[Compressed Context Memory for Online Language Model Interaction](https://arxiv.org/abs/2312.03414)** (2023-12, ICLR 2024) - Online compression of accumulating context via conditional LoRA; up to 5x memory reduction with preserved quality.
 - **[Large Language Model Unlearning](https://arxiv.org/abs/2310.10683)** (2023-10, NeurIPS 2024) - Gradient-ascent unlearning with random-output loss removes harmful behaviors; early systematic study of LLM unlearning.
 - **[Unlearn What You Want to Forget: Efficient Unlearning for LLMs](https://aclanthology.org/anthology-files/pdf/emnlp/2023.emnlp-main.738.pdf)** (2023-10, EMNLP 2023) - EUL removes specific user data with lightweight unlearning layers and fusion, avoiding full retraining.
+- **[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)** (2022-10, ICLR 2023) - MEMIT: edits thousands of factual associations at once by spreading updates across critical MLP layers. [[code](https://github.com/kmeng01/memit)]
+- **[Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262)** (2022-02, NeurIPS 2022) - ROME: locates factual associations in MLP layers and edits them directly in weights via rank-one updates. [[code](https://github.com/kmeng01/rome)]
 
 ### Retrieval-Centric Memory
 
+- **[An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration](https://arxiv.org/abs/2605.03989)** (2026-05) - Pluggable Experience-RAG agent skill with six modules for retrieval strategy routing; rule-based routing beats learned routing.
 - **[MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval](https://arxiv.org/abs/2605.06132)** (2026-05) - 0.6B/4B rerankers distilled from LLMs with calibrated scoring; SOTA on LoCoMo and LongMemEval at low inference latency.
 - **[Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall](https://arxiv.org/abs/2605.04897)** (2026-05) - True Memory: six-layer retrieval-centered architecture over verbatim events with novelty/salience/prediction-error encoding gate.
 - **[SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval](https://arxiv.org/abs/2604.02431)** (2026-04) - Routes queries to specialized retrieval pipelines; SOTA on LongMemEval_M with CPU-only inference and no LLM at query time.
 - **[Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473)** (2026-03) - Cross-ablation of write/retrieve/utilize stages shows retrieval dominates performance and raw chunk storage remains strong.
+- **[Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models](https://arxiv.org/abs/2603.01822)** (2026-03) - Mechanistic interpretability study finding human-like strategic semantic memory search behavior across LLM layers.
 - **[MemR3: Memory Retrieval via Reflective Reasoning for LLM Agents](https://arxiv.org/abs/2512.20237)** (2025-12) - Closed-loop retrieve/reflect/respond controller with an evidence-gap state tracker; improves LoCoMo across memory backends.
 - **[ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning](https://ojs.aaai.org/index.php/AAAI/article/view/40644)** (2025-11, AAAI 2026) - Dynamic memory workspace with a metacognitive regulation loop for stateful reasoning; beats baselines on NarrativeQA.
 - **[WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research](https://arxiv.org/abs/2509.13312)** (2025-09) - Planner/writer dual agents with an evidence memory bank and dynamic outlines; SOTA on DeepResearch Bench.
@@ -418,10 +423,10 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 ### Multi-Agent Memory
 
 - **[CoMIC: Collaborative Memory and Insights Circulation for Long-Horizon LLM Agents in Cloud-Edge Systems](https://arxiv.org/abs/2606.00756)** (2026-05) - Cloud-edge collaborative memory with decentralized execution and centralized reflection to circulate reusable insights across agents.
-- **[Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models](https://arxiv.org/abs/2601.07978)** (2026-05) - Independent evaluation of long-term memory backends in multi-agent systems measuring accuracy, latency, resource use, and total cost.
 - **[Bolzano: Case Studies in LLM-Assisted Mathematical Research](https://arxiv.org/abs/2604.16989)** (2026-04) - Multi-agent LLM system for math research with persistent cross-turn knowledge base coordinating proving and verification agents.
 - **[MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022)** (2026-03) - Self-play memory bank with CRUD insights and TrueSkill prompt evolution; GPT-4o-mini win rate 25.1% to 49.5% in text games.
 - **[AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352)** (2026-01) - Constructor, retriever, judge and refresher agents manage multi-granularity memory; beats baselines on LoCoMo, 80% fewer tokens.
+- **[Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models](https://arxiv.org/abs/2601.07978)** (2026-01) - Independent evaluation of long-term memory backends in multi-agent systems measuring accuracy, latency, resource use, and total cost.
 - **[E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory](https://arxiv.org/abs/2601.21714)** (2026-01) - Master-assistant agents keep uncompressed contexts as memory nodes; SOTA on LoCoMo and HotpotQA with 70% token reduction.
 - **[Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory](https://arxiv.org/abs/2508.08997)** (2025-08) - Role-aligned structured per-agent memories updated from own outputs; +38.6% on PDDL planning with high token efficiency.
 - **[RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903)** (2025-08) - Role- and stage-aware routing of memory subsets under token budgets; 25-47% token reduction on multi-hop QA.
@@ -430,6 +435,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 ### Multimodal Memory
 
 - **[Deco: Extending Personal Physical Objects into Pervasive AI Companion through a Dual-Embodiment Framework](https://arxiv.org/abs/2605.03882)** (2026-05) - Dual-embodiment AR framework turning personal objects into AI companions with reciprocal memory to sustain emotional bonds.
+- **[MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory](https://arxiv.org/abs/2605.15128)** (2026-05) - Visual-centric benchmark for multimodal agent memory with granularity-by-reasoning-depth matrix and gates against text shortcuts.
 - **[EpiAgent: An Agent-Centric System for Ancient Inscription Restoration](https://arxiv.org/abs/2604.09367)** (2026-04) - Agent for ancient inscription restoration using an Observe-Conceive-Execute-Reevaluate loop with historical experience memory.
 - **[Mosaic: Cross-Modal Clustering for Efficient Video Understanding](https://arxiv.org/abs/2604.10060)** (2026-04) - Cross-modal clustering over VLM KV caches as the unit of cache organization for long-video inference; up to 1.38x speedups.
 - **[OMNI-SIMPLEMEM: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory](https://arxiv.org/abs/2604.00131)** (2026-04) - Multimodal memory with selective ingestion and pyramid retrieval, discovered by an autonomous research pipeline; SOTA LoCoMo.
@@ -437,8 +443,8 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[MMA: Multimodal Memory Agent](https://arxiv.org/abs/2602.16493)** (2026-02) - Multimodal memory agent assigning dynamic reliability scores to retrieved items; MMA-Bench reveals a visual reassurance effect.
 - **[TeleMem: Building Long-Term and Multimodal Memory for Agentic AI](https://arxiv.org/abs/2601.06037)** (2026-01) - Narrative-grounded writing pipeline plus ReAct video reasoning; +19% accuracy over Mem0 with 43% fewer tokens on ZH-4O.
 - **[MemVerse: Multimodal Memory for Lifelong Learning Agents](https://arxiv.org/abs/2512.03627)** (2025-12) - Pairs retrieval-based long-term store with parametric fast memory and periodic distillation for lifelong multimodal agents.
-- **[Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736)** (2025-10) - M3-Agent builds entity-centric episodic and semantic memory from continuous video and audio, RL-trained; introduces M3-Bench.
 - **[MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2508.19236)** (2025-08) - Perceptual-cognitive memory bank inspired by dual-memory systems raises success on long-horizon robot manipulation.
+- **[Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736)** (2025-08) - M3-Agent builds entity-centric episodic and semantic memory from continuous video and audio, RL-trained; introduces M3-Bench.
 - **[Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval](https://arxiv.org/abs/2506.03141)** (2025-06) - Uses retrieved historical context frames as memory for scene-consistent interactive long video generation.
 - **[Ella: Embodied Social Agents with Lifelong Memory](https://arxiv.org/abs/2506.24019)** (2025-06) - Embodied social agent with name-centric semantic and spatiotemporal episodic memory for lifelong learning in a 3D open world.
 - **[Towards General Continuous Memory for Vision-Language Models](https://arxiv.org/abs/2505.17670)** (2025-05) - CoMEM encodes multimodal knowledge into compact continuous embeddings via the VLM plus a Q-Former; 1.2% trainable params.
@@ -450,7 +456,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 - **[PSI: Shared State as the Missing Layer for Coherent AI-Generated Instruments in Personal AI Agents](https://arxiv.org/abs/2604.08529)** (2026-04) - Shared-state layer connecting generated personal AI modules via a personal context bus with writeback for cross-module reasoning.
 - **[TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation](https://arxiv.org/abs/2604.07894)** (2026-04) - Dynamic memory evolution plus context-distilled self-learning; outperforms Mem0 on long-horizon personalization benchmarks.
 - **[Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation](https://arxiv.org/abs/2603.13017)** (2026-03) - Distills interactions into structured composites: 11x token compression keeps 96% retrieval MRR; BM25 degrades, vectors do not.
-- **[O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents](https://arxiv.org/abs/2511.13593)** (2025-12) - Active user-profiling memory with hierarchical retrieval of persona attributes and topics; SOTA on LoCoMo and PERSONAMEM.
+- **[O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents](https://arxiv.org/abs/2511.13593)** (2025-11) - Active user-profiling memory with hierarchical retrieval of persona attributes and topics; SOTA on LoCoMo and PERSONAMEM.
 - **[PRINCIPLES: Synthetic Strategy Memory for Proactive Dialogue Agents](https://aclanthology.org/2025.findings-emnlp.1164.pdf)** (2025-09, EMNLP 2025 Findings) - Strategy-principle memory mined from offline self-play guides proactive dialogue; better success in support and persuasion.
 - **[On Memory Construction and Retrieval for Personalized Conversational Agents](https://arxiv.org/abs/2502.05589)** (2025-02, ICLR 2025) - SeCom builds segment-level memory with LLMLingua-2 compression denoising; beats turn and session granularity on LoCoMo.
 
@@ -477,6 +483,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 | [AMemGym](https://arxiv.org/abs/2603.01966) | [2603.01966](https://arxiv.org/abs/2603.01966) | Interactive environment for online memory-policy evaluation with synthetic user profiles and state-evolution trajectories |
 | [DialSim](https://arxiv.org/abs/2406.13144) | [2406.13144](https://arxiv.org/abs/2406.13144) | Real-time dialogue simulator over long multi-party TV-show conversations testing long-term conversational memory |
 | [EvolMem](https://arxiv.org/abs/2601.03543) | [2601.03543](https://arxiv.org/abs/2601.03543) | Cognitive-driven multi-session dialogue memory covering declarative and non-declarative (habituation) memory types |
+| [GoodAI LTM Benchmark](https://github.com/GoodAI/goodai-ltm-benchmark) | - | Interleaved long-conversation tasks probing continual learning and long-term memory under distraction |
 | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf) | - | Long-order chronological conversations quantifying how LLM memory of dialogue history degrades over time |
 | [LoCoMo](https://github.com/snap-research/locomo) | [2402.17753](https://arxiv.org/abs/2402.17753) | Very long-term multi-session conversational memory: QA, event summarization, multimodal dialogue generation |
 | [LoCoMo-Plus](https://arxiv.org/abs/2602.10715) | [2602.10715](https://arxiv.org/abs/2602.10715) | Cognitive memory beyond facts: applying latent user goals/values under cue-trigger semantic disconnect |
@@ -484,6 +491,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 | [MADial-Bench](https://arxiv.org/abs/2409.15240) | [2409.15240](https://arxiv.org/abs/2409.15240) | Memory-augmented dialogue generation with cognitive-science-based memory recall and recognition metrics |
 | [Mem-Gallery](https://arxiv.org/abs/2601.03515) | [2601.03515](https://arxiv.org/abs/2601.03515) | Multimodal multi-session conversations; memory extraction/adaptation, reasoning, and knowledge management across 13 systems |
 | [MemEmo](https://arxiv.org/abs/2602.23944) | [2602.23944](https://arxiv.org/abs/2602.23944) | Emotional memory in agents: emotion extraction, emotional memory updating, emotion-aware QA (HLME dataset) |
+| [MSC (Multi-Session Chat)](https://parl.ai/projects/msc/) | [2107.07567](https://arxiv.org/abs/2107.07567) | Foundational multi-session open-domain dialogue dataset for consistency and persona memory across sessions |
 | [RealMem](https://arxiv.org/abs/2601.06966) | [2601.06966](https://arxiv.org/abs/2601.06966) | 2,000+ cross-session project-oriented dialogues in 11 scenarios with evolving goals, states, and temporal reasoning |
 | [RefMem-Bench](https://arxiv.org/abs/2606.01223) | [2606.01223](https://arxiv.org/abs/2606.01223) | Reflective memory in long-horizon dialogue: annotated QA requiring synthesis of fragmented cues, not explicit recall |
 | [RHELM](https://arxiv.org/abs/2605.31086) | [2605.31086](https://arxiv.org/abs/2605.31086) | One-year virtual life trajectories of 10 personas (500K-1M tokens) with heterogeneous sources; 7 question types |
@@ -497,10 +505,12 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 | [AgentLongBench](https://arxiv.org/abs/2601.20730) | [2601.20730](https://arxiv.org/abs/2601.20730) | Controllable long-context agent eval via environment rollouts from 32K to 4M tokens using lateral thinking puzzles |
 | [BABILong](https://github.com/booydar/babilong) | [2406.10149](https://arxiv.org/abs/2406.10149) | Needle-in-haystack reasoning: bAbI tasks embedded in distractor text scaling to millions of tokens |
 | [HotpotQA](https://hotpotqa.github.io) | [1809.09600](https://arxiv.org/abs/1809.09600) | 113K Wikipedia multi-hop QA pairs with supporting-fact supervision; common substrate for memory retrieval evals |
+| [InfiniteBench](https://github.com/OpenBMB/InfiniteBench) | [2402.13718](https://arxiv.org/abs/2402.13718) | Tasks averaging over 100k tokens spanning retrieval, math, code and QA for very long context |
 | [LongBench](https://github.com/THUDM/LongBench) | [2308.14508](https://arxiv.org/abs/2308.14508) | Bilingual multitask suite: 21 datasets over single/multi-doc QA, summarization, few-shot, synthetic, code tasks |
 | [LongBench v2](https://longbench2.github.io) | [2412.15204](https://arxiv.org/abs/2412.15204) | 503 multiple-choice questions requiring deep understanding and reasoning over realistic long-context multitasks |
 | [LongGenBench](https://arxiv.org/abs/2409.02076) | [2409.02076](https://arxiv.org/abs/2409.02076) | Long-form generation following complex instructions (e.g. diary writing, menu design) in long-context LLMs |
 | [Minerva](https://arxiv.org/abs/2502.03358) | [2502.03358](https://arxiv.org/abs/2502.03358) | Programmable memory test tasks quantifying retrieval, reasoning, and state tracking over model context |
+| [NarrativeQA](https://github.com/google-deepmind/narrativeqa) | [1712.07040](https://arxiv.org/abs/1712.07040) | Question answering over full books and movie scripts requiring long-document narrative comprehension |
 | [RULER](https://github.com/NVIDIA/RULER) | [2404.06654](https://arxiv.org/abs/2404.06654) | Synthetic retrieval, multi-hop tracing, aggregation, and QA tasks probing models' effective context length |
 | [SCBench](https://arxiv.org/abs/2412.10319) | [2412.10319](https://arxiv.org/abs/2412.10319) | KV-cache lifecycle (generation, compression, retrieval, loading) in shared-context multi-turn settings |
 
@@ -571,7 +581,7 @@ Curated, not exhaustive. Selection favors papers that are peer-reviewed, introdu
 
 - [State of AI Agent Memory 2026](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - Mem0, 2026. Vendor view of benchmarks, architectures and production gaps; read with the usual salt.
 - [Context Engineering for Agents](https://blog.langchain.com/context-engineering-for-agents/) - LangChain, 2025. Write, select, compress, isolate: a four-operation view of agent context and memory.
-- [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Manus) - Manus, 2025. KV-cache-aware design, file-system-as-memory and attention manipulation lessons from a production agent.
+- [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - Manus, 2025. KV-cache-aware design, file-system-as-memory and attention manipulation lessons from a production agent.
 - [Context Rot: How Increasing Input Tokens Impacts LLM Performance](https://research.trychroma.com/context-rot) - Chroma, 2025. Empirical study showing degradation with input length, motivating retrieval and memory over context stuffing.
 - [Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents) - Cognition, 2025. Context and memory sharing arguments against naive multi-agent architectures.
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) - Anthropic, 2025. Compaction, structured note-taking and sub-agent contexts as memory primitives in production agents.
