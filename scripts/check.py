@@ -24,6 +24,9 @@ PAPER_CATS = {"surveys", "foundations", "memory-systems", "graph-temporal",
 PROJECT_CATS = {"engine", "mcp-server", "coding-agent", "framework-module",
                 "platform", "research-code", "storage"}
 BACKENDS = {"vector", "graph", "kv", "sql", "files", "parametric"}
+LICENSES = {"Apache-2.0", "MIT", "BSD-2-Clause", "BSD-3-Clause", "GPL-2.0",
+            "GPL-3.0", "AGPL-3.0", "LGPL-3.0", "MPL-2.0", "CC-BY-4.0",
+            "CC0-1.0", "Unlicense", "other"}
 BENCH_TYPES = {"dialogue", "long-context", "personalization", "agentic",
                "episodic", "safety"}
 RESOURCE_TYPES = {"blog", "talk", "course", "podcast", "community", "list"}
@@ -123,6 +126,11 @@ def main():
         for b in p.get("backend", []):
             if b not in BACKENDS:
                 err(f"{where}: bad backend {b!r}")
+        lic = p.get("license")
+        if lic is not None and lic not in LICENSES:
+            err(f"{where}: unknown license {lic!r} (use an SPDX id or 'other')")
+        if lic and not p.get("oss"):
+            err(f"{where}: license set on non-oss entry")
         n = p.get("name", "").lower()
         if n in seen_names:
             err(f"{where}: duplicate name")
