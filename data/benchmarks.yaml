@@ -1,0 +1,327 @@
+# Benchmarks and evaluation datasets. Schema: see CONTRIBUTING.md.
+
+- name: LifelongAgentBench
+  url: https://arxiv.org/abs/2505.11942
+  paper: '2505.11942'
+  type: agentic
+  measures: Lifelong learning of LLM agents accumulating experience across sequential tasks in interactive environments
+- name: Mem2ActBench
+  url: https://arxiv.org/abs/2601.19935
+  paper: '2601.19935'
+  type: agentic
+  measures: 400 memory-dependent tool-use tasks from 2,029 sessions; tests grounding tool parameters in long-term memory
+- name: MemBench
+  url: https://aclanthology.org/2025.findings-acl.989.pdf
+  paper: null
+  type: agentic
+  measures: Factual and reflective memory of LLM agents with accuracy, efficiency, and capacity metrics
+- name: MemHome
+  url: https://arxiv.org/abs/2604.10110
+  paper: '2604.10110'
+  type: agentic
+  measures: 'Memory-driven smart home control from real interaction logs: adding, updating, deleting, using memories'
+- name: MemoryAgentBench
+  url: https://arxiv.org/abs/2507.05257
+  paper: '2507.05257'
+  type: agentic
+  measures: 'Four memory-agent capabilities: accurate retrieval, test-time learning, long-range understanding, conflict resolution'
+- name: MemoryArena
+  url: https://arxiv.org/abs/2602.16313
+  paper: '2602.16313'
+  type: agentic
+  measures: Interdependent multi-session agentic tasks (web navigation, planning, search) jointly evaluating memory and action
+- name: MemoryBench
+  url: https://arxiv.org/abs/2510.17281
+  paper: '2510.17281'
+  type: agentic
+  measures: Continual learning from simulated service-time user feedback across domains, languages, and task types
+- name: MemoryRewardBench
+  url: https://arxiv.org/abs/2601.11969
+  paper: '2601.11969'
+  type: agentic
+  measures: 'Reward models judged on assessing long-term memory management: 10 settings, 8K-128K token contexts'
+- name: Momento
+  url: https://arxiv.org/abs/2606.00832
+  paper: '2606.00832'
+  type: agentic
+  measures: Tool-mediated multi-session tasks with persistent memory, temporal dependencies, and changing user goals
+- name: MT-Mind2Web
+  url: https://arxiv.org/abs/2402.15057
+  paper: '2402.15057'
+  type: agentic
+  measures: Multi-turn conversational web navigation requiring retention of instructions across turns (Mind2Web extension)
+- name: StreamBench
+  url: https://arxiv.org/abs/2406.08747
+  paper: '2406.08747'
+  type: agentic
+  measures: Continuous improvement of language agents over streaming input-feedback sequences across downstream tasks
+- name: WebArena
+  url: https://webarena.dev
+  paper: '2307.13854'
+  type: agentic
+  measures: Self-hosted realistic web environments (e-commerce, forum, gitlab, CMS) for long-horizon autonomous agent tasks
+- name: WebChoreArena
+  url: https://arxiv.org/abs/2506.01952
+  paper: '2506.01952'
+  type: agentic
+  measures: Tedious memory-intensive web tasks extending WebArena, stressing cross-page information retention
+- name: WorldMemArena
+  url: https://arxiv.org/abs/2605.29341
+  paper: '2605.29341'
+  type: agentic
+  measures: 'Multimodal agent memory via action-world interaction loop: writing, maintenance, retrieval, and use'
+- name: AMemGym
+  url: https://arxiv.org/abs/2603.01966
+  paper: '2603.01966'
+  type: dialogue
+  measures: Interactive environment for online memory-policy evaluation with synthetic user profiles and state-evolution trajectories
+- name: DialSim
+  url: https://arxiv.org/abs/2406.13144
+  paper: '2406.13144'
+  type: dialogue
+  measures: Real-time dialogue simulator over long multi-party TV-show conversations testing long-term conversational memory
+- name: EvolMem
+  url: https://arxiv.org/abs/2601.03543
+  paper: '2601.03543'
+  type: dialogue
+  measures: Cognitive-driven multi-session dialogue memory covering declarative and non-declarative (habituation) memory types
+- name: LOCCO
+  url: https://aclanthology.org/2025.findings-acl.1014.pdf
+  paper: null
+  type: dialogue
+  measures: Long-order chronological conversations quantifying how LLM memory of dialogue history degrades over time
+- name: LoCoMo
+  url: https://github.com/snap-research/locomo
+  paper: '2402.17753'
+  type: dialogue
+  measures: 'Very long-term multi-session conversational memory: QA, event summarization, multimodal dialogue generation'
+- name: LoCoMo-Plus
+  url: https://arxiv.org/abs/2602.10715
+  paper: '2602.10715'
+  type: dialogue
+  measures: 'Cognitive memory beyond facts: applying latent user goals/values under cue-trigger semantic disconnect'
+- name: LongMemEval
+  url: https://github.com/xiaowu0162/LongMemEval
+  paper: '2410.10813'
+  type: dialogue
+  measures: Five core long-term memory abilities of chat assistants under a unified indexing-retrieval-reading framework
+- name: MADial-Bench
+  url: https://arxiv.org/abs/2409.15240
+  paper: '2409.15240'
+  type: dialogue
+  measures: Memory-augmented dialogue generation with cognitive-science-based memory recall and recognition metrics
+- name: Mem-Gallery
+  url: https://arxiv.org/abs/2601.03515
+  paper: '2601.03515'
+  type: dialogue
+  measures: Multimodal multi-session conversations; memory extraction/adaptation, reasoning, and knowledge management across 13 systems
+- name: MemEmo
+  url: https://arxiv.org/abs/2602.23944
+  paper: '2602.23944'
+  type: dialogue
+  measures: 'Emotional memory in agents: emotion extraction, emotional memory updating, emotion-aware QA (HLME dataset)'
+- name: RealMem
+  url: https://arxiv.org/abs/2601.06966
+  paper: '2601.06966'
+  type: dialogue
+  measures: 2,000+ cross-session project-oriented dialogues in 11 scenarios with evolving goals, states, and temporal reasoning
+- name: RefMem-Bench
+  url: https://arxiv.org/abs/2606.01223
+  paper: '2606.01223'
+  type: dialogue
+  measures: 'Reflective memory in long-horizon dialogue: annotated QA requiring synthesis of fragmented cues, not explicit recall'
+- name: RHELM
+  url: https://arxiv.org/abs/2605.31086
+  paper: '2605.31086'
+  type: dialogue
+  measures: One-year virtual life trajectories of 10 personas (500K-1M tokens) with heterogeneous sources; 7 question types
+- name: StoryBench
+  url: https://arxiv.org/abs/2506.13356
+  paper: '2506.13356'
+  type: dialogue
+  measures: Long-term memory evaluation through multi-turn interactive story settings requiring sustained recall
+- name: StratMem-Bench
+  url: https://arxiv.org/abs/2604.26243
+  paper: '2604.26243'
+  type: dialogue
+  measures: 657 virtual-character dialogues with mandatory/auxiliary/irrelevant memory pools; strategic memory-use metrics
+- name: CloneMem
+  url: https://arxiv.org/abs/2601.07023
+  paper: '2601.07023'
+  type: episodic
+  measures: AI-clone memory over 1-3 years of non-conversational traces (diaries, social media, emails); state tracking
+- name: EGOSTREAM
+  url: https://arxiv.org/abs/2605.31557
+  paper: '2605.31557'
+  type: episodic
+  measures: Streaming episodic memory in egocentric vision; diagnostic questions across cognitive dimensions for MLLMs
+- name: Episodic Memory Benchmark
+  url: https://arxiv.org/abs/2501.13121
+  paper: '2501.13121'
+  type: episodic
+  measures: Episodic memory generation and evaluation tasks for LLMs with dedicated protocols for event recall
+- name: LifeBench
+  url: https://arxiv.org/abs/2603.03781
+  paper: '2603.03781'
+  type: episodic
+  measures: Long-horizon multi-source life events; integrative reasoning over fragmented digital traces (SOTA ~55%)
+- name: PerLTQA
+  url: https://aclanthology.org/2024.sighan-1.18.pdf
+  paper: null
+  type: episodic
+  measures: '8,593 questions over 30 personas combining semantic and episodic memory: classification, retrieval, synthesis'
+- name: STALE
+  url: https://arxiv.org/abs/2605.06527
+  paper: '2605.06527'
+  type: episodic
+  measures: 400 expert-validated implicit conflict scenarios testing detection of invalidated memories without explicit negation
+- name: SubtleMemory
+  url: https://arxiv.org/abs/2606.05761
+  paper: '2606.05761'
+  type: episodic
+  measures: 'Fine-grained relational memory discrimination: complementary/divergent/contradictory variants in long agent histories'
+- name: SuperMemory-VQA
+  url: https://arxiv.org/abs/2606.00825
+  paper: '2606.00825'
+  type: episodic
+  measures: 'Egocentric daily-activity VQA for long-horizon visual memory: object, location, intention, and scene recall'
+- name: AgentLongBench
+  url: https://arxiv.org/abs/2601.20730
+  paper: '2601.20730'
+  type: long-context
+  measures: Controllable long-context agent eval via environment rollouts from 32K to 4M tokens using lateral thinking puzzles
+- name: BABILong
+  url: https://github.com/booydar/babilong
+  paper: '2406.10149'
+  type: long-context
+  measures: 'Needle-in-haystack reasoning: bAbI tasks embedded in distractor text scaling to millions of tokens'
+- name: HotpotQA
+  url: https://hotpotqa.github.io
+  paper: '1809.09600'
+  type: long-context
+  measures: 113K Wikipedia multi-hop QA pairs with supporting-fact supervision; common substrate for memory retrieval evals
+- name: LongBench
+  url: https://github.com/THUDM/LongBench
+  paper: '2308.14508'
+  type: long-context
+  measures: 'Bilingual multitask suite: 21 datasets over single/multi-doc QA, summarization, few-shot, synthetic, code tasks'
+- name: LongBench v2
+  url: https://longbench2.github.io
+  paper: '2412.15204'
+  type: long-context
+  measures: 503 multiple-choice questions requiring deep understanding and reasoning over realistic long-context multitasks
+- name: LongGenBench
+  url: https://arxiv.org/abs/2409.02076
+  paper: '2409.02076'
+  type: long-context
+  measures: Long-form generation following complex instructions (e.g. diary writing, menu design) in long-context LLMs
+- name: Minerva
+  url: https://arxiv.org/abs/2502.03358
+  paper: '2502.03358'
+  type: long-context
+  measures: Programmable memory test tasks quantifying retrieval, reasoning, and state tracking over model context
+- name: RULER
+  url: https://github.com/NVIDIA/RULER
+  paper: '2404.06654'
+  type: long-context
+  measures: Synthetic retrieval, multi-hop tracing, aggregation, and QA tasks probing models' effective context length
+- name: SCBench
+  url: https://arxiv.org/abs/2412.10319
+  paper: '2412.10319'
+  type: long-context
+  measures: KV-cache lifecycle (generation, compression, retrieval, loading) in shared-context multi-turn settings
+- name: ATM-Bench
+  url: https://arxiv.org/abs/2603.01990
+  paper: '2603.01990'
+  type: personalization
+  measures: Long-term personalized referential memory QA over four years of multimodal multi-source private data
+- name: IMPLEXCONV
+  url: https://aclanthology.org/2025.emnlp-main.580.pdf
+  paper: null
+  type: personalization
+  measures: 2,500 examples of implicit reasoning over subtle semantic relationships in multi-session personalized dialogue
+- name: KnowMe-Bench
+  url: https://arxiv.org/abs/2601.04745
+  paper: '2601.04745'
+  type: personalization
+  measures: Person understanding from 4.7M-token autobiographical narratives; 3-tier eval from facts to motivations
+- name: KnowU-Bench
+  url: https://arxiv.org/abs/2604.08455
+  paper: '2604.08455'
+  type: personalization
+  measures: Online Android benchmark for proactive personalized agents inferring hidden preferences from behavioral traces
+- name: LaMP
+  url: https://lamp-benchmark.github.io
+  paper: '2304.11406'
+  type: personalization
+  measures: Seven personalized text classification and generation subtasks using user history and retrieval augmentation
+- name: MemDaily
+  url: https://arxiv.org/abs/2409.20163
+  paper: '2409.20163'
+  type: personalization
+  measures: Daily-life QA trajectories from the MemSim Bayesian simulator for evaluating personal assistant memory
+- name: MEMENTO
+  url: https://arxiv.org/abs/2505.16348
+  paper: '2505.16348'
+  type: personalization
+  measures: Two-stage eval of embodied agents using memory of object semantics and user behavioral patterns
+- name: PersonaBench
+  url: https://aclanthology.org/2025.findings-acl.49.pdf
+  paper: null
+  type: personalization
+  measures: Understanding personal information by accessing synthetic private user data; RAG-focused evaluation
+- name: PersonaFeedback
+  url: https://arxiv.org/abs/2506.12915
+  paper: '2506.12915'
+  type: personalization
+  measures: Large-scale human-annotated benchmark for personalized response generation given user personas
+- name: PersonaMem
+  url: https://arxiv.org/abs/2504.14225
+  paper: '2504.14225'
+  type: personalization
+  measures: Dynamic user profiling and personalized response generation as user profiles evolve across sessions
+- name: PersonaMem-v2
+  url: https://arxiv.org/abs/2512.06688
+  paper: '2512.06688'
+  type: personalization
+  measures: 1,000 personas, 300+ scenarios, 20K+ implicit preferences in up to 128K-token interactions; frontier LLMs 37-48%
+- name: PrefEval
+  url: https://github.com/amazon-science/PrefEval
+  paper: '2502.09597'
+  type: personalization
+  measures: '3,000 preference-query pairs over 20 topics: inferring, remembering, and following user preferences in long dialogue'
+- name: RealPref
+  url: https://arxiv.org/abs/2603.04191
+  paper: '2603.04191'
+  type: personalization
+  measures: 100 user profiles testing long-horizon preference following from explicit to implicit expressions
+- name: RPEval
+  url: https://arxiv.org/abs/2601.16621
+  paper: '2601.16621'
+  type: personalization
+  measures: 'Rational preference utilization: intent-reasoning dataset and multi-granularity protocol exposing filter bubbles'
+- name: AgentLAB
+  url: https://arxiv.org/abs/2602.16901
+  paper: '2602.16901'
+  type: safety
+  measures: 'Long-horizon attacks incl. memory poisoning: 5 attack types, 28 agent environments, 644 security test cases'
+- name: HaluMem
+  url: https://arxiv.org/abs/2511.03506
+  paper: '2511.03506'
+  type: safety
+  measures: Memory hallucination evaluation across memory extraction, updating, and question-answering operations
+- name: MPBench
+  url: https://arxiv.org/abs/2606.04329
+  paper: '2606.04329'
+  type: safety
+  measures: Memory poisoning attacks on LLM agents across write channels, structural vulnerabilities, and attack categories
+- name: PersistBench
+  url: https://arxiv.org/abs/2602.01146
+  paper: '2602.01146'
+  type: safety
+  measures: 'Memory retention safety: cross-domain leakage and memory-induced sycophancy as memory-specific failure modes'
+- name: RBI-Eval
+  url: https://arxiv.org/abs/2606.06055
+  paper: '2606.06055'
+  type: safety
+  measures: Probes when sensitive memories should stay unused, comparing behavior with and without sensitive memory access
