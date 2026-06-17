@@ -2,15 +2,15 @@
 # Schema: see CONTRIBUTING.md. Stars/license filled by generator.
 
 - name: Agentmemory
-  repo: elizaOS/agentmemory
-  category: engine
+  repo: rohitg00/agentmemory
+  category: coding-agent
   oss: true
   backend:
   - vector
   - sql
-  mcp: false
+  mcp: true
   hosted: false
-  desc: Simple Python memory library for agents with ChromaDB or Postgres backends from the elizaOS ecosystem
+  desc: Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks
 - name: cognee
   repo: topoteretes/cognee
   site: https://www.cognee.ai
