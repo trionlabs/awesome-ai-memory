@@ -1,16 +1,6 @@
 # Tools, engines, MCP servers, framework modules, platforms, storage.
 # Schema: see CONTRIBUTING.md. Stars/license filled by generator.
 
-- name: Agentmemory
-  repo: rohitg00/agentmemory
-  category: coding-agent
-  oss: true
-  backend:
-  - vector
-  - sql
-  mcp: true
-  hosted: false
-  desc: Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks
 - name: cognee
   repo: topoteretes/cognee
   site: https://www.cognee.ai
@@ -63,6 +53,16 @@
   mcp: true
   hosted: true
   desc: User-modeling memory layer with theory-of-mind representations for personalized agents
+- name: Hyperspell
+  repo: null
+  site: https://hyperspell.com
+  category: engine
+  oss: false
+  backend:
+  - vector
+  mcp: false
+  hosted: true
+  desc: Managed memory and context API that connects user data sources for AI apps
 - name: Khoj
   repo: khoj-ai/khoj
   category: engine
@@ -85,6 +85,17 @@
   hosted: true
   paper: '2310.08560'
   desc: Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory
+- name: LightRAG
+  repo: HKUDS/LightRAG
+  category: engine
+  oss: true
+  backend:
+  - graph
+  - vector
+  mcp: true
+  hosted: false
+  paper: '2410.05779'
+  desc: Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative
 - name: llongterm
   repo: null
   site: https://www.llongterm.com
@@ -323,6 +334,16 @@
   mcp: true
   hosted: false
   desc: Redis-backed working and long-term memory service with MCP and REST interfaces
+- name: Agentmemory
+  repo: rohitg00/agentmemory
+  category: coding-agent
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: true
+  hosted: false
+  desc: Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks
 - name: ByteRover (formerly Cipher)
   repo: campfirein/byterover-cli
   category: coding-agent
@@ -389,7 +410,7 @@
   - vector
   - sql
   mcp: false
-  hosted: true
+  hosted: false
   desc: Session storage plus user memories built into the Agno agent framework
 - name: AutoGen Teachability
   repo: microsoft/autogen
@@ -449,6 +470,17 @@
   mcp: false
   hosted: false
   desc: Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory
+- name: Julep
+  repo: julep-ai/julep
+  site: https://julep.ai
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: false
+  hosted: true
+  desc: Stateful agent platform with built-in sessions and long-term document and user memory
 - name: LangChain
   repo: langchain-ai/langchain
   site: https://www.langchain.com
@@ -487,6 +519,17 @@
   mcp: false
   hosted: false
   desc: 'Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents'
+- name: Mastra
+  repo: mastra-ai/mastra
+  site: https://mastra.ai
+  category: framework-module
+  oss: true
+  backend:
+  - vector
+  - sql
+  mcp: true
+  hosted: true
+  desc: TypeScript agent framework whose observational memory reports state-of-the-art LongMemEval scores
 - name: Semantic Kernel memory
   repo: microsoft/semantic-kernel
   category: framework-module
@@ -526,6 +569,17 @@
   mcp: false
   hosted: true
   desc: Past-chat recall and personal context settings in Gemini
+- name: Glean
+  repo: null
+  site: https://www.glean.com
+  category: platform
+  oss: false
+  backend:
+  - vector
+  - graph
+  mcp: false
+  hosted: true
+  desc: Enterprise work assistant with a knowledge graph and personal memory over company data
 - name: Graphlit
   repo: null
   site: https://graphlit.com
@@ -780,35 +834,3 @@
   mcp: false
   hosted: true
   desc: Open-source vector database with hybrid search and modular vectorizers
-- name: Julep
-  repo: julep-ai/julep
-  site: https://julep.ai
-  category: framework-module
-  oss: true
-  backend:
-  - vector
-  - sql
-  mcp: false
-  hosted: true
-  desc: Stateful agent platform with built-in sessions and long-term document and user memory
-- name: Hyperspell
-  repo: null
-  site: https://hyperspell.com
-  category: engine
-  oss: false
-  backend:
-  - vector
-  mcp: false
-  hosted: true
-  desc: Managed memory and context API that connects user data sources for AI apps
-- name: Glean
-  repo: null
-  site: https://www.glean.com
-  category: platform
-  oss: false
-  backend:
-  - vector
-  - graph
-  mcp: false
-  hosted: true
-  desc: Enterprise work assistant with a knowledge graph and personal memory over company data
