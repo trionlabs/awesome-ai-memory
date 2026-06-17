@@ -37,7 +37,7 @@
   desc: "Write, select, compress, isolate: a four-operation view of agent context and memory"
 
 - title: "Context Engineering for AI Agents: Lessons from Building Manus"
-  url: "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Manus"
+  url: "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus"
   source: Manus
   year: 2025
   type: blog
