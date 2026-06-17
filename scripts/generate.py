@@ -108,6 +108,12 @@ def fetch_meta(projects):
     return meta
 
 
+def badge_escape(s):
+    # shields.io static badges treat "-" as the label/message/color separator;
+    # a literal dash must be doubled, underscore doubled, space becomes underscore.
+    return s.replace("_", "__").replace("-", "--").replace(" ", "_")
+
+
 def fmt_stars(n):
     if n >= 1000:
         return f"{n / 1000:.1f}k"
@@ -204,7 +210,7 @@ def main():
         "UPDATED": meta.get("fetched_at") or datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     }
     for k, v in counts.items():
-        header = header.replace("{{" + k + "}}", v)
+        header = header.replace("{{" + k + "}}", badge_escape(v))
     out.append(header)
     out.append("")
 

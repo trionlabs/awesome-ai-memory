@@ -4,7 +4,7 @@
 ![Papers](https://img.shields.io/badge/papers-217-blue)
 ![Projects](https://img.shields.io/badge/projects-82-blue)
 ![Benchmarks](https://img.shields.io/badge/benchmarks-69-blue)
-![Updated](https://img.shields.io/badge/metadata-2026-06-17-green)
+![Updated](https://img.shields.io/badge/metadata-2026--06--17-green)
 
 Memory for LLMs and AI agents: the systems that let models remember across turns,
 sessions and lifetimes. This list covers the full stack - research papers, memory
