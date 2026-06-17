@@ -85,6 +85,10 @@
   paper: '2601.03543'
   type: dialogue
   measures: Cognitive-driven multi-session dialogue memory covering declarative and non-declarative (habituation) memory types
+- name: GoodAI LTM Benchmark
+  url: https://github.com/GoodAI/goodai-ltm-benchmark
+  type: dialogue
+  measures: Interleaved long-conversation tasks probing continual learning and long-term memory under distraction
 - name: LOCCO
   url: https://aclanthology.org/2025.findings-acl.1014.pdf
   paper: null
@@ -120,6 +124,11 @@
   paper: '2602.23944'
   type: dialogue
   measures: 'Emotional memory in agents: emotion extraction, emotional memory updating, emotion-aware QA (HLME dataset)'
+- name: MSC (Multi-Session Chat)
+  url: https://parl.ai/projects/msc/
+  paper: '2107.07567'
+  type: dialogue
+  measures: Foundational multi-session open-domain dialogue dataset for consistency and persona memory across sessions
 - name: RealMem
   url: https://arxiv.org/abs/2601.06966
   paper: '2601.06966'
@@ -200,6 +209,11 @@
   paper: '1809.09600'
   type: long-context
   measures: 113K Wikipedia multi-hop QA pairs with supporting-fact supervision; common substrate for memory retrieval evals
+- name: InfiniteBench
+  url: https://github.com/OpenBMB/InfiniteBench
+  paper: '2402.13718'
+  type: long-context
+  measures: Tasks averaging over 100k tokens spanning retrieval, math, code and QA for very long context
 - name: LongBench
   url: https://github.com/THUDM/LongBench
   paper: '2308.14508'
@@ -220,6 +234,11 @@
   paper: '2502.03358'
   type: long-context
   measures: Programmable memory test tasks quantifying retrieval, reasoning, and state tracking over model context
+- name: NarrativeQA
+  url: https://github.com/google-deepmind/narrativeqa
+  paper: '1712.07040'
+  type: long-context
+  measures: Question answering over full books and movie scripts requiring long-document narrative comprehension
 - name: RULER
   url: https://github.com/NVIDIA/RULER
   paper: '2404.06654'
