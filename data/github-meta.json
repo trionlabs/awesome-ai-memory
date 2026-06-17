@@ -1,0 +1,371 @@
+{
+  "fetched_at": "2026-06-17",
+  "repos": {
+    "AMAP-ML/SkillClaw": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-02",
+      "stars": 1937
+    },
+    "BAI-LAB/MemoryOS": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-04-28",
+      "stars": 1470
+    },
+    "EverMind-AI/EverMemOS": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 7594
+    },
+    "FalkorDB/falkordb": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-16",
+      "stars": 4589
+    },
+    "Felo-Inc/memclaw": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-04-23",
+      "stars": 32
+    },
+    "LangbaseInc/baseai": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-05-16",
+      "stars": 1258
+    },
+    "MemMachine/MemMachine": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 3119
+    },
+    "MemTensor/MemOS": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 9901
+    },
+    "MemoriLabs/Memori": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-15",
+      "stars": 15303
+    },
+    "Mirix-AI/MIRIX": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-06",
+      "stars": 3555
+    },
+    "NevaMind-AI/memU": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-14",
+      "stars": 13880
+    },
+    "SynaLinks/HybridAGI": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-05-08",
+      "stars": 900
+    },
+    "agentscope-ai/ReMe": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-10",
+      "stars": 3094
+    },
+    "agiresearch/A-mem": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2025-12-12",
+      "stars": 1052
+    },
+    "agno-agi/agno": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 40727
+    },
+    "aiming-lab/SimpleMem": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-05-21",
+      "stars": 3514
+    },
+    "alibaizhanov/mengram": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-15",
+      "stars": 178
+    },
+    "basicmachines-co/basic-memory": {
+      "archived": false,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-06-14",
+      "stars": 3249
+    },
+    "campfirein/byterover-cli": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-17",
+      "stars": 4856
+    },
+    "caura-ai/caura-memclaw": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-16",
+      "stars": 122
+    },
+    "chroma-core/chroma": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-16",
+      "stars": 28456
+    },
+    "crewAIInc/crewAI": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 53737
+    },
+    "facebookresearch/faiss": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 40308
+    },
+    "getzep/graphiti": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 27520
+    },
+    "getzep/zep": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 4676
+    },
+    "google/adk-python": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 20145
+    },
+    "julep-ai/julep": {
+      "archived": false,
+      "license": "-",
+      "pushed_at": "2026-03-13",
+      "stars": 6610
+    },
+    "khoj-ai/khoj": {
+      "archived": false,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-03-26",
+      "stars": 35175
+    },
+    "kingjulio8238/Memary": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2024-10-22",
+      "stars": 2623
+    },
+    "krohling/bondai": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2024-01-14",
+      "stars": 221
+    },
+    "langchain-ai/langchain": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 139514
+    },
+    "langchain-ai/langgraph": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 34971
+    },
+    "langchain-ai/langmem": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-12",
+      "stars": 1508
+    },
+    "letta-ai/letta": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-05-14",
+      "stars": 23370
+    },
+    "mem0ai/mem0": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 58743
+    },
+    "memodb-io/memobase": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-01-11",
+      "stars": 2760
+    },
+    "microsoft/autogen": {
+      "archived": false,
+      "license": "CC-BY-4.0",
+      "pushed_at": "2026-04-15",
+      "stars": 59015
+    },
+    "microsoft/graphrag": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 33804
+    },
+    "microsoft/semantic-kernel": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 28145
+    },
+    "milvus-io/milvus": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 44807
+    },
+    "mindverse/Second-Me": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2025-09-30",
+      "stars": 15583
+    },
+    "mkreyman/mcp-memory-keeper": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-06",
+      "stars": 127
+    },
+    "modelcontextprotocol/servers": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-17",
+      "stars": 87338
+    },
+    "nemori-ai/nemori": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-04-16",
+      "stars": 203
+    },
+    "neo4j/neo4j": {
+      "archived": false,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-06-08",
+      "stars": 16732
+    },
+    "neuml/txtai": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-16",
+      "stars": 12663
+    },
+    "nuster1128/MemEngine": {
+      "archived": false,
+      "license": "-",
+      "pushed_at": "2025-05-13",
+      "stars": 111
+    },
+    "plastic-labs/honcho": {
+      "archived": false,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-06-15",
+      "stars": 5224
+    },
+    "qdrant/qdrant": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-17",
+      "stars": 32390
+    },
+    "qhjqhj00/MemoRAG": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2025-09-11",
+      "stars": 2247
+    },
+    "redis/agent-memory-server": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-06-16",
+      "stars": 280
+    },
+    "rohitg00/agentmemory": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-15",
+      "stars": 23175
+    },
+    "run-llama/llama_index": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 50182
+    },
+    "shihanwan/memonto": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2024-10-16",
+      "stars": 98
+    },
+    "supermemoryai/supermemory": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 27116
+    },
+    "thedotmack/claude-mem": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-16",
+      "stars": 82811
+    },
+    "topoteretes/cognee": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-16",
+      "stars": 17859
+    },
+    "vectorize-io/hindsight": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-06-17",
+      "stars": 16494
+    },
+    "vesoft-inc/nebula": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-05-18",
+      "stars": 12220
+    },
+    "volcengine/MineContext": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-05-07",
+      "stars": 5388
+    },
+    "weaviate/weaviate": {
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "pushed_at": "2026-06-17",
+      "stars": 16337
+    }
+  }
+}
