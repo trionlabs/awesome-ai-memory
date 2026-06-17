@@ -1,0 +1,1311 @@
+# Research papers. Schema: see CONTRIBUTING.md.
+# Descriptions: one line, ASCII, no trailing period.
+
+- title: 'Human-inspired Perspectives: A Survey on AI Long-term Memory'
+  arxiv: '2411.00489'
+  date: 2025-01
+  venue: null
+  category: surveys
+  desc: Maps human long-term memory mechanisms to parametric and non-parametric AI memory and proposes the SALM cognitive architecture
+- title: Cognitive Memory in Large Language Models
+  arxiv: '2504.02441'
+  date: 2025-04
+  venue: null
+  category: surveys
+  desc: Examines memory types and mechanisms in LLMs and their role in reducing hallucination and enabling self-evolution
+- title: 'Digital Forgetting in Large Language Models: A Survey of Unlearning Methods'
+  arxiv: '2404.02062'
+  date: 2025-04
+  venue: null
+  category: surveys
+  desc: Surveys digital forgetting and unlearning in LLMs, covering retraining, machine unlearning, prompting, and forgetting guarantees
+- title: 'From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs'
+  arxiv: '2504.15965'
+  date: 2025-04
+  venue: null
+  category: surveys
+  desc: Links human memory to LLM memory and proposes a 3D taxonomy by object, form, and time with open issues in personal and system memory
+- title: 'A Survey of Machine Unlearning in Large Language Models: Methods, Challenges and Future Directions'
+  arxiv: '2503.01854'
+  date: 2025-05
+  venue: null
+  category: surveys
+  desc: Taxonomy of LLM unlearning to remove undesirable data influence without retraining; reviews methods, challenges, and future work
+- title: 'Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions'
+  arxiv: '2505.00675'
+  date: 2025-05
+  venue: null
+  category: surveys
+  desc: Categorizes AI memory representations and operations (integration, updating, indexing, forgetting, retrieval, compression) in four themes
+- title: A Survey of Machine Unlearning
+  arxiv: null
+  url: https://dl.acm.org/doi/full/10.1145/3749987
+  date: 2025-09
+  venue: null
+  category: surveys
+  desc: Surveys machine unlearning methods to remove data influence without full retraining, covering effectiveness, fairness, and privacy
+- title: A Survey on the Memory Mechanism of Large Language Model based Agents
+  arxiv: null
+  url: https://dl.acm.org/doi/pdf/10.1145/3748302
+  date: 2025-09
+  venue: null
+  category: surveys
+  desc: Systematic survey of memory module designs and evaluation methods for LLM agents, analyzing roles and limits across applications
+- title: 'Memory in the Age of AI Agents: A Survey'
+  arxiv: '2512.13564'
+  date: 2025-12
+  venue: null
+  category: surveys
+  desc: Surveys agent memory through forms, functions, and dynamics lenses, distinguishing it from LLM memory, RAG, and context engineering
+- title: 'Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey'
+  arxiv: '2602.06052'
+  date: 2026-01
+  venue: null
+  category: surveys
+  desc: Unified taxonomy of foundation agent memory by substrate, cognitive mechanism, and subject; reviews learning policies and benchmarks
+- title: 'Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions'
+  arxiv: '2602.22680'
+  date: 2026-02
+  venue: null
+  category: surveys
+  desc: Capability-oriented review of personalized LLM agents with taxonomy over user profiling, memory, planning, and action execution
+- title: 'Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents'
+  arxiv: '2603.04814'
+  date: 2026-03
+  venue: null
+  category: surveys
+  desc: Cost-performance comparison of long-context LLMs vs fact-based memory; memory wins cost efficiency after about 10 turns at 100k context
+- title: Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models
+  arxiv: '2603.01822'
+  date: 2026-03
+  venue: null
+  category: surveys
+  desc: Mechanistic interpretability study finding human-like strategic semantic memory search behavior across LLM layers
+- title: Modular Memory is the Key to Continual Learning Agents
+  arxiv: '2603.01761'
+  date: 2026-03
+  venue: null
+  category: surveys
+  desc: Roadmap for modular memory combining in-context learning for fast adaptation with weight updates for consolidation in lifelong agents
+- title: 'Agentic Frameworks for Reasoning Tasks: An Empirical Study'
+  arxiv: '2604.16646'
+  date: 2026-04
+  venue: null
+  category: surveys
+  desc: Empirical study of 22 agentic frameworks finding orchestration quality, memory control, and context growth drive performance gaps
+- title: 'Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering'
+  arxiv: '2604.08224'
+  date: 2026-04
+  venue: null
+  category: surveys
+  desc: Reviews LLM agent externalization across memory, skills, protocols, and harness engineering, mapping trade-offs and open challenges
+- title: 'Human Cognition in Machines: A Unified Perspective of World Models'
+  arxiv: '2604.16592'
+  date: 2026-04
+  venue: null
+  category: surveys
+  desc: Unified cognitive survey of world models covering memory, perception, reasoning, and metacognition; introduces Epistemic World Models
+- title: An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration
+  arxiv: '2605.03989'
+  date: 2026-05
+  venue: null
+  category: surveys
+  desc: Pluggable Experience-RAG agent skill with six modules for retrieval strategy routing; rule-based routing beats learned routing
+- title: 'MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory'
+  arxiv: '2605.15128'
+  date: 2026-05
+  venue: null
+  category: surveys
+  desc: Visual-centric benchmark for multimodal agent memory with granularity-by-reasoning-depth matrix and gates against text shortcuts
+- title: 'Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads'
+  arxiv: '2606.06448'
+  date: 2026-06
+  venue: null
+  category: surveys
+  desc: Characterizes agent memory as a stateful systems workload with a phase-aware profiler and taxonomy across ten representative systems
+- title: 'EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning'
+  arxiv: '2601.02163'
+  date: 2026-06
+  venue: null
+  category: surveys
+  desc: Self-organizing memory OS with episodic trace formation, semantic consolidation, and reconstructive recollection over MemCell units
+- title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
+  arxiv: '2303.11366'
+  code: https://github.com/noahshinn/reflexion
+  date: 2023-03
+  venue: NeurIPS 2023
+  category: foundations
+  desc: Verbal self-reflections on task feedback stored in an episodic memory buffer let agents improve across trials without weight updates
+- title: Enhancing Large Language Model with Self-Controlled Memory Framework
+  arxiv: '2304.13343'
+  date: 2023-04
+  venue: null
+  category: foundations
+  desc: Memory controller managing long-term activation and short-term flash memory streams for unbounded input without fine-tuning
+- title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+  arxiv: '2304.03442'
+  code: https://github.com/joonspk-research/generative_agents
+  date: 2023-04
+  venue: UIST 2023
+  category: foundations
+  desc: Memory stream with recency/importance/relevance retrieval plus reflection and planning; 25 believable agents in the Smallville sim
+- title: 'MemoryBank: Enhancing Large Language Models with Long-Term Memory'
+  arxiv: '2305.10250'
+  date: 2023-05
+  venue: AAAI 2024
+  category: foundations
+  desc: Long-term memory with Ebbinghaus-inspired forgetting and evolving user portraits; basis of the SiliconFriend companion bot
+- title: Prompted LLMs as Chatbot Modules for Long Open-domain Conversation
+  arxiv: null
+  url: https://aclanthology.org/2023.findings-acl.277.pdf
+  date: 2023-05
+  venue: ACL 2023 Findings
+  category: foundations
+  desc: Modular prompted chatbot (clarifier, memory processor, generator) achieving long-term persona consistency without fine-tuning
+- title: 'RET-LLM: Towards a General Read-Write Memory for Large Language Models'
+  arxiv: '2305.14322'
+  date: 2023-05
+  venue: null
+  category: foundations
+  desc: Dedicated read-write memory unit storing knowledge triplets, managed through a text-based API for explicit store and recall
+- title: 'RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text'
+  arxiv: '2305.13304'
+  date: 2023-05
+  venue: null
+  category: foundations
+  desc: Language-based LSTM-style recurrence over prompts with editable natural-language short/long-term memory for arbitrarily long text
+- title: 'Voyager: An Open-Ended Embodied Agent with Large Language Models'
+  arxiv: '2305.16291'
+  code: https://github.com/MineDojo/Voyager
+  date: 2023-05
+  venue: TMLR 2024
+  category: foundations
+  desc: Lifelong Minecraft agent storing self-written, self-verified code skills in a growing skill library for compositional reuse
+- title: Augmenting Language Models with Long-Term Memory
+  arxiv: '2306.07174'
+  date: 2023-06
+  venue: NeurIPS 2023
+  category: foundations
+  desc: 'LongMem: frozen backbone plus residual side-network caching long-term context as retrievable key-value memory'
+- title: 'ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory'
+  arxiv: '2306.03901'
+  code: https://github.com/huchenxucs/ChatDB
+  date: 2023-06
+  venue: null
+  category: foundations
+  desc: SQL database as symbolic memory manipulated via chain-of-memory operations for precise, multi-hop record keeping and reasoning
+- title: 'MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation'
+  arxiv: '2308.08239'
+  date: 2023-08
+  venue: null
+  category: foundations
+  desc: Instruction tuning for memorization-retrieval-response cycles where LLMs write and consult structured memos in long chats
+- title: 'Character-LLM: A Trainable Agent for Role-Playing'
+  arxiv: '2310.10158'
+  date: 2023-10
+  venue: EMNLP 2023
+  category: foundations
+  desc: Trains role-playing agents on reconstructed character experiences, with protective experiences to limit era-inconsistent answers
+- title: 'JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models'
+  arxiv: '2311.05997'
+  date: 2023-11
+  venue: null
+  category: foundations
+  desc: Minecraft agent with multimodal memory of past plans and experiences; self-improves over 200 tasks incl. diamond pickaxe
+- title: 'Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory'
+  arxiv: '2311.08719'
+  date: 2023-11
+  venue: null
+  category: foundations
+  desc: Stores post-thinking thoughts instead of raw history and recalls them via locality-sensitive hashing in long-term dialogue
+- title: 'MemLLM: Finetuning LLMs to Use An Explicit Read-Write Memory'
+  arxiv: '2404.11672'
+  date: 2024-04
+  venue: null
+  category: memory-systems
+  desc: Finetunes LLMs to call read/write API functions over an explicit structured triple memory, improving factuality and interpretability
+- title: 'Memoro: Using Large Language Models to Realize a Concise Interface for Real-Time Memory Augmentation'
+  arxiv: null
+  url: https://dl.acm.org/doi/10.1145/3613904.3642450
+  date: 2024-05
+  venue: CHI 2024
+  category: memory-systems
+  desc: Wearable audio memory assistant with queryless proactive retrieval that boosts recall confidence with minimal device interaction
+- title: Human-inspired Episodic Memory for Infinite Context LLMs
+  arxiv: '2407.09450'
+  code: https://github.com/em-llm/EM-LLM-model
+  date: 2024-07
+  venue: ICLR 2025
+  category: memory-systems
+  desc: EM-LLM segments token streams into episodic events via surprise and graph refinement; two-stage recall handles 10M-token contexts
+- title: On the Structural Memory of LLM Agents
+  arxiv: '2412.15266'
+  date: 2024-12
+  venue: null
+  category: memory-systems
+  desc: Empirical study of memory structures and retrieval methods; mixed structures prove most robust across tasks and noise
+- title: 'MemInsight: Autonomous Memory Augmentation for LLM Agents'
+  arxiv: '2503.21760'
+  date: 2025-03
+  venue: null
+  category: memory-systems
+  desc: Autonomous attribute mining structures and filters salient interaction history for QA, recommendation and summarization
+- title: 'Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory'
+  arxiv: '2504.19413'
+  date: 2025-04
+  venue: null
+  category: memory-systems
+  desc: Production memory layer extracting and consolidating conversation facts; Mem0g variant adds graph-structured relational memory
+- title: 'MemOS: A Memory OS for AI System'
+  arxiv: '2507.03724'
+  date: 2025-05
+  venue: null
+  category: memory-systems
+  desc: Memory operating system treating memory as a schedulable resource, unifying explicit, activation, and parameter-level memory
+- title: Memory OS of AI Agent
+  arxiv: null
+  url: https://aclanthology.org/2025.emnlp-main.1318.pdf
+  date: 2025-05
+  venue: EMNLP 2025
+  category: memory-systems
+  desc: 'MemoryOS: OS-inspired segment-page hierarchical memory with storage, updating, retrieval, and generation modules; +49% F1 on LoCoMo'
+- title: 'H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents'
+  arxiv: '2507.22925'
+  date: 2025-07
+  venue: null
+  category: memory-systems
+  desc: Four-level hierarchical memory with positional index encoding for layer-by-layer retrieval and feedback-driven weight updates
+- title: 'MIRIX: Multi-Agent Memory System for LLM-Based Agents'
+  arxiv: '2507.07957'
+  date: 2025-07
+  venue: null
+  category: memory-systems
+  desc: Multi-agent memory with six specialized components, active retrieval, and a meta memory manager; +35% over RAG on ScreenshotVQA
+- title: 'MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations'
+  arxiv: '2507.21428'
+  date: 2025-07
+  venue: null
+  category: memory-systems
+  desc: Short-term memory for dynamic MCP tool sets across turns; autonomous mode reaches 90-94% tool-removal efficiency over 13 LLMs
+- title: Multiple Memory Systems for Enhancing the Long-term Memory of Agent
+  arxiv: '2508.15294'
+  date: 2025-08
+  venue: null
+  category: memory-systems
+  desc: Cognitive-psychology design building keyword, perspective, episodic and semantic units; beats MemoryBank and A-Mem on LoCoMo
+- title: 'Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science'
+  arxiv: '2508.03341'
+  date: 2025-08
+  venue: null
+  category: memory-systems
+  desc: Self-organizing memory with autonomous episode segmentation and predict-calibrate knowledge distillation; 88% fewer tokens used
+- title: 'A-MEM: Agentic Memory for LLM Agents'
+  arxiv: '2502.12110'
+  date: 2025-10
+  venue: null
+  category: memory-systems
+  desc: Zettelkasten-inspired agentic memory with self-linking and self-evolving notes for dynamic long-term memory organization
+- title: 'CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension'
+  arxiv: '2510.05520'
+  date: 2025-10
+  venue: NeurIPS 2025
+  category: memory-systems
+  desc: Piaget-inspired memory with incremental overlapping clustering and prune-and-grow retrieval for long-document comprehension
+- title: Improving Code Localization with Repository Memory
+  arxiv: '2510.01003'
+  date: 2025-10
+  venue: null
+  category: memory-systems
+  desc: Repository memory from commit history and linked issues improving code localization for software engineering agents on SWE-bench
+- title: 'LightMem: Lightweight and Efficient Memory-Augmented Generation'
+  arxiv: '2510.18866'
+  date: 2025-10
+  venue: null
+  category: memory-systems
+  desc: Atkinson-Shiffrin-inspired pipeline with sensory filtering, topic-aware short-term memory, and sleep-time updates; 100x fewer tokens
+- title: 'ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability Memory'
+  arxiv: '2510.06664'
+  date: 2025-10
+  venue: null
+  category: memory-systems
+  desc: Evolving structured memory of what each tool is good or bad at, used to predict tool quality and pick tools for new tasks
+- title: 'Episodic Memory in Agentic Frameworks: Suggesting Next Steps in Workflow Creation'
+  arxiv: '2511.17775'
+  date: 2025-11
+  venue: null
+  category: memory-systems
+  desc: Episodic store of workflow traces used to retrieve similar histories and suggest next steps during agentic workflow creation
+- title: 'Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects'
+  arxiv: '2512.12818'
+  date: 2025-12
+  venue: null
+  category: memory-systems
+  desc: Four memory networks (facts, experiences, entity summaries, beliefs) with temporal priming retrieval; beats full-context models
+- title: 'Memory Bear AI: A Breakthrough from Memory to Cognition'
+  arxiv: '2512.20651'
+  date: 2025-12
+  venue: null
+  category: memory-systems
+  desc: Cognitive-science memory architecture (ACT-R, Ebbinghaus) with semantic pruning and self-reflection; ~90% token cuts, beats Mem0
+- title: 'Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents'
+  arxiv: '2601.14287'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Lightweight construction with dynamic memory-chain evolution; 7.5-10.4 point gains on LoCoMo/LongMemEval at ~2.7% token cost
+- title: Continuum Memory Architectures for Long-Horizon LLM Agents
+  arxiv: '2601.09913'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Continuum memory architecture coordinating working, episodic, and semantic stores for long-horizon agent stability and recall
+- title: 'LLM-as-RNN: A Recurrent Language Model for Memory Updates and Sequence Prediction'
+  arxiv: '2601.13352'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Inference-only framework turning frozen LLMs into recurrent predictors with a natural-language memory state rewritten each step
+- title: 'MemoBrain: Executive Memory as an Agentic Brain for Reasoning'
+  arxiv: '2601.08079'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Executive memory co-pilot with trajectory folding and selective flush; outperforms baselines on GAIA and BrowseComp-Plus
+- title: 'SimpleMem: Efficient Lifelong Memory for LLM Agents'
+  arxiv: '2601.02553'
+  date: 2026-01
+  venue: null
+  category: memory-systems
+  desc: Semantic compression, recursive consolidation and adaptive retrieval; +26.4% F1 on LoCoMo with up to 30x fewer tokens
+- title: 'Hippocampus: An Efficient and Scalable Memory Module for Agentic AI'
+  arxiv: '2602.13594'
+  date: 2026-02
+  venue: null
+  category: memory-systems
+  desc: Binary-signature memory with dynamic wavelet matrix index; up to 31x lower retrieval latency on LoCoMo and LongMemEval
+- title: 'MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection'
+  arxiv: '2602.21394'
+  date: 2026-02
+  venue: null
+  category: memory-systems
+  desc: Multimodal phishing-URL detection agent using episodic memory of past reasoning trajectories; +13.6% recall over baselines
+- title: 'MemFactory: Unified Inference and Training Framework for Agent Memory'
+  arxiv: '2603.29493'
+  date: 2026-03
+  venue: null
+  category: memory-systems
+  desc: Unifies training, evaluation and inference for memory agents with plug-and-play extractors/updaters/retrievers and GRPO tuning
+- title: 'Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens'
+  arxiv: '2603.04740'
+  date: 2026-03
+  venue: null
+  category: memory-systems
+  desc: Constitutional memory architecture for persistent digital identity with four-layer governance and replaceable model substrate
+- title: 'SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory'
+  arxiv: '2603.14588'
+  date: 2026-03
+  venue: null
+  category: memory-systems
+  desc: Information-geometric framework unifying retrieval, lifecycle, and consistency for zero-LLM enterprise memory; +12.7% on LoCoMo
+- title: 'Building an Internal Coding Agent at Zup: Lessons and Open Questions'
+  arxiv: '2604.09805'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: 'Production lessons from Zup''s internal coding agent: tool design, safety guardrails, state management, and progressive supervision'
+- title: 'ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context'
+  arxiv: '2604.01599'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: LLM curates a hierarchical Context Tree with importance scoring, maturity tiers, recency decay and 5-tier progressive retrieval
+- title: 'GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization'
+  arxiv: '2604.17091'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: Self-evolving long-horizon agent maximizing context information density via hierarchical memory, compression, and reusable SOPs
+- title: 'M*: Every Task Deserves Its Own Memory Harness'
+  arxiv: '2604.11811'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: Represents agent memory as evolvable executable Python programs, discovering task-specific memory designs via code evolution
+- title: 'MemReader: From Passive to Active Extraction for Long-Term Agent Memory'
+  arxiv: '2604.07877'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: Model family trained with GRPO to decide write/defer/retrieve/discard for memory extraction; integrated into MemOS
+- title: 'Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents'
+  arxiv: '2604.22085'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: 13-class typed memory schema with index-free information-theoretic retrieval; 89.8 LongMemEval and 87.1 LoCoMo without graphs
+- title: 'Omakase: Proactive Assistance with Actionable Suggestions for Evolving Scientific Research Projects'
+  arxiv: '2604.08898'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: Proactive research assistant that monitors project documents and distills deep-research reports into timely actionable suggestions
+- title: 'Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution'
+  arxiv: '2604.16911'
+  date: 2026-04
+  venue: null
+  category: memory-systems
+  desc: Package manager and registry for agent skill packages with skillset bundles, scope-based distribution, and an MCP server
+- title: 'Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory'
+  arxiv: '2605.11325'
+  date: 2026-05
+  venue: null
+  category: memory-systems
+  desc: Typed belief-state schema for cross-session memory; scoped BM25 beats dense vector retrieval; ships as local OpenAI-compatible proxy
+- title: 'MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents'
+  arxiv: '2605.03675'
+  date: 2026-05
+  venue: null
+  category: memory-systems
+  desc: Tiered episodic/semantic memory with five-signal retrieval, async consolidation daemon, and PPO-based cognitive weight updates
+- title: What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis
+  arxiv: '2605.03354'
+  date: 2026-05
+  venue: null
+  category: memory-systems
+  desc: Traces write/manage/read circuits inside agent memory systems and uses feature-space separation to localize silent memory failures
+- title: 'Exploring Cross-Scenario Generality of Agentic Memory Systems: Diagnostics and a Strong Baseline'
+  arxiv: '2606.04315'
+  date: 2026-06
+  venue: null
+  category: memory-systems
+  desc: Diagnoses cross-scenario generality of agent memory systems; AutoMEM baseline shows active agent-controlled storage is more robust
+- title: 'From Local to Global: A GraphRAG Approach to Query-Focused Summarization'
+  arxiv: '2404.16130'
+  code: https://github.com/microsoft/graphrag
+  date: 2024-04
+  venue: null
+  category: graph-temporal
+  desc: Entity KG with hierarchical Leiden communities and map-reduce summaries answers global questions over whole corpora
+- title: 'HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models'
+  arxiv: '2405.14831'
+  code: https://github.com/OSU-NLP-Group/HippoRAG
+  date: 2024-05
+  venue: NeurIPS 2024
+  category: graph-temporal
+  desc: 'Hippocampal-index-inspired retrieval: LLM-built KG plus Personalized PageRank enables single-step multi-hop retrieval, up to +20%'
+- title: Towards Lifelong Dialogue Agents via Timeline-based Memory Management
+  arxiv: null
+  url: https://aclanthology.org/2025.naacl-long.435.pdf
+  date: 2024-06
+  venue: NAACL 2025
+  category: graph-temporal
+  desc: 'THEANINE: relation-aware memory graph with timeline-augmented generation for lifelong dialogue; TeaFarm counterfactual evaluation'
+- title: 'Zep: A Temporal Knowledge Graph Architecture for Agent Memory'
+  arxiv: '2501.13956'
+  date: 2025-01
+  venue: null
+  category: graph-temporal
+  desc: Memory layer powered by Graphiti temporal knowledge graph fusing chat and business data; beats MemGPT on DMR and LongMemEval
+- title: 'From RAG to Memory: Non-Parametric Continual Learning for Large Language Models'
+  arxiv: '2502.14802'
+  date: 2025-02
+  venue: ICML 2025
+  category: graph-temporal
+  desc: 'HippoRAG 2: KG with passage nodes, triple filtering and Personalized PageRank; improves factual, multi-hop and narrative QA'
+- title: 'TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues'
+  arxiv: '2502.01630'
+  date: 2025-02
+  venue: null
+  category: graph-temporal
+  desc: Neuro-symbolic framework with timeline-aware memory representations for temporal reasoning over multi-session dialogues
+- title: Memory-augmented Query Reconstruction for LLM-based Knowledge Graph Reasoning
+  arxiv: null
+  url: https://aclanthology.org/2025.findings-acl.1234.pdf
+  date: 2025-03
+  venue: ACL 2025 Findings
+  category: graph-temporal
+  desc: MemQ decouples reasoning from SPARQL generation via a memory bank of explanation-fragment pairs; best Hits@1 on WebQSP and CWQ
+- title: 'G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems'
+  arxiv: '2506.07398'
+  date: 2025-06
+  venue: null
+  category: graph-temporal
+  desc: Three-tier insight/query/interaction graph memory for multi-agent systems; up to 20.9% higher success without framework changes
+- title: 'SGMem: Sentence Graph Memory for Long-Term Conversational Agents'
+  arxiv: '2509.21212'
+  date: 2025-09
+  venue: null
+  category: graph-temporal
+  desc: Sentence-level graphs linking turns, rounds and sessions with multi-hop retrieval; gains on LongMemEval and LoCoMo
+- title: 'D-SMART: Enhancing LLM Dialogue Consistency via Dynamic Structured Memory And Reasoning Tree'
+  arxiv: '2510.13363'
+  date: 2025-10
+  venue: null
+  category: graph-temporal
+  desc: Incrementally built OWL knowledge graph coupled with a reasoning tree; over 48% consistency improvement on MT-Bench-101
+- title: 'From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory'
+  arxiv: '2511.07800'
+  date: 2025-11
+  venue: null
+  category: graph-temporal
+  desc: Trainable graph-structured experience memory learning to weight and route past experiences for agent strategy formation
+- title: 'MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents'
+  arxiv: '2601.03236'
+  date: 2026-01
+  venue: null
+  category: graph-temporal
+  desc: Orthogonal semantic, temporal, causal and entity graphs with intent-aware traversal; beats A-Mem-class systems on LoCoMo
+- title: 'Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents'
+  arxiv: '2601.03785'
+  date: 2026-01
+  venue: null
+  category: graph-temporal
+  desc: Topic-continuity memory boxes linked into long-range event timelines; up to 68% F1 gain on LoCoMo temporal reasoning vs Mem0
+- title: 'SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation'
+  arxiv: '2601.02744'
+  date: 2026-01
+  venue: null
+  category: graph-temporal
+  desc: Episodic-semantic graph with spreading activation, lateral inhibition and temporal decay; SOTA multi-hop reasoning on LoCoMo
+- title: 'TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents'
+  arxiv: '2601.02845'
+  date: 2026-01
+  venue: null
+  category: graph-temporal
+  desc: Temporal memory tree consolidating dialogue into persona abstractions; 75.3 LoCoMo, 76.9 LongMemEval-S with 52% less context
+- title: 'HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation'
+  arxiv: '2602.14470'
+  date: 2026-02
+  venue: WWW 2026
+  category: graph-temporal
+  desc: Replaces binary KGs with n-ary hypergraphs plus HyperRetriever and HyperMemory modules for multi-hop QA
+- title: 'HyperMem: Hypergraph Memory for Long-Term Conversations'
+  arxiv: '2604.08256'
+  date: 2026-04
+  venue: null
+  category: graph-temporal
+  desc: Hypergraph memory with topic/event/fact layers and coarse-to-fine retrieval over higher-order relations; best results on LoCoMo
+- title: 'TokenMizer: Graph-Structured Session Memory for Long-Horizon LLM Context Management'
+  arxiv: '2606.06337'
+  date: 2026-06
+  venue: null
+  category: graph-temporal
+  desc: Models LLM session history as a typed knowledge graph serialized into compact resume blocks, improving recall at lower token cost
+- title: 'eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents'
+  arxiv: '2606.03374'
+  date: 2026-06
+  venue: null
+  category: graph-temporal
+  desc: Hybrid spatio-temporal graph memory for embodied agents searchable by meaning, space, and time; adds eMEM-Bench evaluation
+- title: Large Language Model Unlearning
+  arxiv: '2310.10683'
+  date: 2023-10
+  venue: NeurIPS 2024
+  category: parametric
+  desc: Gradient-ascent unlearning with random-output loss removes harmful behaviors; early systematic study of LLM unlearning
+- title: 'Unlearn What You Want to Forget: Efficient Unlearning for LLMs'
+  arxiv: null
+  url: https://aclanthology.org/anthology-files/pdf/emnlp/2023.emnlp-main.738.pdf
+  date: 2023-10
+  venue: EMNLP 2023
+  category: parametric
+  desc: EUL removes specific user data with lightweight unlearning layers and fusion, avoiding full retraining
+- title: Compressed Context Memory for Online Language Model Interaction
+  arxiv: '2312.03414'
+  date: 2023-12
+  venue: ICLR 2024
+  category: parametric
+  desc: Online compression of accumulating context via conditional LoRA; up to 5x memory reduction with preserved quality
+- title: 'MemoryLLM: Towards Self-Updatable Large Language Models'
+  arxiv: '2402.04624'
+  code: https://github.com/wangyu-ustc/MemoryLLM
+  date: 2024-02
+  venue: ICML 2024
+  category: parametric
+  desc: Fixed-size latent memory pool inside the transformer supports continual self-update with slow, graceful forgetting
+- title: Towards Safer Large Language Models through Machine Unlearning
+  arxiv: null
+  url: https://aclanthology.org/2024.findings-acl.107.pdf
+  date: 2024-02
+  venue: ACL 2024 Findings
+  category: parametric
+  desc: 'SKU: harmful-knowledge acquisition then negation removes harmful outputs while preserving utility on benign prompts'
+- title: 'Larimar: Large Language Models with Episodic Memory Control'
+  arxiv: '2403.11901'
+  code: https://github.com/IBM/larimar
+  date: 2024-03
+  venue: ICML 2024
+  category: parametric
+  desc: Brain-inspired distributed episodic memory controller enabling one-shot knowledge updates and selective forgetting without retraining
+- title: Online Adaptation of Language Models with a Memory of Amortized Contexts
+  arxiv: '2403.04317'
+  date: 2024-03
+  venue: NeurIPS 2024
+  category: parametric
+  desc: Meta-learned amortization compresses new documents into PEFT modulations stored in a memory bank for online adaptation
+- title: 'WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models'
+  arxiv: '2405.14768'
+  date: 2024-05
+  venue: NeurIPS 2024
+  category: parametric
+  desc: 'Dual parametric memory: side memory holds edits, a router bridges to main memory, with knowledge sharding and merging'
+- title: 'ELDER: Enhancing Lifelong Model Editing with Mixture-of-LoRA'
+  arxiv: '2408.11869'
+  date: 2024-08
+  venue: AAAI 2025
+  category: parametric
+  desc: Lifelong model editing with mixture-of-LoRA routing and a deferral mechanism that preserves general capabilities
+- title: 'Memory3: Language Modeling with Explicit Memory'
+  arxiv: null
+  url: https://doi.org/10.4208/jml.240708
+  date: 2024-09
+  venue: Journal of Machine Learning
+  category: parametric
+  desc: LLM with explicit memory and a memory circuit theory, cutting training and inference cost via compressed external knowledge
+- title: Self-Updatable Large Language Models by Integrating Context into Model Parameters
+  arxiv: '2410.00487'
+  date: 2024-10
+  venue: ICLR 2025
+  category: parametric
+  desc: SELF-PARAM distills context into parameters by minimizing KL to a context-conditioned teacher; zero extra storage
+- title: Memory Layers at Scale
+  arxiv: '2412.09764'
+  date: 2024-12
+  venue: null
+  category: parametric
+  desc: Scales trainable key-value memory layers as sparse lookup capacity without extra FLOPs, improving factual tasks vs dense and MoE
+- title: Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models
+  arxiv: null
+  url: https://aclanthology.org/2025.coling-main.252.pdf
+  date: 2025-01
+  venue: COLING 2025
+  category: parametric
+  desc: AltPO pairs negative feedback on the forget set with plausible alternative responses, improving forget quality and utility
+- title: 'Titans: Learning to Memorize at Test Time'
+  arxiv: '2501.00663'
+  date: 2025-01
+  venue: null
+  category: parametric
+  desc: Neural long-term memory module that learns to memorize at test time, combined with attention for very large effective contexts
+- title: 'Echo: A Large Language Model with Temporal Episodic Memory'
+  arxiv: '2502.16090'
+  date: 2025-02
+  venue: null
+  category: parametric
+  desc: LLM design with explicit temporal episodic memory for time-indexed events, improving recall of sequences and time dependencies
+- title: 'LM2: Large Memory Models'
+  arxiv: '2502.06049'
+  date: 2025-02
+  venue: null
+  category: parametric
+  desc: Decoder transformer with auxiliary gated cross-attention memory module improving multi-step reasoning and long contexts
+- title: 'M+: Extending MemoryLLM with Scalable Long-Term Memory'
+  arxiv: '2502.00592'
+  date: 2025-02
+  venue: ICML 2025
+  category: parametric
+  desc: Adds retriever-coupled long-term latent memory to MemoryLLM, greatly extending knowledge retention at similar GPU cost
+- title: 'MeMo: Towards Language Models with Associative Memory Mechanisms'
+  arxiv: '2502.12851'
+  date: 2025-02
+  venue: null
+  category: parametric
+  desc: Layered correlation-matrix architecture that explicitly memorizes token sequences, enabling one-shot learning and exact forgetting
+- title: Towards Effective Evaluation and Comparisons for LLM Unlearning Methods
+  arxiv: null
+  url: https://openreview.net/forum?id=aLLuYpn83y
+  date: 2025-02
+  venue: ICLR 2025
+  category: parametric
+  desc: Unlearning-with-calibration evaluation framework; recommends extraction strength as the primary unlearning metric
+- title: Pre-training Limited Memory Language Models with Internal and External Knowledge
+  arxiv: '2505.15962'
+  date: 2025-05
+  venue: null
+  category: parametric
+  desc: Pretrains models to look up facts in an external database instead of memorizing, enabling instant updates and easy unlearning
+- title: 'OpenUnlearning: Accelerating LLM Unlearning via Unified Benchmarking of Methods and Metrics'
+  arxiv: '2506.12618'
+  date: 2025-06
+  venue: null
+  category: parametric
+  desc: Unified framework integrating LLM unlearning algorithms and evaluation metrics for comparable, robust forgetting research
+- title: 'MLP Memory: A Retriever-Pretrained Memory for Large Language Models'
+  arxiv: '2508.01832'
+  date: 2025-08
+  venue: null
+  category: parametric
+  desc: MLP pretrained to imitate a kNN retriever compresses the datastore into differentiable memory; +12.3% QA, 2.5x faster than RAG
+- title: 'Pretraining with Hierarchical Memories: Separating Long-Tail and Common Knowledge'
+  arxiv: '2510.02375'
+  date: 2025-10
+  venue: null
+  category: parametric
+  desc: Small anchor model fetches context-dependent parameter blocks from a memory bank; 160M model matches a 2x larger standard model
+- title: 'Nested Learning: The Illusion of Deep Learning Architecture'
+  arxiv: '2512.24695'
+  date: 2025-12
+  venue: null
+  category: parametric
+  desc: Unifies optimizers and test-time-training layers as nested memory; HOPE combines Titans attention with self-modifying FFNs
+- title: 'Memory Retrieval in Transformers: Insights from The Encoding Specificity Principle'
+  arxiv: '2601.20282'
+  date: 2026-01
+  venue: null
+  category: parametric
+  desc: 'Maps transformer attention to encoding specificity: Q as retrieval context, K as memory index, V as content; finds retrieval neurons'
+- title: 'S3-Attention: Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference'
+  arxiv: '2601.17702'
+  date: 2026-01
+  venue: null
+  category: parametric
+  desc: O(1)-GPU-memory long-context inference using SAE features and a CPU inverted index instead of KV cache, near full-context quality
+- title: 'Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction'
+  arxiv: '2602.12204'
+  date: 2026-02
+  venue: null
+  category: parametric
+  desc: Consolidation-aware router distills frequent episodic attention retrievals into parametric memory; 37.8x attention compute cut
+- title: A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts
+  arxiv: '2402.09727'
+  date: 2024-02
+  venue: ICML 2024
+  category: retrieval
+  desc: ReadAgent paginates episodes into gist memories with interactive lookup, extending effective context up to 20x
+- title: 'RULER: What''s the Real Context Size of Your Long-Context Language Models?'
+  arxiv: '2404.06654'
+  code: https://github.com/NVIDIA/RULER
+  date: 2024-04
+  venue: COLM 2024
+  category: retrieval
+  desc: Synthetic evaluation beyond needle-in-a-haystack (multi-hop tracing, aggregation) exposing true effective context length
+- title: 'MemLong: Memory-Augmented Retrieval for Long Text Modeling'
+  arxiv: '2408.16967'
+  date: 2024-08
+  venue: null
+  category: retrieval
+  desc: External chunk memory with controllable retrieval attention extends the effective context of decoder-only LMs
+- title: 'MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation'
+  arxiv: '2409.05591'
+  date: 2024-09
+  venue: WWW 2025
+  category: retrieval
+  desc: Lightweight global memory model generates clues that guide retrieval for long-document QA and summarization
+- title: 'SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms'
+  arxiv: null
+  url: https://aclanthology.org/2025.findings-acl.1048.pdf
+  date: 2025-07
+  venue: ACL 2025 Findings
+  category: retrieval
+  desc: Temporal association triggers with synaptic propagation improve cross-session memory retrieval by up to 14.7%
+- title: Conflict-Aware Soft Prompting for Retrieval-Augmented Generation
+  arxiv: '2508.15253'
+  date: 2025-08
+  venue: EMNLP 2025
+  category: retrieval
+  desc: CARE adds a context assessor and adversarial soft prompts to resolve context-memory conflicts in RAG
+- title: 'WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research'
+  arxiv: '2509.13312'
+  date: 2025-09
+  venue: null
+  category: retrieval
+  desc: Planner/writer dual agents with an evidence memory bank and dynamic outlines; SOTA on DeepResearch Bench
+- title: 'ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning'
+  arxiv: null
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/40644
+  date: 2025-11
+  venue: AAAI 2026
+  category: retrieval
+  desc: Dynamic memory workspace with a metacognitive regulation loop for stateful reasoning; beats baselines on NarrativeQA
+- title: 'MemR3: Memory Retrieval via Reflective Reasoning for LLM Agents'
+  arxiv: '2512.20237'
+  date: 2025-12
+  venue: null
+  category: retrieval
+  desc: Closed-loop retrieve/reflect/respond controller with an evidence-gap state tracker; improves LoCoMo across memory backends
+- title: Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory
+  arxiv: '2603.02473'
+  date: 2026-03
+  venue: null
+  category: retrieval
+  desc: Cross-ablation of write/retrieve/utilize stages shows retrieval dominates performance and raw chunk storage remains strong
+- title: 'SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval'
+  arxiv: '2604.02431'
+  date: 2026-04
+  venue: null
+  category: retrieval
+  desc: Routes queries to specialized retrieval pipelines; SOTA on LongMemEval_M with CPU-only inference and no LLM at query time
+- title: 'MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval'
+  arxiv: '2605.06132'
+  date: 2026-05
+  venue: null
+  category: retrieval
+  desc: 0.6B/4B rerankers distilled from LLMs with calibrated scoring; SOTA on LoCoMo and LongMemEval at low inference latency
+- title: 'Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall'
+  arxiv: '2605.04897'
+  date: 2026-05
+  venue: null
+  category: retrieval
+  desc: 'True Memory: six-layer retrieval-centered architecture over verbatim events with novelty/salience/prediction-error encoding gate'
+- title: 'In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents'
+  arxiv: '2503.08026'
+  date: 2025-03
+  venue: ACL 2025
+  category: consolidation
+  desc: Prospective topic-based reorganization plus retrospective RL retrieval refinement; over 10% accuracy gain on MSC and LongMemEval
+- title: 'Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory'
+  arxiv: '2504.07952'
+  code: https://github.com/suzgunmirac/dynamic-cheatsheet
+  date: 2025-04
+  venue: null
+  category: consolidation
+  desc: Generator plus curator maintain an evolving external memory of verified strategies and code; large gains on AIME and Game of 24
+- title: 'SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities'
+  arxiv: null
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0925231225011427
+  date: 2025-04
+  venue: null
+  category: consolidation
+  desc: Iterative reflection with Ebbinghaus-curve MemorySyntax for memory decay; up to 2.26x gains on AgentBench-style tasks
+- title: 'Sleep-time Compute: Beyond Inference Scaling at Test-time'
+  arxiv: '2504.13171'
+  code: https://github.com/letta-ai/sleep-time-compute
+  date: 2025-04
+  venue: null
+  category: consolidation
+  desc: Precomputes inferences about persistent context while idle, cutting test-time compute about 5x at matched accuracy on GSM variants
+- title: 'How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior'
+  arxiv: '2505.16067'
+  date: 2025-05
+  venue: null
+  category: consolidation
+  desc: Identifies experience-following behavior; selective insertion and deletion strategies curb error propagation in agent memory
+- title: 'Livia: An Emotion-Aware AR Companion Powered by Modular AI Agents and Progressive Memory Compression'
+  arxiv: '2509.05298'
+  date: 2025-08
+  venue: null
+  category: consolidation
+  desc: Emotion-aware AR companion with progressive memory compression (TBC, DIMF) retaining emotionally significant long-term context
+- title: 'MOOM: Maintenance, Organization and Optimization of Memory in Ultra-Long Role-Playing Dialogues'
+  arxiv: '2509.11860'
+  date: 2025-09
+  venue: null
+  category: consolidation
+  desc: Dual-branch plot/character memory with competition-inhibition forgetting; releases ZH-4O 600-turn role-play dataset
+- title: 'Pre-Storage Reasoning for Episodic Memory: Shifting Inference Burden to Memory for Personalized Dialogue'
+  arxiv: '2509.10852'
+  date: 2025-09
+  venue: null
+  category: consolidation
+  desc: PREMem moves reasoning into memory construction with cross-session links; small models match larger baselines on LongMemEval
+- title: 'ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory'
+  arxiv: '2509.25140'
+  date: 2025-09
+  venue: null
+  category: consolidation
+  desc: Distills successes and failures into reusable reasoning memories plus memory-aware test-time scaling; gains on WebArena, SWE-Bench
+- title: 'Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models'
+  arxiv: '2510.04618'
+  date: 2025-10
+  venue: null
+  category: consolidation
+  desc: ACE treats contexts as evolving playbooks updated by generation, reflection and curation; +10.6% on agent tasks with lower cost
+- title: 'FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory'
+  arxiv: '2601.18642'
+  date: 2026-01
+  venue: null
+  category: consolidation
+  desc: Ebbinghaus-style adaptive decay over a dual-layer memory; better multi-hop reasoning on LoCoMo with 45% less storage
+- title: 'LightThinker++: From Reasoning Compression to Memory Management'
+  arxiv: '2604.03679'
+  date: 2026-04
+  venue: null
+  category: consolidation
+  desc: Explicit adaptive memory management (commit/expand/fold) over gist-token thought compression for long-horizon reasoning
+- title: 'MEMENTO: Teaching LLMs to Manage Their Own Context'
+  arxiv: '2604.09852'
+  date: 2026-04
+  venue: null
+  category: consolidation
+  desc: Summarizes reasoning blocks into dense mementos and continues from them, cutting context and KV cache; OpenMementos dataset
+- title: 'Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics'
+  arxiv: '2605.05097'
+  date: 2026-05
+  venue: null
+  category: consolidation
+  desc: 'Memini: directed associative graph memory with fast/slow edge dynamics (Benna-Fusi) for consolidation and selective forgetting'
+- title: 'MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents'
+  arxiv: '2506.15841'
+  date: 2025-06
+  venue: null
+  category: rl-memory
+  desc: End-to-end RL agents keep a constant-size shared internal state across turns, cutting memory while improving long-horizon tasks
+- title: 'MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent'
+  arxiv: '2507.02259'
+  code: https://github.com/BytedTsinghua-SIA/MemAgent
+  date: 2025-07
+  venue: null
+  category: rl-memory
+  desc: RL-trained streaming agent rewrites a fixed-size memory over chunks, scaling to effectively unbounded inputs at linear cost
+- title: 'Memento: Fine-tuning LLM Agents without Fine-tuning LLMs'
+  arxiv: '2508.16153'
+  code: https://github.com/Agent-on-the-Fly/Memento
+  date: 2025-08
+  venue: null
+  category: rl-memory
+  desc: Memory-based online learning adapts agent behavior from case experience while keeping the base LLM frozen
+- title: 'Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning'
+  arxiv: '2508.19828'
+  date: 2025-08
+  venue: null
+  category: rl-memory
+  desc: RL memory manager (ADD/UPDATE/DELETE) plus answer agent; beats baselines on LoCoMo, MSC, LongMemEval with 152 samples
+- title: 'Memp: Exploring Agent Procedural Memory'
+  arxiv: '2508.06433'
+  date: 2025-08
+  venue: null
+  category: rl-memory
+  desc: Build-retrieve-update loop for procedural memory; beats ReAct on TravelPlanner and ALFWorld and transfers across models
+- title: 'Mem-alpha: Learning Memory Construction via Reinforcement Learning'
+  arxiv: '2509.25911'
+  date: 2025-09
+  venue: null
+  category: rl-memory
+  desc: RL over core/episodic/semantic memory construction; trained on 30k-token contexts, generalizes beyond 400k tokens
+- title: 'MemGen: Weaving Generative Latent Memory for Self-Evolving Agents'
+  arxiv: '2509.24704'
+  date: 2025-09
+  venue: null
+  category: rl-memory
+  desc: Memory trigger and weaver modules generate latent memory tokens interleaved with reasoning for self-evolving agents
+- title: 'Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks'
+  arxiv: '2510.12635'
+  date: 2025-10
+  venue: null
+  category: rl-memory
+  desc: Treats context curation as policy actions; dynamic context policy optimization handles trajectory breaks from memory edits
+- title: 'MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning'
+  arxiv: '2511.02805'
+  date: 2025-11
+  venue: null
+  category: rl-memory
+  desc: Multi-context GRPO trains agents to reason, search and maintain compact memory; strong gains especially for small models
+- title: 'MemEvolve: Meta-Evolution of Agent Memory Systems'
+  arxiv: '2512.18746'
+  date: 2025-12
+  venue: null
+  category: rl-memory
+  desc: Two-level framework learning memory extraction and the extraction method itself; SOTA on GAIA with Flash-Searcher
+- title: 'Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution'
+  arxiv: '2512.06653'
+  date: 2025-12
+  venue: null
+  category: rl-memory
+  desc: ReMe maintains an experience pool with acquisition, reuse and refinement; dynamic pools beat static on BFCL-V3 and AppWorld
+- title: 'Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents'
+  arxiv: '2601.01885'
+  date: 2026-01
+  venue: null
+  category: rl-memory
+  desc: AgeMem integrates LTM and STM management as tool actions via three-stage stepwise GRPO; beats LangMem and Mem0
+- title: 'AtomMem: Learnable Dynamic Agentic Memory with Atomic Memory Operation'
+  arxiv: '2601.08323'
+  date: 2026-01
+  venue: null
+  category: rl-memory
+  desc: Reframes memory management as learnable sequential decisions over atomic CRUD operations trained with GRPO
+- title: 'Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management'
+  arxiv: '2601.08435'
+  date: 2026-01
+  venue: null
+  category: rl-memory
+  desc: Chunk-level step rewards and evidence-anchored attribution align RL with memory ops; beats baselines on MemoryAgentBench
+- title: 'MemBuilder: Reinforcing LLMs for Long-Term Memory Construction via Attributed Dense Rewards'
+  arxiv: '2601.05488'
+  date: 2026-01
+  venue: null
+  category: rl-memory
+  desc: Attributed dense-reward RL for memory construction; 4B model beats closed-source models on LoCoMo and LongMemEval
+- title: 'MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory'
+  arxiv: '2601.03192'
+  date: 2026-01
+  venue: null
+  category: rl-memory
+  desc: Runtime RL over episodic memory with Q-value utility updates lets frozen agents self-evolve; beats Memp and RAG on ALFWorld
+- title: 'Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning'
+  arxiv: '2602.18493'
+  date: 2026-02
+  venue: null
+  category: rl-memory
+  desc: Unified memory agent trained end-to-end with RL for dynamic state tracking; accuracy rises from 61.4% to 76.5%
+- title: 'MIRA: Memory-Integrated Reinforcement Learning Agent with Limited LLM Guidance'
+  arxiv: '2602.17930'
+  date: 2026-02
+  venue: ICLR 2026
+  category: rl-memory
+  desc: Structured memory graph built from limited offline/online LLM guidance improves RL sample efficiency and convergence
+- title: Memory-Based Advantage Shaping for LLM-Guided Reinforcement Learning
+  arxiv: '2602.17931'
+  date: 2026-02
+  venue: AAAI 2026
+  category: rl-memory
+  desc: Memory graph and utility function shape RL advantages from LLM guidance, improving sample efficiency under sparse reward
+- title: 'MemPO: Self-Memory Policy Optimization for Long-Horizon Agents'
+  arxiv: '2603.00680'
+  date: 2026-03
+  venue: null
+  category: rl-memory
+  desc: Credit-assignment-improved policy optimization for proactive memory summarize-and-filter; higher F1 at lower token cost
+- title: 'Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory'
+  arxiv: '2603.04257'
+  date: 2026-03
+  venue: null
+  category: rl-memory
+  desc: Indexed experience memory with RL-optimized read-write archiving so agents decide when to archive and retrieve, compressing context
+- title: Memory Sharing for Large Language Model based Agents
+  arxiv: '2404.09982'
+  date: 2024-04
+  venue: null
+  category: multi-agent
+  desc: Real-time pool of prompt-answer pairs shared among agents with retriever training for collective in-context learning
+- title: 'Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory'
+  arxiv: '2508.08997'
+  date: 2025-08
+  venue: null
+  category: multi-agent
+  desc: Role-aligned structured per-agent memories updated from own outputs; +38.6% on PDDL planning with high token efficiency
+- title: 'RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory'
+  arxiv: '2508.04903'
+  date: 2025-08
+  venue: null
+  category: multi-agent
+  desc: Role- and stage-aware routing of memory subsets under token budgets; 25-47% token reduction on multi-hop QA
+- title: 'AMA: Adaptive Memory via Multi-Agent Collaboration'
+  arxiv: '2601.20352'
+  date: 2026-01
+  venue: null
+  category: multi-agent
+  desc: Constructor, retriever, judge and refresher agents manage multi-granularity memory; beats baselines on LoCoMo, 80% fewer tokens
+- title: 'E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory'
+  arxiv: '2601.21714'
+  date: 2026-01
+  venue: null
+  category: multi-agent
+  desc: Master-assistant agents keep uncompressed contexts as memory nodes; SOTA on LoCoMo and HotpotQA with 70% token reduction
+- title: 'MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games'
+  arxiv: '2603.09022'
+  date: 2026-03
+  venue: null
+  category: multi-agent
+  desc: Self-play memory bank with CRUD insights and TrueSkill prompt evolution; GPT-4o-mini win rate 25.1% to 49.5% in text games
+- title: 'Bolzano: Case Studies in LLM-Assisted Mathematical Research'
+  arxiv: '2604.16989'
+  date: 2026-04
+  venue: null
+  category: multi-agent
+  desc: Multi-agent LLM system for math research with persistent cross-turn knowledge base coordinating proving and verification agents
+- title: 'CoMIC: Collaborative Memory and Insights Circulation for Long-Horizon LLM Agents in Cloud-Edge Systems'
+  arxiv: '2606.00756'
+  date: 2026-05
+  venue: null
+  category: multi-agent
+  desc: Cloud-edge collaborative memory with decentralized execution and centralized reflection to circulate reusable insights across agents
+- title: Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models
+  arxiv: '2601.07978'
+  date: 2026-05
+  venue: null
+  category: multi-agent
+  desc: Independent evaluation of long-term memory backends in multi-agent systems measuring accuracy, latency, resource use, and total cost
+- title: 'Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding'
+  arxiv: '2501.00358'
+  date: 2025-01
+  venue: null
+  category: multimodal
+  desc: Builds persistent scene memory from egocentric video plus depth and pose with VLM-driven object state tracking; SOTA on OpenEQA
+- title: Towards General Continuous Memory for Vision-Language Models
+  arxiv: '2505.17670'
+  date: 2025-05
+  venue: null
+  category: multimodal
+  desc: CoMEM encodes multimodal knowledge into compact continuous embeddings via the VLM plus a Q-Former; 1.2% trainable params
+- title: 'Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval'
+  arxiv: '2506.03141'
+  date: 2025-06
+  venue: null
+  category: multimodal
+  desc: Uses retrieved historical context frames as memory for scene-consistent interactive long video generation
+- title: 'Ella: Embodied Social Agents with Lifelong Memory'
+  arxiv: '2506.24019'
+  date: 2025-06
+  venue: null
+  category: multimodal
+  desc: Embodied social agent with name-centric semantic and spatiotemporal episodic memory for lifelong learning in a 3D open world
+- title: 'MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation'
+  arxiv: '2508.19236'
+  date: 2025-08
+  venue: null
+  category: multimodal
+  desc: Perceptual-cognitive memory bank inspired by dual-memory systems raises success on long-horizon robot manipulation
+- title: 'Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory'
+  arxiv: '2508.09736'
+  date: 2025-10
+  venue: null
+  category: multimodal
+  desc: M3-Agent builds entity-centric episodic and semantic memory from continuous video and audio, RL-trained; introduces M3-Bench
+- title: 'MemVerse: Multimodal Memory for Lifelong Learning Agents'
+  arxiv: '2512.03627'
+  date: 2025-12
+  venue: null
+  category: multimodal
+  desc: Pairs retrieval-based long-term store with parametric fast memory and periodic distillation for lifelong multimodal agents
+- title: 'TeleMem: Building Long-Term and Multimodal Memory for Agentic AI'
+  arxiv: '2601.06037'
+  date: 2026-01
+  venue: null
+  category: multimodal
+  desc: Narrative-grounded writing pipeline plus ReAct video reasoning; +19% accuracy over Mem0 with 43% fewer tokens on ZH-4O
+- title: 'M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions'
+  arxiv: '2602.07624'
+  date: 2026-02
+  venue: null
+  category: multimodal
+  desc: Dual-layer hybrid multimodal memory linking raw logs to semantic observations via evidence IDs with tri-path retrieval
+- title: 'MMA: Multimodal Memory Agent'
+  arxiv: '2602.16493'
+  date: 2026-02
+  venue: null
+  category: multimodal
+  desc: Multimodal memory agent assigning dynamic reliability scores to retrieved items; MMA-Bench reveals a visual reassurance effect
+- title: 'EpiAgent: An Agent-Centric System for Ancient Inscription Restoration'
+  arxiv: '2604.09367'
+  date: 2026-04
+  venue: null
+  category: multimodal
+  desc: Agent for ancient inscription restoration using an Observe-Conceive-Execute-Reevaluate loop with historical experience memory
+- title: 'Mosaic: Cross-Modal Clustering for Efficient Video Understanding'
+  arxiv: '2604.10060'
+  date: 2026-04
+  venue: null
+  category: multimodal
+  desc: Cross-modal clustering over VLM KV caches as the unit of cache organization for long-video inference; up to 1.38x speedups
+- title: 'OMNI-SIMPLEMEM: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory'
+  arxiv: '2604.00131'
+  date: 2026-04
+  venue: null
+  category: multimodal
+  desc: Multimodal memory with selective ingestion and pyramid retrieval, discovered by an autonomous research pipeline; SOTA LoCoMo
+- title: 'Deco: Extending Personal Physical Objects into Pervasive AI Companion through a Dual-Embodiment Framework'
+  arxiv: '2605.03882'
+  date: 2026-05
+  venue: null
+  category: multimodal
+  desc: Dual-embodiment AR framework turning personal objects into AI companions with reciprocal memory to sustain emotional bonds
+- title: On Memory Construction and Retrieval for Personalized Conversational Agents
+  arxiv: '2502.05589'
+  date: 2025-02
+  venue: ICLR 2025
+  category: personalization
+  desc: SeCom builds segment-level memory with LLMLingua-2 compression denoising; beats turn and session granularity on LoCoMo
+- title: 'PRINCIPLES: Synthetic Strategy Memory for Proactive Dialogue Agents'
+  arxiv: null
+  url: https://aclanthology.org/2025.findings-emnlp.1164.pdf
+  date: 2025-09
+  venue: EMNLP 2025 Findings
+  category: personalization
+  desc: Strategy-principle memory mined from offline self-play guides proactive dialogue; better success in support and persuasion
+- title: 'O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents'
+  arxiv: '2511.13593'
+  date: 2025-12
+  venue: null
+  category: personalization
+  desc: Active user-profiling memory with hierarchical retrieval of persona attributes and topics; SOTA on LoCoMo and PERSONAMEM
+- title: 'Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation'
+  arxiv: '2603.13017'
+  date: 2026-03
+  venue: null
+  category: personalization
+  desc: 'Distills interactions into structured composites: 11x token compression keeps 96% retrieval MRR; BM25 degrades, vectors do not'
+- title: 'PSI: Shared State as the Missing Layer for Coherent AI-Generated Instruments in Personal AI Agents'
+  arxiv: '2604.08529'
+  date: 2026-04
+  venue: null
+  category: personalization
+  desc: Shared-state layer connecting generated personal AI modules via a personal context bus with writeback for cross-module reasoning
+- title: 'TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation'
+  arxiv: '2604.07894'
+  date: 2026-04
+  venue: null
+  category: personalization
+  desc: Dynamic memory evolution plus context-distilled self-learning; outperforms Mem0 on long-horizon personalization benchmarks
+- title: Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent
+  arxiv: '2604.26197'
+  date: 2026-05
+  venue: null
+  category: personalization
+  desc: Production hierarchical semantic memory for LinkedIn's hiring agent extracting signals from behavioral data under privacy constraints
+- title: 'Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs'
+  arxiv: '2512.04668'
+  date: 2025-12
+  venue: null
+  category: security
+  desc: MAMA framework measures cross-agent PII leakage; denser topology, shorter paths and central targets raise leakage risk
+- title: 'ER-MIA: Black-Box Adversarial Memory Injection Attacks on Long-Term Memory-Augmented Large Language Models'
+  arxiv: '2602.15344'
+  date: 2026-02
+  venue: null
+  category: security
+  desc: Automated black-box memory injection via normal interactions corrupts reasoning of long-term-memory LLMs
+- title: 'MemPot: Defending Against Memory Extraction Attack with Optimized Honeypots'
+  arxiv: '2602.07517'
+  date: 2026-02
+  venue: null
+  category: security
+  desc: Optimized honeypot documents plus SPRT detection defend memory extraction with near-perfect accuracy and zero added latency
+- title: 'Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs'
+  arxiv: '2602.08563'
+  date: 2026-02
+  venue: null
+  category: security
+  desc: LLMs encode state in their own outputs as a hidden cross-session channel; demonstrates time-bomb temporal backdoors
+- title: 'Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections'
+  arxiv: '2602.15654'
+  date: 2026-02
+  venue: null
+  category: security
+  desc: Two-stage black-box self-reinforcing injections persistently control self-evolving agents; prompt filters are insufficient
+- title: 'ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying'
+  arxiv: '2604.09747'
+  date: 2026-04
+  venue: null
+  category: security
+  desc: Entropy-guided adaptive querying extracts agent memory contents with up to 100% attack success in some settings
+- title: On Safety Risks in Experience-Driven Self-Evolving Agents
+  arxiv: '2604.16968'
+  date: 2026-04
+  venue: null
+  category: security
+  desc: Benign-task experience can erode refusal behavior in self-evolving agents, exposing a safety-utility trade-off in memory
+- title: 'Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents'
+  arxiv: '2604.02623'
+  date: 2026-04
+  venue: null
+  category: security
+  desc: eTAMP poisons web-agent memory via environmental observations; task frustration amplifies susceptibility up to 8x
+- title: 'Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning'
+  arxiv: '2604.16966'
+  date: 2026-04
+  venue: null
+  category: security
+  desc: Image-embedded triggers poison long-term memory of agentic recommenders; CognitiveGuard dual-process defense reduces risk
+- title: 'Honest Lying: Understanding Memory Confabulation in Reflexive Agents'
+  arxiv: '2605.29463'
+  date: 2026-05
+  venue: null
+  category: security
+  desc: Shows reflexive agents store false self-explanations as memory; trajectory-level failure extraction curbs confabulation
+- title: 'MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory'
+  arxiv: '2605.03228'
+  date: 2026-05
+  venue: null
+  category: security
+  desc: Shadow-stack-inspired safety memory checks pending actions against distilled security context across long trajectories
