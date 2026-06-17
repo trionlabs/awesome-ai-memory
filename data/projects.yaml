@@ -1,5 +1,5 @@
 # Tools, engines, MCP servers, framework modules, platforms, storage.
-# Schema: see CONTRIBUTING.md. Stars/license filled by generator.
+# Schema: see CONTRIBUTING.md. License baked in for OSS repos.
 
 - name: cognee
   repo: topoteretes/cognee
@@ -12,6 +12,7 @@
   mcp: true
   hosted: true
   desc: Memory engine that builds knowledge graphs plus embeddings from documents via ECL (extract, cognify, load) pipelines
+  license: Apache-2.0
 - name: EverMemOS
   repo: EverMind-AI/EverMemOS
   site: https://evermind.ai
@@ -22,6 +23,7 @@
   mcp: false
   hosted: true
   desc: Memory operating system by EverMind with engram-style consolidation, targeting long-horizon conversational recall
+  license: Apache-2.0
 - name: Graphiti
   repo: getzep/graphiti
   category: engine
@@ -33,6 +35,7 @@
   hosted: true
   paper: '2501.13956'
   desc: 'Temporal knowledge graph engine behind Zep: bi-temporal edges, episodes and hybrid retrieval'
+  license: Apache-2.0
 - name: Hindsight
   repo: vectorize-io/hindsight
   site: https://hindsight.vectorize.io
@@ -43,6 +46,7 @@
   mcp: false
   hosted: true
   desc: Open-source agent memory by Vectorize with retain/recall/reflect operations over typed memory banks
+  license: MIT
 - name: Honcho
   repo: plastic-labs/honcho
   category: engine
@@ -53,6 +57,7 @@
   mcp: true
   hosted: true
   desc: User-modeling memory layer with theory-of-mind representations for personalized agents
+  license: AGPL-3.0
 - name: Hyperspell
   repo: null
   site: https://hyperspell.com
@@ -73,6 +78,7 @@
   mcp: false
   hosted: true
   desc: Personal AI brain over your notes and documents with semantic search and recall
+  license: AGPL-3.0
 - name: Letta
   repo: letta-ai/letta
   site: https://www.letta.com
@@ -85,6 +91,7 @@
   hosted: true
   paper: '2310.08560'
   desc: Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory
+  license: Apache-2.0
 - name: LightRAG
   repo: HKUDS/LightRAG
   category: engine
@@ -96,6 +103,7 @@
   hosted: false
   paper: '2410.05779'
   desc: Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative
+  license: MIT
 - name: llongterm
   repo: null
   site: https://www.llongterm.com
@@ -118,6 +126,7 @@
   hosted: true
   paper: '2504.19413'
   desc: Memory layer that extracts, consolidates and retrieves user/session/agent memories; ships OpenMemory MCP
+  license: Apache-2.0
 - name: Memary
   repo: kingjulio8238/Memary
   category: engine
@@ -127,6 +136,7 @@
   mcp: false
   hosted: false
   desc: Knowledge-graph long-term memory for agents using Neo4j or FalkorDB with entity and timeline modules
+  license: MIT
 - name: MemClaw (Caura)
   repo: caura-ai/caura-memclaw
   site: https://memclaw.net
@@ -138,6 +148,7 @@
   mcp: false
   hosted: true
   desc: Graph and vector memory tool by Caura AI for persistent agent memory
+  license: Apache-2.0
 - name: MemClaw (Felo)
   repo: Felo-Inc/memclaw
   site: https://memclaw.me
@@ -148,6 +159,7 @@
   mcp: false
   hosted: false
   desc: Vector-based agent memory tool by Felo for persisting and recalling agent context
+  license: MIT
 - name: MemMachine
   repo: MemMachine/MemMachine
   category: engine
@@ -158,6 +170,7 @@
   mcp: true
   hosted: false
   desc: Universal memory layer with episodic and profile memory for agents
+  license: Apache-2.0
 - name: Memobase
   repo: memodb-io/memobase
   site: https://www.memobase.io
@@ -168,6 +181,7 @@
   mcp: false
   hosted: true
   desc: 'Profile-based long-term user memory: maintains structured user profiles and event timelines over Postgres'
+  license: Apache-2.0
 - name: memonto
   repo: shihanwan/memonto
   category: engine
@@ -177,6 +191,7 @@
   mcp: false
   hosted: false
   desc: Ontology-driven graph memory library that stores agent knowledge as RDF triples
+  license: Apache-2.0
 - name: Memori
   repo: MemoriLabs/Memori
   site: https://memorilabs.ai
@@ -187,6 +202,7 @@
   mcp: false
   hosted: false
   desc: SQL-first open-source memory engine storing agent memories in standard relational databases
+  license: other
 - name: MemOS
   repo: MemTensor/MemOS
   site: https://memos.openmem.net
@@ -200,6 +216,7 @@
   hosted: true
   paper: '2507.03724'
   desc: Memory operating system organizing plaintext, activation (KV-cache) and parametric memory as MemCubes
+  license: Apache-2.0
 - name: MemU
   repo: NevaMind-AI/memU
   site: https://memu.pro
@@ -211,6 +228,7 @@
   mcp: true
   hosted: true
   desc: Agent memory framework that organizes memories as an interlinked folder/file system curated by a memory agent
+  license: other
 - name: Mengram
   repo: alibaizhanov/mengram
   site: https://mengram.io
@@ -222,6 +240,7 @@
   mcp: false
   hosted: true
   desc: Open-source memory layer combining knowledge graph and vector retrieval for LLM applications
+  license: Apache-2.0
 - name: MineContext
   repo: volcengine/MineContext
   category: engine
@@ -232,6 +251,7 @@
   mcp: false
   hosted: false
   desc: Proactive context engine from ByteDance Volcengine that captures screen activity into retrievable context
+  license: Apache-2.0
 - name: MIRIX
   repo: Mirix-AI/MIRIX
   site: https://mirix.io
@@ -244,6 +264,7 @@
   hosted: false
   paper: '2507.07957'
   desc: Multi-agent memory system with six memory types (core, episodic, semantic, procedural, resource, vault)
+  license: Apache-2.0
 - name: Nemori
   repo: nemori-ai/nemori
   category: engine
@@ -253,6 +274,7 @@
   mcp: false
   hosted: false
   desc: Self-organizing episodic memory that segments conversations into human-scale episodes for retrieval
+  license: MIT
 - name: ReMe
   repo: agentscope-ai/ReMe
   category: engine
@@ -262,6 +284,7 @@
   mcp: false
   hosted: false
   desc: Memory and experience reuse framework for agents from the AgentScope team
+  license: Apache-2.0
 - name: Second Me
   repo: mindverse/Second-Me
   category: engine
@@ -273,6 +296,7 @@
   hosted: false
   paper: '2503.08102'
   desc: Trains a personal model as AI-native memory of you, served locally
+  license: Apache-2.0
 - name: Supermemory
   repo: supermemoryai/supermemory
   site: https://supermemory.ai
@@ -283,6 +307,7 @@
   mcp: true
   hosted: true
   desc: Universal memory API for ingesting documents, chats and web content with sub-second retrieval
+  license: MIT
 - name: WhyHow
   repo: null
   site: https://www.whyhow.ai
@@ -305,6 +330,7 @@
   hosted: true
   paper: '2501.13956'
   desc: Agent memory service built on the Graphiti temporal knowledge graph; tracks facts with validity intervals
+  license: Apache-2.0
 - name: Basic Memory
   repo: basicmachines-co/basic-memory
   category: mcp-server
@@ -314,6 +340,7 @@
   mcp: true
   hosted: false
   desc: Local-first Markdown knowledge base over MCP, Obsidian-compatible notes as agent memory
+  license: AGPL-3.0
 - name: MCP Memory Server (official)
   repo: modelcontextprotocol/servers
   category: mcp-server
@@ -324,6 +351,7 @@
   mcp: true
   hosted: false
   desc: 'Reference knowledge-graph memory server from the MCP project: entities, relations, observations'
+  license: other
 - name: Redis Agent Memory Server
   repo: redis/agent-memory-server
   category: mcp-server
@@ -334,6 +362,7 @@
   mcp: true
   hosted: false
   desc: Redis-backed working and long-term memory service with MCP and REST interfaces
+  license: other
 - name: Agentmemory
   repo: rohitg00/agentmemory
   category: coding-agent
@@ -344,6 +373,7 @@
   mcp: true
   hosted: false
   desc: Persistent memory toolkit for AI coding agents, tuned and ranked on real-world memory benchmarks
+  license: Apache-2.0
 - name: ByteRover (formerly Cipher)
   repo: campfirein/byterover-cli
   category: coding-agent
@@ -353,6 +383,7 @@
   mcp: true
   hosted: false
   desc: Shared memory layer for coding agents via MCP; works with Claude Code, Cursor, Windsurf and Copilot
+  license: other
 - name: Claude Code memory
   repo: null
   site: https://docs.claude.com/en/docs/claude-code/memory
@@ -373,6 +404,7 @@
   mcp: true
   hosted: false
   desc: Claude Code plugin that compresses session transcripts into searchable persistent memory
+  license: Apache-2.0
 - name: Cursor Memories
   repo: null
   site: https://docs.cursor.com/context/memories
@@ -392,6 +424,7 @@
   mcp: true
   hosted: false
   desc: SQLite-backed MCP server preserving coding session context, decisions and progress across compactions
+  license: MIT
 - name: Windsurf Memories
   repo: null
   site: https://docs.windsurf.com/windsurf/cascade/memories
@@ -412,6 +445,7 @@
   mcp: false
   hosted: false
   desc: Session storage plus user memories built into the Agno agent framework
+  license: Apache-2.0
 - name: AutoGen Teachability
   repo: microsoft/autogen
   category: framework-module
@@ -421,6 +455,7 @@
   mcp: false
   hosted: false
   desc: Teachable agents that persist user teachings to a vector store across conversations
+  license: CC-BY-4.0
 - name: BaseAI (Langbase Memory)
   repo: LangbaseInc/baseai
   site: https://langbase.com/docs/memory
@@ -431,6 +466,7 @@
   mcp: false
   hosted: true
   desc: Langbase web AI framework with serverless RAG memory primitives attached to pipes/agents
+  license: other
 - name: BondAI
   repo: krohling/bondai
   site: https://bondai.dev
@@ -441,6 +477,7 @@
   mcp: false
   hosted: false
   desc: Python agent framework with a MemGPT-inspired core/archival memory system
+  license: MIT
 - name: CrewAI memory
   repo: crewAIInc/crewAI
   category: framework-module
@@ -451,6 +488,7 @@
   mcp: false
   hosted: true
   desc: Built-in short-term, long-term and entity memory for crews of agents
+  license: MIT
 - name: Google ADK memory
   repo: google/adk-python
   category: framework-module
@@ -460,6 +498,7 @@
   mcp: false
   hosted: true
   desc: MemoryService abstraction in the Agent Development Kit, backed by Vertex AI Memory Bank
+  license: Apache-2.0
 - name: HybridAGI
   repo: SynaLinks/HybridAGI
   category: framework-module
@@ -470,6 +509,7 @@
   mcp: false
   hosted: false
   desc: Neuro-symbolic agent framework storing programs, documents and facts in graph-based memory
+  license: Apache-2.0
 - name: Julep
   repo: julep-ai/julep
   site: https://julep.ai
@@ -491,6 +531,7 @@
   mcp: false
   hosted: false
   desc: General LLM framework whose chat history and memory abstractions are widely used for conversational recall
+  license: MIT
 - name: LangGraph persistence
   repo: langchain-ai/langgraph
   category: framework-module
@@ -501,6 +542,7 @@
   mcp: false
   hosted: true
   desc: Checkpointers and cross-thread memory store underlying LangChain agent persistence
+  license: MIT
 - name: LangMem
   repo: langchain-ai/langmem
   category: framework-module
@@ -510,6 +552,7 @@
   mcp: false
   hosted: false
   desc: LangChain SDK for semantic, episodic and procedural memory with a background memory manager
+  license: MIT
 - name: LlamaIndex memory
   repo: run-llama/llama_index
   category: framework-module
@@ -519,6 +562,7 @@
   mcp: false
   hosted: false
   desc: 'Composable memory blocks: chat buffers, vector memory and fact extraction for LlamaIndex agents'
+  license: MIT
 - name: Mastra
   repo: mastra-ai/mastra
   site: https://mastra.ai
@@ -530,6 +574,7 @@
   mcp: true
   hosted: true
   desc: TypeScript agent framework whose observational memory reports state-of-the-art LongMemEval scores
+  license: other
 - name: Semantic Kernel memory
   repo: microsoft/semantic-kernel
   category: framework-module
@@ -539,6 +584,7 @@
   mcp: false
   hosted: false
   desc: Memory connectors and vector stores for .NET, Python and Java agents
+  license: MIT
 - name: ChatGPT memory
   repo: null
   site: https://help.openai.com/en/articles/8590148-memory-faq
@@ -611,6 +657,7 @@
   hosted: false
   paper: '2502.12110'
   desc: Agentic memory with Zettelkasten-style note construction, dynamic linking and memory evolution
+  license: MIT
 - name: GraphRAG
   repo: microsoft/graphrag
   site: https://microsoft.github.io/graphrag/
@@ -623,6 +670,7 @@
   hosted: false
   paper: '2404.16130'
   desc: Microsoft pipeline that builds entity knowledge graphs and community summaries for global query answering
+  license: MIT
 - name: MemEngine
   repo: nuster1128/MemEngine
   category: research-code
@@ -644,6 +692,7 @@
   hosted: false
   paper: '2409.05591'
   desc: Memory-inspired retrieval with a global-memory model that drafts clues to guide evidence retrieval
+  license: Apache-2.0
 - name: MemoryOS
   repo: BAI-LAB/MemoryOS
   category: research-code
@@ -655,6 +704,7 @@
   hosted: false
   paper: '2506.06326'
   desc: OS-inspired hierarchical memory with short/mid/long-term stores, heat-based promotion and an MCP server
+  license: Apache-2.0
 - name: SimpleMem
   repo: aiming-lab/SimpleMem
   category: research-code
@@ -664,6 +714,7 @@
   mcp: false
   hosted: false
   desc: Lifelong memory via semantically lossless compression; text and multimodal
+  license: MIT
 - name: SkillClaw
   repo: AMAP-ML/SkillClaw
   category: research-code
@@ -674,6 +725,7 @@
   hosted: false
   paper: '2604.08377'
   desc: Procedural skill memory from AMAP-ML that extracts and reuses skills across agent trajectories
+  license: MIT
 - name: AllegroGraph
   repo: null
   site: https://allegrograph.com
@@ -694,6 +746,7 @@
   mcp: true
   hosted: true
   desc: Open-source embedding database for AI applications; frequent default vector store for memory layers
+  license: Apache-2.0
 - name: Faiss
   repo: facebookresearch/faiss
   site: https://faiss.ai
@@ -704,6 +757,7 @@
   mcp: false
   hosted: false
   desc: Meta library for efficient similarity search and clustering of dense vectors; embedded index, not a server
+  license: MIT
 - name: FalkorDB
   repo: FalkorDB/falkordb
   site: https://www.falkordb.com
@@ -714,6 +768,7 @@
   mcp: true
   hosted: true
   desc: Low-latency graph database (RedisGraph successor) with sparse-matrix engine, used for GraphRAG memory
+  license: other
 - name: Milvus
   repo: milvus-io/milvus
   site: https://milvus.io
@@ -724,6 +779,7 @@
   mcp: true
   hosted: true
   desc: Distributed open-source vector database built for billion-scale similarity search
+  license: Apache-2.0
 - name: NebulaGraph
   repo: vesoft-inc/nebula
   site: https://www.nebula-graph.io
@@ -734,6 +790,7 @@
   mcp: false
   hosted: true
   desc: Distributed open-source graph database for large-scale knowledge graph storage
+  license: Apache-2.0
 - name: Neo4j
   repo: neo4j/neo4j
   site: https://neo4j.com
@@ -744,6 +801,7 @@
   mcp: true
   hosted: true
   desc: Property graph database commonly used as the graph backend for agent memory and GraphRAG systems
+  license: GPL-3.0
 - name: Ontotext GraphDB
   repo: null
   site: https://www.ontotext.com
@@ -784,6 +842,7 @@
   mcp: true
   hosted: true
   desc: Rust vector database with filtering and payload indexing; common backend for agent memory engines
+  license: Apache-2.0
 - name: RDFox (Oxford Semantic)
   repo: null
   site: https://www.oxfordsemantic.tech
@@ -814,6 +873,7 @@
   mcp: false
   hosted: false
   desc: All-in-one open-source embeddings database combining vector indexes, SQL and graph for semantic search
+  license: Apache-2.0
 - name: Vectara
   repo: null
   site: https://www.vectara.com
@@ -834,3 +894,4 @@
   mcp: false
   hosted: true
   desc: Open-source vector database with hybrid search and modular vectorizers
+  license: BSD-3-Clause
