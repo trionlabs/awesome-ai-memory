@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/papers-217-blue)
-![Projects](https://img.shields.io/badge/projects-82-blue)
+![Projects](https://img.shields.io/badge/projects-83-blue)
 ![Benchmarks](https://img.shields.io/badge/benchmarks-69-blue)
 
 Memory for LLMs and AI agents: the systems that let models remember across turns,
@@ -144,6 +144,7 @@ session context that survive the context window.
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Apache-2.0 | vector, sql | yes | no | Claude Code plugin that compresses session transcripts into searchable persistent memory |
 | [Cursor Memories](https://docs.cursor.com/context/memories) | closed | files | no | yes | Auto-generated rules from past conversations, scoped per project |
 | [MCP Memory Keeper](https://github.com/mkreyman/mcp-memory-keeper) | MIT | sql | yes | no | SQLite-backed MCP server preserving coding session context, decisions and progress across compactions |
+| [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | MIT | sql | no | no | Local-first Rust CLI/TUI preserving coding-agent memory lifecycle records with recall, redaction, deletion and audit trails ([site](https://terminallylazy.github.io/Tree-Ring-Memory/)) |
 | [Windsurf Memories](https://docs.windsurf.com/windsurf/cascade/memories) | closed | files | no | yes | Cascade auto-memories and user rules persisting context between sessions |
 
 ## Platform and Consumer Memory
