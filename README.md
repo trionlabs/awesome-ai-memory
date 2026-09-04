@@ -96,6 +96,7 @@ storage model, "MCP" means a maintained MCP server or integration exists,
 | [Hindsight](https://github.com/vectorize-io/hindsight) | MIT | vector | no | yes | Open-source agent memory by Vectorize with retain/recall/reflect operations over typed memory banks ([site](https://hindsight.vectorize.io)) |
 | [Honcho](https://github.com/plastic-labs/honcho) | AGPL-3.0 | vector, sql | yes | yes | User-modeling memory layer with theory-of-mind representations for personalized agents |
 | [Hyperspell](https://hyperspell.com) | closed | vector | no | yes | Managed memory and context API that connects user data sources for AI apps |
+| [infiniteMem](https://github.com/marcot3ssar1/InfiniteMemOs) | closed | vector | no | no | Deterministic self-hosted episodic memory for agents; LoCoMo QA 70.49, sub-ms retrieval, 1M episodes/145M tokens design |
 | [Khoj](https://github.com/khoj-ai/khoj) | AGPL-3.0 | vector, files | no | yes | Personal AI brain over your notes and documents with semantic search and recall |
 | [Letta](https://github.com/letta-ai/letta) | Apache-2.0 | sql, vector | yes | yes | Agent server with OS-style memory management; successor to MemGPT with self-editing core and archival memory ([site](https://www.letta.com)) ([paper](https://arxiv.org/abs/2310.08560)) |
 | [LightRAG](https://github.com/HKUDS/LightRAG) | MIT | graph, vector | yes | no | Graph-plus-vector retrieval layer used as a knowledge memory, the dominant open GraphRAG alternative ([paper](https://arxiv.org/abs/2410.05779)) |
