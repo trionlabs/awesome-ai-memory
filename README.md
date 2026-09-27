@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/papers-217-blue)
-![Projects](https://img.shields.io/badge/projects-82-blue)
+![Projects](https://img.shields.io/badge/projects-83-blue)
 ![Benchmarks](https://img.shields.io/badge/benchmarks-69-blue)
 
 Memory for LLMs and AI agents: the systems that let models remember across turns,
@@ -145,6 +145,7 @@ session context that survive the context window.
 | [Cursor Memories](https://docs.cursor.com/context/memories) | closed | files | no | yes | Auto-generated rules from past conversations, scoped per project |
 | [MCP Memory Keeper](https://github.com/mkreyman/mcp-memory-keeper) | MIT | sql | yes | no | SQLite-backed MCP server preserving coding session context, decisions and progress across compactions |
 | [Windsurf Memories](https://docs.windsurf.com/windsurf/cascade/memories) | closed | files | no | yes | Cascade auto-memories and user rules persisting context between sessions |
+| [Wordcell](https://github.com/hraness/wordcell) | MIT | files | yes | no | Markdown knowledge base that keeps decisions, plans and sources beside the code, so an agent can pull the notes for the file it will change ([site](https://wordcell.io)) |
 
 ## Platform and Consumer Memory
 

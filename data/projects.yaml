@@ -435,6 +435,17 @@
   mcp: false
   hosted: true
   desc: Cascade auto-memories and user rules persisting context between sessions
+- name: Wordcell
+  repo: hraness/wordcell
+  site: https://wordcell.io
+  category: coding-agent
+  oss: true
+  backend:
+  - files
+  mcp: true
+  hosted: false
+  desc: Markdown knowledge base that keeps decisions, plans and sources beside the code, so an agent can pull the notes for the file it will change
+  license: MIT
 - name: Agno memory
   repo: agno-agi/agno
   category: framework-module
