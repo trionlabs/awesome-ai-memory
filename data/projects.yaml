@@ -425,6 +425,17 @@
   hosted: false
   desc: SQLite-backed MCP server preserving coding session context, decisions and progress across compactions
   license: MIT
+- name: Oh
+  repo: hraness/oh
+  site: https://oh.computer
+  category: coding-agent
+  oss: true
+  backend:
+  - sql
+  mcp: false
+  hosted: false
+  desc: Memory framework that stores each fact with its sources and every change in a replayable history, over a local SQLite file
+  license: MIT
 - name: Windsurf Memories
   repo: null
   site: https://docs.windsurf.com/windsurf/cascade/memories
