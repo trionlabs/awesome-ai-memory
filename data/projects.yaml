@@ -896,3 +896,16 @@
   hosted: true
   desc: Open-source vector database with hybrid search and modular vectorizers
   license: BSD-3-Clause
+
+- name: SoloPup Memory
+  repo: OakcoderX/solopup-memory
+  category: coding-agent
+  oss: true
+  license: MIT
+  backend:
+  - files
+  - sql
+  mcp: false
+  hosted: false
+  desc: Native DeepSeek Harness text memory with source citations, project boundaries,
+    applicability conditions and revision history; public beta
